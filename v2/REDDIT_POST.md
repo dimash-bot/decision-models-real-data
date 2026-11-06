@@ -2,7 +2,7 @@
 
 ---
 
-**Disclosure first:** I work at Nace.AI, which makes Drex Max, one of the models tested. To keep that from tilting anything, the method, prompts and scoring formula were written down and checksummed **before** any model was run; every model got identical inputs through OpenRouter; and all data, raw model outputs and code are published so you can re-score it yourself. The comparison of pricing and openness uses only OpenRouter and Hugging Face data, not any company's own marketing (Nace's included).
+**Disclosure first:** I work at Nace.AI, which makes Drex Max, one of the models tested. To keep that from tilting anything, the method, prompts and scoring formula were written down and checksummed **before** any model was run; every model got identical inputs through OpenRouter; and all data, raw model outputs and code are published so you can re-score it yourself. Pricing and openness come from OpenRouter, Hugging Face and each provider's own price list, never from any company's marketing claims (Nace's included).
 
 ## What I tested
 
@@ -63,7 +63,7 @@ The weights were fixed in advance: quality 45%, efficiency 20%, trust 20%, revie
 **Read this before quoting the total score.**
 - Decider is #1 under the pre-set weights. Under 10,000 random weightings it's #1 only 33% of the time, against Drex Max's 47%, so by the rule I fixed in advance, **no model is best overall.**
 - **Drex Max's 47% comes entirely from its $5 signup bonus.** Drop the bonus pillar and Decider is #1 in **87%** of random weightings, Jev 1.13 in 12%, and Drex Max in 0%. The bonuses also don't apply if you use the models through OpenRouter.
-- Drex Max's price is a **50%-off promotion** with no end date shown. At list price it would be the most expensive model tested, at about $0.11 per 1k decisions versus Luna's $0.09.
+- **Where you buy Drex Max matters.** It's the only model whose own API is cheaper than OpenRouter: **$0.03 per 1M input tokens on Nace's API** versus $0.06 on OpenRouter, where the $0.06 is a 50%-off promotion on a $0.12 list price. Direct, it would cost about $0.027 per 1k decisions (about 1.4x Decider instead of 3x), and its total score would rise from 54.9 to 56.7, still #2. Without the bonus pillar Decider still wins 86% of weightings. I only tested through OpenRouter, so the direct figure assumes Nace serves the same model.
 
 **So if you're choosing:**
 - **Best all-round value:** Perplexity Decider V1.2. It's tied for the most accurate, the second cheapest, and the most open: Apache-2.0 weights, no training on or retention of prompts per OpenRouter.

@@ -75,7 +75,7 @@ const title = (t, sub) => `<text x="24" y="34" font-size="20" font-weight="700" 
   const W = 900, H = 520, L = 90, Rr = 40, T = 80, B = 70;
   const cmin = 0.01, cmax = 0.12, amin = 0.62, amax = 0.67;
   const x = c => L + Math.log(c / cmin) / Math.log(cmax / cmin) * (W - L - Rr), y = a => H - B - (a - amin) / (amax - amin) * (H - T - B);
-  let s = title("Accuracy vs cost per 1,000 decisions", "Up and to the left is better. Cost is what OpenRouter billed in this run (log scale).");
+  let s = title("Accuracy vs cost per 1,000 decisions", "Up and to the left is better. Filled dots: what OpenRouter billed in this run (log scale).");
   [0.01, 0.02, 0.05, 0.1].forEach(c => s += `<line x1="${x(c)}" x2="${x(c)}" y1="${T}" y2="${H - B}" stroke="${C.grid}"/><text x="${x(c)}" y="${H - B + 22}" font-size="12" fill="${C.muted}" text-anchor="middle">$${c.toFixed(2)}</text>`);
   for (let a = 0.62; a <= 0.6701; a += 0.01) s += `<line x1="${L}" x2="${W - Rr}" y1="${y(a)}" y2="${y(a)}" stroke="${C.grid}"/><text x="${L - 10}" y="${y(a) + 4}" font-size="12" fill="${C.muted}" text-anchor="end">${Math.round(a * 100)}%</text>`;
   s += `<text x="${(L + W - Rr) / 2}" y="${H - 22}" font-size="13" fill="${C.muted}" text-anchor="middle">Cost per 1,000 decisions</text>`;
@@ -85,7 +85,10 @@ const title = (t, sub) => `<text x="24" y="34" font-size="20" font-weight="700" 
     s += `<circle cx="${cx}" cy="${cy}" r="8" fill="${col}"/><text x="${cx + dx}" y="${cy + dy}" font-size="13" fill="${C.fg}" text-anchor="${anc || "start"}">${esc(NAME[m])}</text>`;
   });
   const dm = "nace-ai/drex-max", lx = x(R.ops[dm].cost_per_1k * 2), ly = y(R.point[dm].overall);
-  s += `<circle cx="${lx}" cy="${ly}" r="7" fill="none" stroke="${C.warn}" stroke-width="2" stroke-dasharray="3 3"/><text x="${lx - 10}" y="${ly + 26}" font-size="12" fill="${C.warn}" text-anchor="end">Drex Max at list price (no 50% promo)</text>`;
+  s += `<circle cx="${lx}" cy="${ly}" r="7" fill="none" stroke="${C.warn}" stroke-width="2" stroke-dasharray="3 3"/><text x="${lx - 10}" y="${ly + 26}" font-size="12" fill="${C.warn}" text-anchor="end">Drex Max on OpenRouter at list price (no 50% promo)</text>`;
+  // Drex Max's own API is $0.03/M vs $0.06/M on OpenRouter (the only model whose direct price differs); not tested directly
+  const dx = x(R.ops[dm].cost_per_1k * 0.5);
+  s += `<circle cx="${dx}" cy="${ly}" r="7" fill="none" stroke="${C.accent}" stroke-width="2" stroke-dasharray="3 3"/><line x1="${dx + 8}" x2="${x(R.ops[dm].cost_per_1k) - 9}" y1="${ly}" y2="${ly}" stroke="${C.accent}" stroke-width="1" stroke-dasharray="2 3"/><text x="${dx}" y="${ly + 26}" font-size="12" fill="${C.accent}" text-anchor="middle">Drex Max via Nace's own API ($0.03/M)</text>`;
   save("3_value", W, H, s);
 })();
 

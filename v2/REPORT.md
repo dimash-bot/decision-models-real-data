@@ -219,3 +219,12 @@ Observation, not a conclusion: Hugging Face reports exactly the same parameter c
   OpenRouter. Liquid's record on OpenRouter is self-contradictory; check before sending sensitive data.
 - **Licence limits:** Drex Max's open weights need a commercial licence for any org with more than
   $1M revenue or funding; Liquid's open d1 models need one at $10M revenue; Perplexity's need none.
+
+## Exploratory: direct-API prices (added after the run)
+
+All costs above are what OpenRouter billed. Each provider's own price list (checked 2026-11-06) matches its
+OpenRouter price, except Nace: Drex Max is $0.03 per 1M input tokens on Nace's API versus $0.06 on OpenRouter
+(itself 50% off a $0.12 list price). Re-scoring with every model at its own direct price changes only Drex Max:
+cost ~$0.027 per 1k decisions (from $0.055), efficiency 57.5 (from 48.4), total 56.7 (from 54.9), still #2;
+Decider stays #1 at 59.1. Random weightings: all pillars, Drex Max 59% / Decider 28%; without the bonus pillar,
+Decider 86% / Jev 1.13 13% / Drex Max 0%. Direct APIs were not tested; this assumes the same model is served.

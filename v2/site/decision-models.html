@@ -120,7 +120,7 @@ code { font-family: var(--mono); font-size: 0.85em; }
     </div>
     <div class="callout prose" style="display:flex;flex-direction:column;gap:8px">
       <p><strong>Read this before quoting the total.</strong> Decider is #1 under the pre-set weights but wins only 33% of 10,000 random weightings, so by the pre-registered rule no model is best overall.</p>
-      <p>Drex Max's 47% share of random-weight wins comes entirely from its $5 signup bonus. Without the bonus pillar, Decider wins 87%, Jev 1.13 12% and Drex Max 0%. Signup bonuses don't apply through OpenRouter, and Drex Max's $0.06 price is a 50%-off promotion with no end date; at list price it would be the most expensive model tested.</p>
+      <p>Drex Max's 47% share of random-weight wins comes entirely from its $5 signup bonus. Without the bonus pillar, Decider wins 87%, Jev 1.13 12% and Drex Max 0%. Signup bonuses don't apply through OpenRouter, and Drex Max costs $0.06 per 1M on OpenRouter (a 50%-off promotion on $0.12) but $0.03 on Nace's own API, the only model that's cheaper direct. At the direct price its total would be 56.7, still #2, and without the bonus Decider still wins 86% of weightings.</p>
     </div>
   </section>
 
@@ -192,7 +192,7 @@ const OPEN = [
   ["Liquid d1.1","0.020","none","No (smaller relatives open)","—","Conflicting","Conflicting","Yes"],
   ["Liquid d1-ultra","0.042","none","No (smaller relatives open)","—","Conflicting","Conflicting","Yes"],
   ["TypeSafe Jev 1.13 / 1.14","0.042","none","No","—","No","No","Yes"],
-  ["Nace Drex Max","0.060","50% off (list 0.12)","drex-max-v1 on HF","Open RAIL-M (licence needed above $1M revenue or funding)","No","No","Yes"],
+  ["Nace Drex Max","0.060 (0.03 on Nace's API)","50% off on OpenRouter (list 0.12)","drex-max-v1 on HF","Open RAIL-M (licence needed above $1M revenue or funding)","No","No","Yes"],
   ["GPT-6 Luna Decisions","0.100","none","No","—","No","Yes","No"],
 ];
 const esc = s => String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
