@@ -67,6 +67,7 @@ The weights were fixed in advance: quality 45%, efficiency 20%, trust 20%, revie
 
 **So if you're choosing:**
 - **Best all-round value:** Perplexity Decider V1.2. It's tied for the most accurate, the second cheapest, and the most open: Apache-2.0 weights, no training on or retention of prompts per OpenRouter.
+- **Strong second pick:** Nace Drex Max. Tied for the most accurate, #2 on the total score, and best bought on Nace's API ($0.03 per 1M, about $0.027 per 1k decisions): cheaper than d1-ultra, steadier latency, no training on or retention of prompts. Watch its overconfidence on PR merges.
 - **Highest accuracy:** Liquid d1-ultra, but expect latency spikes, and OpenRouter's records on Liquid's data policy contradict each other.
 - **Cheapest:** Liquid d1.1, if you can accept slightly lower accuracy and less consistent answers.
 - **Avoid for now:** GPT-6 Luna Decisions. It's the least accurate, the most expensive, the most overconfident, and keeps prompts with no zero-data-retention option on OpenRouter.

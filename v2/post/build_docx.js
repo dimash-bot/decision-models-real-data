@@ -54,8 +54,8 @@ const gap = () => para([run("")], { after: 120 });
 // ---------- content
 const VERDICT = [
   { fill: "DDF0EE", cells: ["**Perplexity Decider V1.2**", "**Use: best overall pick**", "Tied #1 on accuracy (65.6%), second cheapest ($0.018 per 1k), open Apache-2.0 weights, no training on or retention of prompts. #1 on the total score."] },
-  { fill: "DDF0EE", cells: ["**Liquid d1-ultra**", "**Use if accuracy is everything**", "Highest accuracy (66.1%, tied) and best-calibrated probabilities. But its slowest 5% of requests took 5.1 s, ~1.8% of first attempts timed out, and OpenRouter's records on its data policy contradict each other."] },
-  { cells: ["**Nace Drex Max**", "**Consider**", "Tied #1 on accuracy (64.9%) and best at bug-vs-feature. Price depends on where you buy it: $0.03 per 1M on Nace's own API (about 1.4x Decider per decision) or $0.06 on OpenRouter (3x Decider, and a 50%-off promotion). Overconfident on PR merges."] },
+  { fill: "DDF0EE", cells: ["**Nace Drex Max**", "**Use: strong second pick, best bought on Nace's API**", "Tied #1 on accuracy (64.9%), #2 on the total score, best at bug-vs-feature. On Nace's own API ($0.03 per 1M) it costs about $0.027 per 1k decisions, less than d1-ultra, with steadier latency (slowest 5% under 1.2 s) and no training on or retention of prompts. On OpenRouter it's $0.06, a 50%-off promotion and about 3x Decider. Overconfident on PR merges."] },
+  { fill: "DDF0EE", cells: ["**Liquid d1-ultra**", "**Use if raw accuracy and calibration matter most**", "Highest accuracy (66.1%, tied) and best-calibrated probabilities. But its slowest 5% of requests took 5.1 s, ~1.8% of first attempts timed out, and OpenRouter's records on its data policy contradict each other."] },
   { cells: ["**Liquid d1.1**", "**Use for cheap, high volume**", "Cheapest ($0.016 per 1k) and fastest. Slightly less accurate (63.7%) and the least consistent: the same question gave the same answer only 90.7% of the time."] },
   { fill: "FBEFE3", cells: ["**TypeSafe Jev 1.14**", "**Skip unless you already use it**", "Mid-pack accuracy (64.2%), priced like Drex Max, and overconfident on severity (claims 90%+ and is right ~64%). Most popular by usage, but usage isn't accuracy."] },
   { fill: "FBEFE3", cells: ["**TypeSafe Jev 1.13**", "**Skip**", "Same accuracy and price as 1.14 and older. If you use Jev, use 1.14."] },
@@ -86,10 +86,10 @@ const doc = new Document({
         { shade: "FBEFE3", border: { left: { style: BorderStyle.SINGLE, size: 18, color: WARN, space: 8 } }, indent: { left: 120, right: 120 }, after: 240 }),
 
       h1("Summary: which decision model is best?"),
-      p("**Short answer: Perplexity Decider V1.2 is the best overall pick, and GPT-6 Luna Decisions is the one to ignore.** On accuracy alone there is no single winner: Liquid d1-ultra, Perplexity Decider and Nace Drex Max are statistically tied. Decider wins on value: it matches the leaders' accuracy for less than any other top model costs, even Drex Max on Nace's own API, publishes its weights under Apache-2.0, and doesn't train on or keep your prompts."),
+      p("**Short answer: Perplexity Decider V1.2 is the best overall pick, and GPT-6 Luna Decisions is the one to ignore.** On accuracy alone there is no single winner: Liquid d1-ultra, Perplexity Decider and Nace Drex Max are statistically tied, and on the total score Drex Max is #2, ahead of d1-ultra. Decider wins on value: it matches the leaders' accuracy for less than any other top model costs, even Drex Max on Nace's own API, publishes its weights under Apache-2.0, and doesn't train on or keep your prompts."),
       table(["Model", "Verdict", "Why"], VERDICT, [2000, 2100, 4926]),
       gap(),
-      p("**If you only read one thing:** use Decider by default; use d1-ultra if you need every last point of accuracy and can live with latency spikes; use d1.1 when cost matters more than the last 2 points of accuracy; don't use GPT-6 Luna Decisions."),
+      p("**If you only read one thing:** use Decider by default; Drex Max is the strong second choice, especially bought on Nace's API at $0.03 per 1M; use d1-ultra if you need every last point of accuracy and can live with latency spikes; use d1.1 when cost matters most; don't use GPT-6 Luna Decisions."),
 
       h1("What I tested"),
       p("Decision models don't write text. You give them some input (the \"state\") and a typed question (yes/no, pick one, or a score), and they return a probability for every option in one pass. Seven models were tested through OpenRouter: **TypeSafe Jev 1.14 and 1.13, Perplexity Decider V1.2, Liquid d1-ultra and d1.1, OpenAI GPT-6 Luna Decisions, and Nace Drex Max.**"),
