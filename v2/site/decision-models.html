@@ -64,18 +64,18 @@ code { font-family: var(--mono); font-size: 0.85em; }
 
 <main>
   <header style="display:flex;flex-direction:column;gap:16px">
-    <span class="eyebrow">OpenRouter decision models · real data · Nov 6, 2026</span>
+    <span class="eyebrow">Decision models · real data · Nov 7, 2026</span>
     <h1>Seven decision models, 2,826 real tech decisions</h1>
     <p class="lede">TypeSafe Jev, Liquid d1, Perplexity Decider, GPT-6 Luna Decisions and Nace Drex Max, tested on GitHub issues and PRs, Firefox bugs, security advisories and CVEs that were all filed after the models were released.</p>
-    <p class="disclosure"><strong>Disclosure.</strong> The author works at Nace.AI, which makes Drex Max. The method, prompts and scoring formula were written down and checksummed before any model was run; every model got identical inputs through OpenRouter; pricing and openness use only OpenRouter and Hugging Face data. All data, raw outputs and code are published.</p>
-    <div class="meta"><a href="https://github.com/dimash-bot/decision-models-real-data">Code, data and raw outputs on GitHub</a><span>63,546 API calls</span><span>3 phrasings per question</span><span>paired bootstrap, Holm-corrected</span><span>total cost ≈ $3</span></div>
+    <p class="disclosure"><strong>Disclosure.</strong> The author works at Nace.AI, which makes Drex Max. The method, prompts and scoring formula were written down and checksummed before any model was run; every model got identical items and questions; prices are each provider's own list price. All data, raw outputs and code are published.</p>
+    <div class="meta"><a href="https://github.com/dimash-bot/decision-models-real-data">Code, data and raw outputs on GitHub</a><span>~72,600 API calls</span><span>3 phrasings per question</span><span>paired bootstrap, Holm-corrected</span><span>total cost ≈ $3</span></div>
   </header>
 
   <section>
     <span class="eyebrow">Answer</span>
     <h2>No single best model. Three are tied on accuracy; one is clearly last.</h2>
     <div class="grid2">
-      <div class="card"><span class="pill">Tied top group</span><span class="big">d1-ultra · Decider V1.2 · Drex Max</span><span class="small">Gaps between them are within noise (Holm-adjusted p ≥ 0.05).</span></div>
+      <div class="card"><span class="pill">Tied top group</span><span class="big">d1-ultra · Drex Max v1.1 · Decider V1.2</span><span class="small">Gaps between them are within noise (Holm-adjusted p ≥ 0.05).</span></div>
       <div class="card"><span class="pill">Best all-round value</span><span class="big">Perplexity Decider V1.2</span><span class="small">Tied most accurate, second cheapest, Apache-2.0 weights, no prompt training or retention.</span></div>
       <div class="card"><span class="pill warn">Last on every summary</span><span class="big">GPT-6 Luna Decisions</span><span class="small">Least accurate, most expensive, most overconfident, keeps prompts.</span></div>
     </div>
@@ -88,7 +88,7 @@ code { font-family: var(--mono); font-size: 0.85em; }
     <div class="scroll" style="padding:12px 8px"><svg id="ci" role="img" aria-label="Balanced accuracy with 95% intervals for seven models"></svg></div>
     <div class="scroll">
       <table>
-        <thead><tr><th>Model</th><th class="num">Accuracy</th><th class="num">Chance of #1</th><th class="num">Cost / 1k</th><th class="num">p50 / p95</th><th class="num">Same answer on repeat</th></tr></thead>
+        <thead><tr><th>Model</th><th class="num">Accuracy</th><th class="num">Chance of #1</th><th class="num">Cost / 1k</th><th class="num">p50 / p95</th><th class="num">Same answer on repeat</th><th class="num">Overconfidence</th></tr></thead>
         <tbody id="acc"></tbody>
       </table>
     </div>
@@ -119,22 +119,22 @@ code { font-family: var(--mono); font-size: 0.85em; }
       </table>
     </div>
     <div class="callout prose" style="display:flex;flex-direction:column;gap:8px">
-      <p><strong>Read this before quoting the total.</strong> Decider is #1 under the pre-set weights but wins only 33% of 10,000 random weightings, so by the pre-registered rule no model is best overall.</p>
-      <p>Drex Max's 47% share of random-weight wins comes entirely from its $5 signup bonus. Without the bonus pillar, Decider wins 87%, Jev 1.13 12% and Drex Max 0%. Signup bonuses don't apply through OpenRouter, and Drex Max costs $0.06 per 1M on OpenRouter (a 50%-off promotion on $0.12) but $0.03 on Nace's own API, the only model that's cheaper direct. At the direct price its total would be 56.7, still #2, and without the bonus Decider still wins 86% of weightings.</p>
+      <p><strong>Read this before quoting the total.</strong> Decider is #1 under the pre-set weights but wins only 39% of 10,000 random weightings; Drex Max v1.1 wins 47%, so by the pre-registered rule no model is best overall.</p>
+      <p>Drex Max's random-weight wins come from its $5 signup bonus: without the bonus pillar, Decider wins 87%, Jev 1.13 12% and Drex Max 0%. Drex Max v1.1's trust score is lower than Decider's because v1.1's weights aren't published and Nace's terms don't say clearly whether standard mode keeps request data.</p>
     </div>
   </section>
 
   <section>
     <span class="eyebrow">Pricing and openness</span>
     <h2>What you pay and what happens to your data</h2>
-    <p class="prose small">Sources: OpenRouter endpoint and model-page records, Hugging Face metadata and licence files. No company's own marketing.</p>
+    <p class="prose small">Prices are each provider's own list price. Data policy: OpenRouter's provider records for the six models tested there, Nace's terms for Drex Max v1.1. Openness: Hugging Face metadata and licence files.</p>
     <div class="scroll">
       <table>
         <thead><tr><th>Model</th><th class="num">$ / 1M input</th><th>Discount</th><th>Weights</th><th>Licence</th><th>Trains on prompts</th><th>Keeps prompts</th><th>Zero retention</th></tr></thead>
         <tbody id="open"></tbody>
       </table>
     </div>
-    <p class="prose small">Observation, not a conclusion: Hugging Face lists the same parameter count (26,085,330,160) for <code>nace-ai/drex-max-v1</code> and Perplexity's Decider models, which name <code>Qwen/Qwen3.8-27B</code> as their base. Drex Max's card names no base model.</p>
+    <p class="prose small">Observation, not a conclusion: Hugging Face lists the same parameter count (26,085,330,160) for the earlier <code>nace-ai/drex-max-v1</code> and Perplexity's Decider models, which name <code>Qwen/Qwen3.8-27B</code> as their base. Drex Max's card names no base model.</p>
   </section>
 
   <section>
@@ -145,6 +145,7 @@ code { font-family: var(--mono); font-size: 0.85em; }
       <li>Inputs are what a triager sees at filing time. Labels, template markers, CVSS scores, CWE numbers and the PR author's role were removed.</li>
       <li>Option descriptions come from the sources: Bugzilla's component texts, Mozilla's severity scale, GitHub's advisory scale, MITRE's CWE definitions.</li>
       <li>Classes balanced; balanced accuracy is the primary metric; Brier score and calibration error are reported for probability quality.</li>
+      <li>Drex Max v1.1 was tested on Nace's own API; the other six through OpenRouter. The earlier v1.0 run (OpenRouter) is archived in the repository.</li>
       <li>Every comparison uses a paired bootstrap (2,000 resamples) with Holm correction across all 21 model pairs.</li>
     </ul>
   </section>
@@ -154,45 +155,46 @@ code { font-family: var(--mono); font-size: 0.85em; }
     <h2>What this doesn't show</h2>
     <ul class="prose">
       <li>English, software-engineering text only; no images.</li>
-      <li>Labels are human decisions and contain mistakes: on 381 items all seven models agree with each other but not with the label. They're listed for audit.</li>
+      <li>Labels are human decisions and contain mistakes: on 385 items all seven models agree with each other but not with the label. They're listed for audit.</li>
       <li>Many CVE descriptions name their weakness ("cross-site scripting"), which makes parts of the CWE task easy.</li>
       <li>Only Jev and Luna had 10 or more relevant Hacker News mentions; the others got a neutral reviews score.</li>
-      <li>Prices, uptime and usage are a snapshot from Nov 6, 2026.</li>
+      <li>Prices, uptime and usage are a snapshot from Nov 6, 2026. Latency also reflects each model's host.</li>
+      <li>Two items were dropped for every model: one advisory that Nace's API rejects (it embeds an image as a data URL) and one that d1-ultra never answered.</li>
     </ul>
   </section>
 </main>
 
 <script>
 const M = [
-  {id:"d1-ultra", name:"Liquid d1-ultra", v:"Liquid", acc:66.1, lo:64.6, hi:67.6, p1:81, cost:.0335, p50:682, p95:5139, rep:95.7, tie:true,
-   T:{q:49.2,e:55.6,t:43.1,r:40.2,b:76.6,total:49.7,w:1,wn:0}},
-  {id:"pplx", name:"Perplexity Decider V1.2", v:"Perplexity", acc:65.6, lo:64.2, hi:67.0, p1:18, cost:.0182, p50:784, p95:1318, rep:99.3, tie:true,
-   T:{q:47.8,e:62.1,t:99.3,r:53.9,b:0,total:59.2,w:33,wn:87}},
-  {id:"drex", name:"Nace Drex Max", v:"Nace.AI", acc:64.9, lo:63.5, hi:66.3, p1:1, cost:.0549, p50:731, p95:1198, rep:97.3, tie:true,
-   T:{q:46.6,e:48.4,t:79.8,r:40.0,b:85.7,total:54.9,w:47,wn:0}},
-  {id:"jev13", name:"TypeSafe Jev 1.13", v:"TypeSafe", acc:64.2, lo:62.7, hi:65.7, p1:0, cost:.0515, p50:699, p95:885, rep:97.3,
-   T:{q:44.8,e:49.7,t:62.3,r:68.1,b:0,total:49.4,w:5,wn:12}},
-  {id:"jev14", name:"TypeSafe Jev 1.14", v:"TypeSafe", acc:64.2, lo:62.6, hi:65.7, p1:0, cost:.0515, p50:678, p95:756, rep:99.2,
-   T:{q:44.8,e:50.0,t:64.2,r:63.1,b:0,total:49.3,w:0,wn:0}},
-  {id:"d11", name:"Liquid d1.1", v:"Liquid", acc:63.7, lo:62.3, hi:65.1, p1:0, cost:.0160, p50:632, p95:746, rep:90.7,
-   T:{q:44.7,e:66.0,t:38.2,r:39.9,b:82.0,total:49.1,w:15,wn:1}},
-  {id:"luna", name:"GPT-6 Luna Decisions", v:"OpenAI", acc:62.8, lo:61.5, hi:64.2, p1:0, cost:.0915, p50:758, p95:1078, rep:100,
-   T:{q:41.0,e:41.4,t:39.9,r:43.7,b:0,total:39.1,w:0,wn:0}},
+  {id:"d1-ultra", name:"Liquid d1-ultra", acc:66.1, lo:64.6, hi:67.6, p1:70, cost:0.0335, p50:681, p95:5138, rep:95.7, over:1.7, tie:true,
+   T:{q:49.2,e:55.6,t:43.1,r:40.2,b:76.6,total:49.7,w:0,wn:0}},
+  {id:"drex-max-v1.1", name:"Nace Drex Max v1.1", acc:65.6, lo:64.2, hi:67.1, p1:20, cost:0.0273, p50:656, p95:833, rep:99.3, over:4.6, tie:true,
+   T:{q:48.0,e:58.6,t:56.8,r:40.0,b:85.7,total:53.0,w:47,wn:0}},
+  {id:"pplx-decider-v1.2", name:"Perplexity Decider V1.2", acc:65.6, lo:64.2, hi:67.0, p1:10, cost:0.0182, p50:783, p95:1318, rep:99.3, over:6.1, tie:true,
+   T:{q:47.8,e:62.1,t:99.3,r:53.9,b:0.0,total:59.2,w:39,wn:87}},
+  {id:"jev-1.13", name:"TypeSafe Jev 1.13", acc:64.2, lo:62.7, hi:65.7, p1:0, cost:0.0515, p50:698, p95:885, rep:97.3, over:12.1, tie:false,
+   T:{q:44.8,e:49.7,t:62.3,r:68.1,b:0.0,total:49.4,w:6,wn:12}},
+  {id:"jev-1.14", name:"TypeSafe Jev 1.14", acc:64.2, lo:62.7, hi:65.8, p1:0, cost:0.0515, p50:678, p95:756, rep:99.2, over:11.5, tie:false,
+   T:{q:44.8,e:50.0,t:64.2,r:63.1,b:0.0,total:49.3,w:0,wn:0}},
+  {id:"d1.1", name:"Liquid d1.1", acc:63.7, lo:62.2, hi:65.1, p1:0, cost:0.0160, p50:632, p95:746, rep:90.7, over:6.1, tie:false,
+   T:{q:44.7,e:66.0,t:38.2,r:39.9,b:82.0,total:49.1,w:8,wn:1}},
+  {id:"gpt-6-luna-decisions", name:"GPT-6 Luna Decisions", acc:62.8, lo:61.5, hi:64.2, p1:0, cost:0.0915, p50:757, p95:1078, rep:100.0, over:21.0, tie:false,
+   T:{q:41.0,e:41.4,t:39.9,r:43.7,b:0.0,total:39.1,w:0,wn:0}},
 ];
 const TASKS = [
-  ["Bug report or feature request?","VS Code + Kubernetes issues",547,"Drex Max",92.4,"69.9% (keyword rule)","all 7"],
-  ["Will this PR be merged?","VS Code, Next.js, TypeScript PRs",472,"Liquid d1-ultra",63.6,"73.1% (author rule)","Decider, Drex Max"],
-  ["Which Firefox component?","Bugzilla, 39 components",534,"Perplexity Decider",77.6,"20.6% (name-in-title rule)","Drex Max, d1-ultra, Luna"],
-  ["Firefox bug severity","Bugzilla, S4–S1",292,"Jev 1.14",47.1,"33.3% (majority)","all 7"],
-  ["Advisory severity","GitHub advisories",480,"Liquid d1-ultra",45.1,"25.0% (majority)","all but Luna"],
-  ["CVE weakness type","NVD feed, 20 CWEs",500,"Perplexity Decider",76.0,"5.0% (majority)","all 7"],
+  ["Bug report or feature request?","VS Code + Kubernetes issues",547,"Nace Drex Max v1.1",92.6,"69.9% (keyword rule)","all 7"],
+  ["Will this PR be merged?","VS Code, Next.js, TypeScript PRs",472,"Liquid d1-ultra",63.6,"73.1% (author rule)","Drex Max v1.1, Decider V1.2"],
+  ["Which Firefox component?","Bugzilla, 39 components",534,"Nace Drex Max v1.1",77.8,"20.6% (name-in-title rule)","Decider V1.2, d1-ultra, Luna"],
+  ["Firefox bug severity","Bugzilla, S4–S1",292,"TypeSafe Jev 1.14",47.1,"33.3% (majority)","all 7"],
+  ["Advisory severity","GitHub advisories",479,"Liquid d1-ultra",45.2,"25.0% (majority)","all but Luna"],
+  ["CVE weakness type","NVD feed, 20 CWEs",500,"Perplexity Decider V1.2",76.0,"5.0% (majority)","all 7"],
 ];
 const OPEN = [
   ["Perplexity Decider V1.2","0.019–0.020","none","Yes","Apache-2.0","No","No","Yes"],
   ["Liquid d1.1","0.020","none","No (smaller relatives open)","—","Conflicting","Conflicting","Yes"],
   ["Liquid d1-ultra","0.042","none","No (smaller relatives open)","—","Conflicting","Conflicting","Yes"],
   ["TypeSafe Jev 1.13 / 1.14","0.042","none","No","—","No","No","Yes"],
-  ["Nace Drex Max","0.060 (0.03 on Nace's API)","50% off on OpenRouter (list 0.12)","drex-max-v1 on HF","Open RAIL-M (licence needed above $1M revenue or funding)","No","No","Yes"],
+  ["Nace Drex Max v1.1","0.030","none","No (only v1 is on Hugging Face)","—","No","Unclear","Yes"],
   ["GPT-6 Luna Decisions","0.100","none","No","—","No","Yes","No"],
 ];
 const esc = s => String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
@@ -203,7 +205,7 @@ document.getElementById("acc").innerHTML = M.map(m => `<tr>
   <td class="num">${m.acc.toFixed(1)}% <span class="vendor">(${m.lo.toFixed(1)}–${m.hi.toFixed(1)})</span></td>
   <td class="num">${m.p1}%</td><td class="num">$${m.cost.toFixed(3)}</td>
   <td class="num">${m.p50} / ${m.p95 >= 2000 ? '<span class="pill warn">' + (m.p95/1000).toFixed(1) + ' s</span>' : m.p95 + " ms"}</td>
-  <td class="num">${m.rep.toFixed(1)}%</td></tr>`).join("");
+  <td class="num">${m.rep.toFixed(1)}%</td><td class="num">${m.over > 10 ? '<span class="pill warn">+' + m.over.toFixed(1) + "</span>" : "+" + m.over.toFixed(1)}</td></tr>`).join("");
 
 document.getElementById("tasks").innerHTML = TASKS.map(t => `<tr><td class="model">${esc(t[0])}</td><td>${esc(t[1])}</td>
   <td class="num">${t[2]}</td><td>${esc(t[3])}</td><td class="num">${t[4].toFixed(1)}%</td><td class="num">${esc(t[5])}</td><td>${esc(t[6])}</td></tr>`).join("");
