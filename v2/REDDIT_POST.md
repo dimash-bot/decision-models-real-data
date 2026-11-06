@@ -79,4 +79,4 @@ The weights were fixed in advance: quality 45%, efficiency 20%, trust 20%, revie
 - The reviews pillar is thin: only Jev and Luna had 10 or more relevant Hacker News mentions. The others got a neutral score.
 - Openness, an observation rather than a conclusion: Hugging Face lists the same parameter count (26,085,330,160) for Drex Max and Perplexity Decider, which names Qwen3.8-27B as its base. Drex Max's model card names no base model.
 
-Code, data, raw outputs, pre-registration and checksums: [link]
+Code, data, raw outputs, pre-registration and checksums: https://github.com/dimash-bot/decision-models-real-data
