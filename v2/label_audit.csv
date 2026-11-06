@@ -98,7 +98,6 @@ T2,T2:microsoft/vscode#336463,https://github.com/microsoft/vscode/pull/336463,Fa
 T2,T2:vercel/next.js#100469,https://github.com/vercel/next.js/pull/100469,False,True
 T2,T2:vercel/next.js#99132,https://github.com/vercel/next.js/pull/99132,False,True
 T2,T2:vercel/next.js#99342,https://github.com/vercel/next.js/pull/99342,False,True
-T2,T2:vercel/next.js#99191,https://github.com/vercel/next.js/pull/99191,False,True
 T2,T2:vercel/next.js#99441,https://github.com/vercel/next.js/pull/99441,False,True
 T2,T2:vercel/next.js#98907,https://github.com/vercel/next.js/pull/98907,False,True
 T2,T2:vercel/next.js#99586,https://github.com/vercel/next.js/pull/99586,False,True
@@ -109,7 +108,6 @@ T2,T2:vercel/next.js#99754,https://github.com/vercel/next.js/pull/99754,False,Tr
 T2,T2:vercel/next.js#99972,https://github.com/vercel/next.js/pull/99972,False,True
 T2,T2:vercel/next.js#100903,https://github.com/vercel/next.js/pull/100903,False,True
 T2,T2:vercel/next.js#100895,https://github.com/vercel/next.js/pull/100895,False,True
-T2,T2:vercel/next.js#99211,https://github.com/vercel/next.js/pull/99211,False,True
 T2,T2:vercel/next.js#98665,https://github.com/vercel/next.js/pull/98665,False,True
 T2,T2:vercel/next.js#100066,https://github.com/vercel/next.js/pull/100066,False,True
 T2,T2:vercel/next.js#99497,https://github.com/vercel/next.js/pull/99497,False,True
@@ -117,7 +115,6 @@ T2,T2:vercel/next.js#99589,https://github.com/vercel/next.js/pull/99589,False,Tr
 T2,T2:vercel/next.js#99872,https://github.com/vercel/next.js/pull/99872,False,True
 T2,T2:vercel/next.js#100913,https://github.com/vercel/next.js/pull/100913,False,True
 T2,T2:vercel/next.js#99242,https://github.com/vercel/next.js/pull/99242,False,True
-T2,T2:vercel/next.js#99516,https://github.com/vercel/next.js/pull/99516,False,True
 T2,T2:vercel/next.js#99553,https://github.com/vercel/next.js/pull/99553,False,True
 T2,T2:vercel/next.js#99168,https://github.com/vercel/next.js/pull/99168,False,True
 T2,T2:vercel/next.js#99548,https://github.com/vercel/next.js/pull/99548,False,True
@@ -154,7 +151,6 @@ T3,T3:bz2081438,https://bugzilla.mozilla.org/show_bug.cgi?id=2081438,Bookmarks &
 T3,T3:bz2077637,https://bugzilla.mozilla.org/show_bug.cgi?id=2077637,File Handling,Downloads Panel
 T3,T3:bz2084853,https://bugzilla.mozilla.org/show_bug.cgi?id=2084853,File Handling,Downloads Panel
 T3,T3:bz2076912,https://bugzilla.mozilla.org/show_bug.cgi?id=2076912,File Handling,PDF Viewer
-T3,T3:bz2080359,https://bugzilla.mozilla.org/show_bug.cgi?id=2080359,Firefox Accounts,Sync
 T3,T3:bz2080358,https://bugzilla.mozilla.org/show_bug.cgi?id=2080358,Firefox Accounts,Sync
 T3,T3:bz2083790,https://bugzilla.mozilla.org/show_bug.cgi?id=2083790,IP Protection,Messaging System
 T3,T3:bz2082658,https://bugzilla.mozilla.org/show_bug.cgi?id=2082658,IP Protection,Messaging System
@@ -191,7 +187,6 @@ T3,T3:bz2077160,https://bugzilla.mozilla.org/show_bug.cgi?id=2077160,Tabbed Brow
 T3,T3:bz2079150,https://bugzilla.mozilla.org/show_bug.cgi?id=2079150,Tabbed Browser,Session Restore
 T3,T3:bz2074350,https://bugzilla.mozilla.org/show_bug.cgi?id=2074350,Theme,IP Protection
 T3,T3:bz2086366,https://bugzilla.mozilla.org/show_bug.cgi?id=2086366,Theme,Address Bar
-T3,T3:bz2078632,https://bugzilla.mozilla.org/show_bug.cgi?id=2078632,Theme,Menus
 T3,T3:bz2085080,https://bugzilla.mozilla.org/show_bug.cgi?id=2085080,Toolbars and Customization,Keyboard Navigation
 T3,T3:bz2079639,https://bugzilla.mozilla.org/show_bug.cgi?id=2079639,Toolbars and Customization,Theme
 T3,T3:bz2073893,https://bugzilla.mozilla.org/show_bug.cgi?id=2073893,Toolbars and Customization,Menus
@@ -248,18 +243,21 @@ T4,T4:bz2083187,https://bugzilla.mozilla.org/show_bug.cgi?id=2083187,S4,S3
 T4,T4:bz2087567,https://bugzilla.mozilla.org/show_bug.cgi?id=2087567,S4,S3
 T4,T4:bz2087119,https://bugzilla.mozilla.org/show_bug.cgi?id=2087119,S4,S3
 T4,T4:bz2083654,https://bugzilla.mozilla.org/show_bug.cgi?id=2083654,S4,S3
+T4,T4:bz2077358,https://bugzilla.mozilla.org/show_bug.cgi?id=2077358,S4,S3
 T4,T4:bz2081215,https://bugzilla.mozilla.org/show_bug.cgi?id=2081215,S4,S3
 T4,T4:bz2085818,https://bugzilla.mozilla.org/show_bug.cgi?id=2085818,S4,S3
 T4,T4:bz2075193,https://bugzilla.mozilla.org/show_bug.cgi?id=2075193,S4,S3
 T5,T5:GHSA-pfhg-q3qv-9q6r,https://github.com/advisories/GHSA-pfhg-q3qv-9q6r,low,medium
 T5,T5:GHSA-7hvx-28gp-mf6j,https://github.com/advisories/GHSA-7hvx-28gp-mf6j,low,medium
 T5,T5:GHSA-4fjg-2h4q-fwg3,https://github.com/advisories/GHSA-4fjg-2h4q-fwg3,low,medium
+T5,T5:GHSA-h4fr-cmh5-qr62,https://github.com/advisories/GHSA-h4fr-cmh5-qr62,low,medium
 T5,T5:GHSA-89m4-43j5-vhhx,https://github.com/advisories/GHSA-89m4-43j5-vhhx,low,medium
 T5,T5:GHSA-4vjg-vx72-qq4g,https://github.com/advisories/GHSA-4vjg-vx72-qq4g,low,medium
 T5,T5:GHSA-2gqq-gqf2-x968,https://github.com/advisories/GHSA-2gqq-gqf2-x968,low,medium
 T5,T5:GHSA-9ccq-2jfg-qw33,https://github.com/advisories/GHSA-9ccq-2jfg-qw33,low,medium
 T5,T5:GHSA-74w3-63xv-x9mv,https://github.com/advisories/GHSA-74w3-63xv-x9mv,low,medium
 T5,T5:GHSA-3cc2-h3v6-rqpq,https://github.com/advisories/GHSA-3cc2-h3v6-rqpq,low,high
+T5,T5:GHSA-8wmf-6v46-5gfg,https://github.com/advisories/GHSA-8wmf-6v46-5gfg,low,medium
 T5,T5:GHSA-cg6r-mpgc-h9mm,https://github.com/advisories/GHSA-cg6r-mpgc-h9mm,low,medium
 T5,T5:GHSA-p98j-92pf-mc4p,https://github.com/advisories/GHSA-p98j-92pf-mc4p,low,high
 T5,T5:GHSA-gfhx-hw2g-v5hg,https://github.com/advisories/GHSA-gfhx-hw2g-v5hg,low,high
@@ -279,9 +277,13 @@ T5,T5:GHSA-3mqq-hv9c-85hc,https://github.com/advisories/GHSA-3mqq-hv9c-85hc,low,
 T5,T5:GHSA-vgf9-9mxx-hq54,https://github.com/advisories/GHSA-vgf9-9mxx-hq54,low,medium
 T5,T5:GHSA-qmx5-4p3x-wvqf,https://github.com/advisories/GHSA-qmx5-4p3x-wvqf,low,medium
 T5,T5:GHSA-wxmm-q36w-r9xj,https://github.com/advisories/GHSA-wxmm-q36w-r9xj,low,medium
+T5,T5:GHSA-m952-2w3f-6r8h,https://github.com/advisories/GHSA-m952-2w3f-6r8h,low,medium
 T5,T5:GHSA-7cxh-94cf-mfp6,https://github.com/advisories/GHSA-7cxh-94cf-mfp6,low,medium
 T5,T5:GHSA-vwwx-px9w-crrc,https://github.com/advisories/GHSA-vwwx-px9w-crrc,low,high
+T5,T5:GHSA-h6cr-wjv9-3cpp,https://github.com/advisories/GHSA-h6cr-wjv9-3cpp,low,medium
 T5,T5:GHSA-6gw6-rv2g-25mg,https://github.com/advisories/GHSA-6gw6-rv2g-25mg,low,medium
+T5,T5:GHSA-89vp-x45c-52cq,https://github.com/advisories/GHSA-89vp-x45c-52cq,low,medium
+T5,T5:GHSA-4jq2-8v3c-97w8,https://github.com/advisories/GHSA-4jq2-8v3c-97w8,low,medium
 T5,T5:GHSA-9wfm-jcj8-jfv9,https://github.com/advisories/GHSA-9wfm-jcj8-jfv9,low,medium
 T5,T5:GHSA-c6gr-qvv4-5v3f,https://github.com/advisories/GHSA-c6gr-qvv4-5v3f,low,medium
 T5,T5:GHSA-mpr7-6m5w-76rw,https://github.com/advisories/GHSA-mpr7-6m5w-76rw,low,medium
@@ -289,8 +291,10 @@ T5,T5:GHSA-343h-94h5-c4wr,https://github.com/advisories/GHSA-343h-94h5-c4wr,low,
 T5,T5:GHSA-3gh4-cghq-f8v4,https://github.com/advisories/GHSA-3gh4-cghq-f8v4,low,medium
 T5,T5:GHSA-m3qr-fvp4-78xj,https://github.com/advisories/GHSA-m3qr-fvp4-78xj,low,high
 T5,T5:GHSA-vp88-798v-h67f,https://github.com/advisories/GHSA-vp88-798v-h67f,low,medium
+T5,T5:GHSA-mfj3-87qq-382v,https://github.com/advisories/GHSA-mfj3-87qq-382v,low,medium
 T5,T5:GHSA-cvp8-vvgf-69q4,https://github.com/advisories/GHSA-cvp8-vvgf-69q4,medium,high
 T5,T5:GHSA-fprf-r6rv-xg99,https://github.com/advisories/GHSA-fprf-r6rv-xg99,medium,high
+T5,T5:GHSA-wm36-87w8-wg22,https://github.com/advisories/GHSA-wm36-87w8-wg22,medium,high
 T5,T5:GHSA-qfxx-c367-67f8,https://github.com/advisories/GHSA-qfxx-c367-67f8,medium,high
 T5,T5:GHSA-x4rv-c3wx-4cr8,https://github.com/advisories/GHSA-x4rv-c3wx-4cr8,medium,high
 T5,T5:GHSA-542m-9234-8gvf,https://github.com/advisories/GHSA-542m-9234-8gvf,medium,high
@@ -325,6 +329,7 @@ T5,T5:GHSA-g4qv-2jxx-769h,https://github.com/advisories/GHSA-g4qv-2jxx-769h,high
 T5,T5:GHSA-r7x5-4969-99p7,https://github.com/advisories/GHSA-r7x5-4969-99p7,high,medium
 T5,T5:GHSA-5x5g-h9x8-2fh9,https://github.com/advisories/GHSA-5x5g-h9x8-2fh9,high,medium
 T5,T5:GHSA-mghh-pgcx-3jjj,https://github.com/advisories/GHSA-mghh-pgcx-3jjj,high,medium
+T5,T5:GHSA-5849-834g-hvw5,https://github.com/advisories/GHSA-5849-834g-hvw5,high,medium
 T5,T5:GHSA-fp3h-c4fm-7vvf,https://github.com/advisories/GHSA-fp3h-c4fm-7vvf,high,medium
 T5,T5:GHSA-34fc-gh42-pj53,https://github.com/advisories/GHSA-34fc-gh42-pj53,critical,high
 T5,T5:GHSA-w5f4-fx9m-m4q7,https://github.com/advisories/GHSA-w5f4-fx9m-m4q7,critical,high
@@ -358,7 +363,7 @@ T5,T5:GHSA-f8wv-xp27-6gq7,https://github.com/advisories/GHSA-f8wv-xp27-6gq7,crit
 T5,T5:GHSA-wqg3-r97q-73xm,https://github.com/advisories/GHSA-wqg3-r97q-73xm,critical,high
 T5,T5:GHSA-h85j-hv3c-qfgq,https://github.com/advisories/GHSA-h85j-hv3c-qfgq,critical,high
 T6,T6:CVE-2026-109119,https://nvd.nist.gov/vuln/detail/CVE-2026-109119,CWE-862: Missing Authorization,CWE-269: Improper Privilege Management
-T6,T6:CVE-2026-101785,https://nvd.nist.gov/vuln/detail/CVE-2026-101785,CWE-284: Improper Access Control,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-62035,https://nvd.nist.gov/vuln/detail/CVE-2026-62035,CWE-862: Missing Authorization,CWE-284: Improper Access Control
 T6,T6:CVE-2026-102789,https://nvd.nist.gov/vuln/detail/CVE-2026-102789,CWE-284: Improper Access Control,CWE-862: Missing Authorization
 T6,T6:CVE-2026-20561,https://nvd.nist.gov/vuln/detail/CVE-2026-20561,CWE-125: Out-of-bounds Read,CWE-787: Out-of-bounds Write
 T6,T6:CVE-2026-52820,https://nvd.nist.gov/vuln/detail/CVE-2026-52820,CWE-639: Authorization Bypass Through User-Controlled Key,CWE-863: Incorrect Authorization
@@ -369,7 +374,6 @@ T6,T6:CVE-2026-95508,https://nvd.nist.gov/vuln/detail/CVE-2026-95508,CWE-787: Ou
 T6,T6:CVE-2026-109680,https://nvd.nist.gov/vuln/detail/CVE-2026-109680,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
 T6,T6:CVE-2026-63273,https://nvd.nist.gov/vuln/detail/CVE-2026-63273,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
 T6,T6:CVE-2026-91105,https://nvd.nist.gov/vuln/detail/CVE-2026-91105,CWE-122: Heap-based Buffer Overflow,CWE-20: Improper Input Validation
-T6,T6:CVE-2026-19915,https://nvd.nist.gov/vuln/detail/CVE-2026-19915,CWE-269: Improper Privilege Management,CWE-284: Improper Access Control
 T6,T6:CVE-2026-105634,https://nvd.nist.gov/vuln/detail/CVE-2026-105634,CWE-269: Improper Privilege Management,CWE-863: Incorrect Authorization
 T6,T6:CVE-2026-87681,https://nvd.nist.gov/vuln/detail/CVE-2026-87681,CWE-269: Improper Privilege Management,CWE-863: Incorrect Authorization
 T6,T6:CVE-2026-18513,https://nvd.nist.gov/vuln/detail/CVE-2026-18513,CWE-269: Improper Privilege Management,CWE-284: Improper Access Control

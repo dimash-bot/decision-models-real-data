@@ -1,28 +1,112 @@
 {
-  "_sources": {
-    "usage": "https://openrouter.ai/rankings/decisions - Decision Leaderboard, This Week, data through 2026-11-05 (read 2026-11-06)",
-    "data_policy": "OpenRouter model pages, dataPolicy / is_zdr records (read 2026-11-06), see openrouter_endpoints.json",
-    "weights_licence_size": "Hugging Face API + LICENSE files (read 2026-11-06), see huggingface.json",
-    "direct_price": "provider's official pricing page (same page as signup_bonus.json)"
+ "_sources": {
+  "usage": "https://openrouter.ai/rankings/decisions - Decision Leaderboard, This Week, data through 2026-11-05 (read 2026-11-06)",
+  "data_policy": "OpenRouter model pages, dataPolicy / is_zdr records (read 2026-11-06), see openrouter_endpoints.json",
+  "weights_licence_size": "Hugging Face API + LICENSE files (read 2026-11-06), see huggingface.json",
+  "direct_price": "provider's official pricing page (same page as signup_bonus.json)",
+  "nace_direct": "https://drex.nace.ai/terms and https://drex.nace.ai/docs/drex/reference/pricing (read 2026-11-06)"
+ },
+ "models": {
+  "typesafe/jev-1.14": {
+   "family": "jev",
+   "provider": "typesafe",
+   "weekly_requests": 492000000.0,
+   "training": "no",
+   "retains": "no",
+   "zdr": true,
+   "weights": "no",
+   "licence": "none",
+   "disclosed": "no",
+   "direct_price_per_m": 0.042
   },
-  "models": {
-    "typesafe/jev-1.14": {"family": "jev", "provider": "typesafe", "weekly_requests": 492e6,
-      "training": "no", "retains": "no", "zdr": true, "weights": "no", "licence": "none", "disclosed": "no", "direct_price_per_m": 0.042},
-    "typesafe/jev-1.13": {"family": "jev", "provider": "typesafe", "weekly_requests": 1.05e9,
-      "training": "no", "retains": "no", "zdr": true, "weights": "no", "licence": "none", "disclosed": "no", "direct_price_per_m": 0.042},
-    "perplexity/pplx-decider-v1.2": {"family": "decider", "provider": "perplexity", "weekly_requests": 182e6,
-      "training": "no", "retains": "no", "zdr": true, "weights": "yes", "licence": "permissive", "disclosed": "yes", "direct_price_per_m": 0.02,
-      "_note": "OpenRouter links HF weights perplexity-ai/pplx-decider-v1.2 (Apache-2.0, Qwen/Qwen3.8-27B, 26.1B)"},
-    "liquid/d1-ultra": {"family": "liquid-d1", "provider": "liquid", "weekly_requests": 22.3e6,
-      "training": "conflicting", "retains": "conflicting", "zdr": true, "weights": "no", "licence": "none", "disclosed": "no", "direct_price_per_m": 0.042,
-      "_note": "smaller open relatives (d1-2B, d1-3B, LFM licence) are not the served API models"},
-    "liquid/d1.1": {"family": "liquid-d1", "provider": "liquid", "weekly_requests": 21.1e6,
-      "training": "conflicting", "retains": "conflicting", "zdr": true, "weights": "no", "licence": "none", "disclosed": "no", "direct_price_per_m": 0.02},
-    "openai/gpt-6-luna-decisions": {"family": "luna-decisions", "provider": "openai", "weekly_requests": 48.5e6,
-      "training": "no", "retains": "yes", "zdr": false, "weights": "no", "licence": "none", "disclosed": "no", "direct_price_per_m": 0.10},
-    "nace-ai/drex-max": {"family": "drex", "provider": "nace", "weekly_requests": 21.6e6,
-      "training": "no", "retains": "no", "zdr": true, "weights": "unclear", "licence": "restricted", "disclosed": "partial", "direct_price_per_m": 0.03,
-      "list_price_per_m_openrouter": 0.12,
-      "_note": "HF nace-ai/drex-max-v1 (Open RAIL-M, 26.1B, base model not stated); OpenRouter serves drex-max-20261016 and links no weights, so 'served model weights published' is unclear (half points per SCORING.md conflict rule)"}
+  "typesafe/jev-1.13": {
+   "family": "jev",
+   "provider": "typesafe",
+   "weekly_requests": 1050000000.0,
+   "training": "no",
+   "retains": "no",
+   "zdr": true,
+   "weights": "no",
+   "licence": "none",
+   "disclosed": "no",
+   "direct_price_per_m": 0.042
+  },
+  "perplexity/pplx-decider-v1.2": {
+   "family": "decider",
+   "provider": "perplexity",
+   "weekly_requests": 182000000.0,
+   "training": "no",
+   "retains": "no",
+   "zdr": true,
+   "weights": "yes",
+   "licence": "permissive",
+   "disclosed": "yes",
+   "direct_price_per_m": 0.02,
+   "_note": "OpenRouter links HF weights perplexity-ai/pplx-decider-v1.2 (Apache-2.0, Qwen/Qwen3.8-27B, 26.1B)"
+  },
+  "liquid/d1-ultra": {
+   "family": "liquid-d1",
+   "provider": "liquid",
+   "weekly_requests": 22300000.0,
+   "training": "conflicting",
+   "retains": "conflicting",
+   "zdr": true,
+   "weights": "no",
+   "licence": "none",
+   "disclosed": "no",
+   "direct_price_per_m": 0.042,
+   "_note": "smaller open relatives (d1-2B, d1-3B, LFM licence) are not the served API models"
+  },
+  "liquid/d1.1": {
+   "family": "liquid-d1",
+   "provider": "liquid",
+   "weekly_requests": 21100000.0,
+   "training": "conflicting",
+   "retains": "conflicting",
+   "zdr": true,
+   "weights": "no",
+   "licence": "none",
+   "disclosed": "no",
+   "direct_price_per_m": 0.02
+  },
+  "openai/gpt-6-luna-decisions": {
+   "family": "luna-decisions",
+   "provider": "openai",
+   "weekly_requests": 48500000.0,
+   "training": "no",
+   "retains": "yes",
+   "zdr": false,
+   "weights": "no",
+   "licence": "none",
+   "disclosed": "no",
+   "direct_price_per_m": 0.1
+  },
+  "nace-ai/drex-max": {
+   "family": "drex",
+   "provider": "nace",
+   "weekly_requests": 21600000.0,
+   "training": "no",
+   "retains": "no",
+   "zdr": true,
+   "weights": "unclear",
+   "licence": "restricted",
+   "disclosed": "partial",
+   "direct_price_per_m": 0.03,
+   "list_price_per_m_openrouter": 0.12,
+   "_note": "HF nace-ai/drex-max-v1 (Open RAIL-M, 26.1B, base model not stated); OpenRouter serves drex-max-20261016 and links no weights, so 'served model weights published' is unclear (half points per SCORING.md conflict rule)"
+  },
+  "nace-ai/drex-max-v1.1": {
+   "family": "drex",
+   "provider": "nace",
+   "weekly_requests": 21600000.0,
+   "training": "no",
+   "retains": "unclear",
+   "zdr": true,
+   "weights": "no",
+   "licence": "none",
+   "disclosed": "no",
+   "direct_price_per_m": 0.03,
+   "_note": "Tested on Nace's own API (https://console.nace.ai/v1/systemone, model drex-max-v1.1, released 2026-10-28). Data policy from https://drex.nace.ai/terms: 'No training by default'; Standard mode retains 'job Inputs and Outputs' until deletion (unclear whether decision requests are covered -> half points); zero-retention mode available. Weights: Hugging Face has only nace-ai/drex-max-v1, not v1.1. Usage: OpenRouter weekly requests for Drex Max (the only public usage figure). Cost: input tokens x $0.03/M (Nace responses report tokens, not cost)."
   }
+ }
 }

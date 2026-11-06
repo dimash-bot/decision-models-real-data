@@ -21,9 +21,9 @@ inputs through OpenRouter; all data, raw outputs and code are here so anyone can
 
 ## Headline
 
-- **Accuracy:** d1-ultra 66.1%, Decider 65.6% and Drex Max 64.9% are statistically tied for first;
+- **Accuracy:** d1-ultra 66.1%, Drex Max v1.1 65.6% and Decider 65.6% are statistically tied for first;
   GPT-6 Luna (62.8%) is significantly behind all three.
-- **Total score:** Decider 59.2, Drex Max 54.9, d1-ultra 49.7 … Luna 39.1. By the pre-registered rule no model
+- **Total score:** Decider 59.2, Drex Max v1.1 53.0, d1-ultra 49.7 … Luna 39.1. By the pre-registered rule no model
   is best overall; Drex Max's share of random-weight wins comes entirely from its signup bonus.
 
 ## Data (v2, all created after 2026-09-15, after every model's release)

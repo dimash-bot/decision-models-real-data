@@ -228,3 +228,21 @@ OpenRouter price, except Nace: Drex Max is $0.03 per 1M input tokens on Nace's A
 cost ~$0.027 per 1k decisions (from $0.055), efficiency 57.5 (from 48.4), total 56.7 (from 54.9), still #2;
 Decider stays #1 at 59.1. Random weightings: all pillars, Drex Max 59% / Decider 28%; without the bonus pillar,
 Decider 86% / Jev 1.13 13% / Drex Max 0%. Direct APIs were not tested; this assumes the same model is served.
+
+## Amendment 2 (2026-11-07, after the main results): Drex Max v1.1 on Nace's API
+
+At a reviewer's request the Drex Max entry was re-tested as **drex-max-v1.1** (released 2026-10-28) on
+Nace's own API (`https://console.nace.ai/v1/systemone`), with the same 2,826 items, the same three
+phrasings and the same repeat check. OpenRouter serves drex-max-20261016 (v1.0); those results are kept in
+`results_archive/nace-ai__drex-max-v1.0-openrouter.jsonl`. This changes one model after results were
+known, which the pre-registration did not anticipate; it is reported here rather than hidden.
+
+- Cost uses Nace's list price ($0.03 per 1M input tokens, from reported input tokens); trust uses Nace's
+  terms (no training by default; Standard mode keeps job inputs until deletion, unclear for decision
+  requests -> half points; zero retention available) and Hugging Face (only drex-max-v1 is published).
+- Nace's API rejected one advisory (GHSA-r543-q48m-4c9j) whose text embeds an image as a data URL
+  (HTTP 422); per the pre-registered rule it is dropped for every model (2 items dropped in total).
+- Result: v1.1 balanced accuracy 65.6% (v1.0: 64.9%), still in the tied top group with d1-ultra and
+  Decider; overconfidence +4.6 points (v1.0: +10.4); p95 latency 833 ms; total score 53.0, #2 (v1.0: 54.9;
+  lower trust score). Decider remains #1 (59.2). Average confidence vs share right is in `confidence.json`
+  (reviewer request, replacing the 90%-confidence view in the post).

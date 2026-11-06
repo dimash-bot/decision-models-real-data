@@ -7,12 +7,13 @@ const { Resvg } = require("@resvg/resvg-js");
 const V2 = path.join(__dirname, "..");
 const R = JSON.parse(fs.readFileSync(path.join(V2, "results.json")));
 const TS = JSON.parse(fs.readFileSync(path.join(V2, "total_score.json")));
+const CONF = JSON.parse(fs.readFileSync(path.join(V2, "confidence.json")));
 const OUT = path.join(__dirname, "img");
 fs.mkdirSync(OUT, { recursive: true });
 
 const NAME = {
   "liquid/d1-ultra": "Liquid d1-ultra", "perplexity/pplx-decider-v1.2": "Perplexity Decider V1.2",
-  "nace-ai/drex-max": "Nace Drex Max", "typesafe/jev-1.13": "TypeSafe Jev 1.13", "typesafe/jev-1.14": "TypeSafe Jev 1.14",
+  "nace-ai/drex-max": "Nace Drex Max v1.0", "nace-ai/drex-max-v1.1": "Nace Drex Max v1.1", "typesafe/jev-1.13": "TypeSafe Jev 1.13", "typesafe/jev-1.14": "TypeSafe Jev 1.14",
   "liquid/d1.1": "Liquid d1.1", "openai/gpt-6-luna-decisions": "GPT-6 Luna Decisions",
 };
 const C = { fg: "#15191d", muted: "#5b6670", line: "#d9dee3", grid: "#eceff2", accent: "#0f6f6a", soft: "#d7ecea", warn: "#b0413e", bg: "#ffffff" };
@@ -75,45 +76,35 @@ const title = (t, sub) => `<text x="24" y="34" font-size="20" font-weight="700" 
   const W = 900, H = 520, L = 90, Rr = 40, T = 80, B = 70;
   const cmin = 0.01, cmax = 0.12, amin = 0.62, amax = 0.67;
   const x = c => L + Math.log(c / cmin) / Math.log(cmax / cmin) * (W - L - Rr), y = a => H - B - (a - amin) / (amax - amin) * (H - T - B);
-  let s = title("Accuracy vs cost per 1,000 decisions", "Up and to the left is better. Filled dots: what OpenRouter billed in this run (log scale).");
+  let s = title("Accuracy vs cost per 1,000 decisions", "Up and to the left is better. Cost at each provider's own price (log scale).");
   [0.01, 0.02, 0.05, 0.1].forEach(c => s += `<line x1="${x(c)}" x2="${x(c)}" y1="${T}" y2="${H - B}" stroke="${C.grid}"/><text x="${x(c)}" y="${H - B + 22}" font-size="12" fill="${C.muted}" text-anchor="middle">$${c.toFixed(2)}</text>`);
   for (let a = 0.62; a <= 0.6701; a += 0.01) s += `<line x1="${L}" x2="${W - Rr}" y1="${y(a)}" y2="${y(a)}" stroke="${C.grid}"/><text x="${L - 10}" y="${y(a) + 4}" font-size="12" fill="${C.muted}" text-anchor="end">${Math.round(a * 100)}%</text>`;
   s += `<text x="${(L + W - Rr) / 2}" y="${H - 22}" font-size="13" fill="${C.muted}" text-anchor="middle">Cost per 1,000 decisions</text>`;
-  const off = { "typesafe/jev-1.13": [10, -10], "typesafe/jev-1.14": [10, 16], "nace-ai/drex-max": [10, -8], "openai/gpt-6-luna-decisions": [-12, 5, "end"] };
+  const off = { "typesafe/jev-1.13": [10, -10], "typesafe/jev-1.14": [10, 16], "nace-ai/drex-max-v1.1": [10, 20], "perplexity/pplx-decider-v1.2": [-12, 5, "end"], "openai/gpt-6-luna-decisions": [-12, 5, "end"] };
   models.forEach(m => {
     const cx = x(R.ops[m].cost_per_1k), cy = y(R.point[m].overall), col = tied.has(m) ? C.accent : C.muted, [dx, dy, anc] = off[m] || [10, 5];
     s += `<circle cx="${cx}" cy="${cy}" r="8" fill="${col}"/><text x="${cx + dx}" y="${cy + dy}" font-size="13" fill="${C.fg}" text-anchor="${anc || "start"}">${esc(NAME[m])}</text>`;
   });
-  const dm = "nace-ai/drex-max", lx = x(R.ops[dm].cost_per_1k * 2), ly = y(R.point[dm].overall);
-  s += `<circle cx="${lx}" cy="${ly}" r="7" fill="none" stroke="${C.warn}" stroke-width="2" stroke-dasharray="3 3"/><text x="${lx - 10}" y="${ly + 26}" font-size="12" fill="${C.warn}" text-anchor="end">Drex Max on OpenRouter at list price (no 50% promo)</text>`;
-  // Drex Max's own API is $0.03/M vs $0.06/M on OpenRouter (the only model whose direct price differs); not tested directly
-  const dx = x(R.ops[dm].cost_per_1k * 0.5);
-  s += `<circle cx="${dx}" cy="${ly}" r="7" fill="none" stroke="${C.accent}" stroke-width="2" stroke-dasharray="3 3"/><line x1="${dx + 8}" x2="${x(R.ops[dm].cost_per_1k) - 9}" y1="${ly}" y2="${ly}" stroke="${C.accent}" stroke-width="1" stroke-dasharray="2 3"/><text x="${dx}" y="${ly + 26}" font-size="12" fill="${C.accent}" text-anchor="middle">Drex Max via Nace's own API ($0.03/M)</text>`;
   save("3_value", W, H, s);
 })();
 
-// 4. Overconfidence: accuracy when >=90% sure vs how often they claim it, severity tasks
+// 4. Average confidence vs share right (all tasks)
 (function conf() {
-  const W = 900, left = 230, top = 96, rowH = 46, H = top + models.length * rowH + 50, x0 = left, w = W - left - 60;
-  let s = title("When a model says it is 90%+ sure, is it right?", "Firefox + advisory severity. Bar = how often it claims 90%+. Dot = how often it is then right.");
-  [0, 0.25, 0.5, 0.75, 1].forEach(v => s += `<line x1="${x0 + v * w}" x2="${x0 + v * w}" y1="${top}" y2="${top + models.length * rowH}" stroke="${C.grid}"/><text x="${x0 + v * w}" y="${top + models.length * rowH + 22}" font-size="12" fill="${C.muted}" text-anchor="middle">${v * 100}%</text>`);
-  s += `<line x1="${x0 + 0.9 * w}" x2="${x0 + 0.9 * w}" y1="${top}" y2="${top + models.length * rowH}" stroke="${C.warn}" stroke-dasharray="4 4"/><text x="${x0 + 0.9 * w}" y="${top - 8}" font-size="12" fill="${C.warn}" text-anchor="middle">90% = honest</text>`;
-  models.forEach((m, i) => {
-    const y = top + i * rowH, t4 = R.metrics[m].T4, t5 = R.metrics[m].T5;
-    const share = (t4.conf90_share + t5.conf90_share) / 2;
-    const accs = [[t4.conf90_acc, t4.conf90_share], [t5.conf90_acc, t5.conf90_share]].filter(([a, sh]) => a !== null && sh > 0);
-    const acc = accs.length ? accs.reduce((s2, [a, sh]) => s2 + a * sh, 0) / accs.reduce((s2, [, sh]) => s2 + sh, 0) : null;
-    s += `<text x="${left - 14}" y="${y + rowH / 2 + 5}" font-size="14" fill="${C.fg}" text-anchor="end">${esc(NAME[m])}</text>`;
-    s += `<rect x="${x0}" y="${y + 10}" width="${share * w}" height="${rowH - 20}" fill="#c9d3dc" rx="3"/>`;
-    s += `<text x="${x0 + share * w + 6}" y="${y + rowH / 2 + 5}" font-size="12" fill="${C.muted}">${(share * 100).toFixed(0)}% of answers</text>`;
-    if (acc !== null && share >= 0.05) {
-      const col = acc < 0.75 ? C.warn : C.accent;
-      s += `<circle cx="${x0 + acc * w}" cy="${y + rowH / 2}" r="7" fill="${col}"/><text x="${x0 + acc * w}" y="${y + 8}" font-size="12" fill="${col}" text-anchor="middle">right ${(acc * 100).toFixed(0)}%</text>`;
-    } else {
-      s += `<text x="${x0 + 0.30 * w}" y="${y + rowH / 2 + 5}" font-size="12" fill="${C.muted}" font-style="italic">rarely claims 90%+ (under 5% of answers), too few to judge</text>`;
-    }
+  const order = Object.keys(CONF).sort((a, b) => CONF[a].gap - CONF[b].gap);
+  const W = 900, left = 230, right = 120, top = 104, rowH = 42, H = top + order.length * rowH + 50;
+  const lo = 0.60, hi = 0.90, x = v => left + (v - lo) / (hi - lo) * (W - left - right);
+  let s = title("How honest is each model's confidence?", "Average confidence in its answer vs how often that answer was right, all tasks. Shorter bar = more honest.");
+  s += `<circle cx="30" cy="78" r="6" fill="${C.fg}"/><text x="42" y="83" font-size="13" fill="${C.fg}">Share right</text>`;
+  s += `<circle cx="150" cy="78" r="6" fill="none" stroke="${C.warn}" stroke-width="2.5"/><text x="162" y="83" font-size="13" fill="${C.fg}">Average confidence</text>`;
+  for (let v = 0.60; v <= 0.9001; v += 0.05) s += `<line x1="${x(v)}" x2="${x(v)}" y1="${top}" y2="${top + order.length * rowH}" stroke="${C.grid}"/><text x="${x(v)}" y="${top + order.length * rowH + 22}" font-size="12" fill="${C.muted}" text-anchor="middle">${Math.round(v * 100)}%</text>`;
+  order.forEach((m, i) => {
+    const y = top + i * rowH + rowH / 2, c = CONF[m], gap = c.gap, col = gap > 0.1 ? C.warn : C.accent;
+    s += `<text x="${left - 14}" y="${y + 5}" font-size="14" fill="${C.fg}" text-anchor="end">${esc(NAME[m])}</text>`;
+    s += `<line x1="${x(c.accuracy)}" x2="${x(c.avg_confidence)}" y1="${y}" y2="${y}" stroke="${col}" stroke-width="6" stroke-linecap="round" opacity="0.35"/>`;
+    s += `<circle cx="${x(c.accuracy)}" cy="${y}" r="7" fill="${C.fg}"/><circle cx="${x(c.avg_confidence)}" cy="${y}" r="7" fill="${C.bg}" stroke="${C.warn}" stroke-width="2.5"/>`;
+    s += `<text x="${x(c.avg_confidence) + 14}" y="${y + 5}" font-size="13" font-weight="700" fill="${col}">+${(gap * 100).toFixed(1)} pts</text>`;
   });
-  save("4_overconfidence", W, H, s);
+  save("4_confidence", W, H, s);
 })();
 
 // 5. Total score stacked
