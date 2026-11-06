@@ -1,0 +1,8 @@
+{
+  "_checked": "2026-11-06, provider's own official pricing page, read directly (browser / curl)",
+  "typesafe": {"signup_credit_usd": 0, "source": "https://docs.typesafe.ai/models (typesafe.ai/pricing redirects here)", "note": "no free credit mentioned"},
+  "perplexity": {"signup_credit_usd": 0, "source": "https://docs.perplexity.ai/docs/getting-started/pricing", "note": "no free credit mentioned; credits are purchased"},
+  "liquid": {"signup_credit_usd": 2, "source": "https://www.liquid.ai/pricing", "note": "'$2 in free credit for every new organization'"},
+  "openai": {"signup_credit_usd": 0, "source": "https://openai.com/business/pricing/#api", "note": "no free API credit mentioned"},
+  "nace": {"signup_credit_usd": 5, "source": "https://drex.nace.ai/docs/drex/reference/pricing", "note": "'Signup balance $5' (not for disposable email domains); the page also lists a monthly allowance and referral rewards, which are not scored (pre-registered rule counts signup credit only)"}
+}

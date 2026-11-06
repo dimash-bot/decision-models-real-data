@@ -1,0 +1,3468 @@
+{
+ "jev": [
+  {
+   "id": "49717558",
+   "url": "https://news.ycombinator.com/item?id=49717558",
+   "type": "story",
+   "created": "2026-09-15T19:25:03Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49812769",
+   "url": "https://news.ycombinator.com/item?id=49812769",
+   "type": "story",
+   "created": "2026-09-23T07:26:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50106023",
+   "url": "https://news.ycombinator.com/item?id=50106023",
+   "type": "story",
+   "created": "2026-10-15T16:24:52Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49848269",
+   "url": "https://news.ycombinator.com/item?id=49848269",
+   "type": "story",
+   "created": "2026-09-25T18:33:50Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49883844",
+   "url": "https://news.ycombinator.com/item?id=49883844",
+   "type": "story",
+   "created": "2026-09-28T20:23:36Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49783999",
+   "url": "https://news.ycombinator.com/item?id=49783999",
+   "type": "story",
+   "created": "2026-09-21T07:11:55Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50095353",
+   "url": "https://news.ycombinator.com/item?id=50095353",
+   "type": "story",
+   "created": "2026-10-14T21:11:03Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49802161",
+   "url": "https://news.ycombinator.com/item?id=49802161",
+   "type": "story",
+   "created": "2026-09-22T14:42:59Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49845172",
+   "url": "https://news.ycombinator.com/item?id=49845172",
+   "type": "story",
+   "created": "2026-09-25T14:28:07Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49891290",
+   "url": "https://news.ycombinator.com/item?id=49891290",
+   "type": "story",
+   "created": "2026-09-29T11:13:54Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49784706",
+   "url": "https://news.ycombinator.com/item?id=49784706",
+   "type": "story",
+   "created": "2026-09-21T08:39:32Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49891203",
+   "url": "https://news.ycombinator.com/item?id=49891203",
+   "type": "story",
+   "created": "2026-09-29T11:06:25Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49778162",
+   "url": "https://news.ycombinator.com/item?id=49778162",
+   "type": "story",
+   "created": "2026-09-20T17:51:27Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49731282",
+   "url": "https://news.ycombinator.com/item?id=49731282",
+   "type": "story",
+   "created": "2026-09-16T18:49:57Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49933476",
+   "url": "https://news.ycombinator.com/item?id=49933476",
+   "type": "story",
+   "created": "2026-10-02T13:47:41Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49853175",
+   "url": "https://news.ycombinator.com/item?id=49853175",
+   "type": "story",
+   "created": "2026-09-26T04:20:58Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49857656",
+   "url": "https://news.ycombinator.com/item?id=49857656",
+   "type": "story",
+   "created": "2026-09-26T15:49:04Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49736660",
+   "url": "https://news.ycombinator.com/item?id=49736660",
+   "type": "story",
+   "created": "2026-09-17T05:13:00Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49802160",
+   "url": "https://news.ycombinator.com/item?id=49802160",
+   "type": "story",
+   "created": "2026-09-22T14:42:57Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50206361",
+   "url": "https://news.ycombinator.com/item?id=50206361",
+   "type": "story",
+   "created": "2026-10-23T09:21:00Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49735979",
+   "url": "https://news.ycombinator.com/item?id=49735979",
+   "type": "story",
+   "created": "2026-09-17T03:12:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50167617",
+   "url": "https://news.ycombinator.com/item?id=50167617",
+   "type": "story",
+   "created": "2026-10-20T15:11:56Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49829625",
+   "url": "https://news.ycombinator.com/item?id=49829625",
+   "type": "story",
+   "created": "2026-09-24T12:21:16Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49891769",
+   "url": "https://news.ycombinator.com/item?id=49891769",
+   "type": "story",
+   "created": "2026-09-29T12:05:07Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49816899",
+   "url": "https://news.ycombinator.com/item?id=49816899",
+   "type": "story",
+   "created": "2026-09-23T14:39:57Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49846391",
+   "url": "https://news.ycombinator.com/item?id=49846391",
+   "type": "story",
+   "created": "2026-09-25T16:04:04Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49934399",
+   "url": "https://news.ycombinator.com/item?id=49934399",
+   "type": "story",
+   "created": "2026-10-02T15:12:41Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49796843",
+   "url": "https://news.ycombinator.com/item?id=49796843",
+   "type": "story",
+   "created": "2026-09-22T04:38:31Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49986765",
+   "url": "https://news.ycombinator.com/item?id=49986765",
+   "type": "story",
+   "created": "2026-10-07T01:27:49Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49840300",
+   "url": "https://news.ycombinator.com/item?id=49840300",
+   "type": "story",
+   "created": "2026-09-25T04:49:23Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50068443",
+   "url": "https://news.ycombinator.com/item?id=50068443",
+   "type": "story",
+   "created": "2026-10-13T08:24:51Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49895970",
+   "url": "https://news.ycombinator.com/item?id=49895970",
+   "type": "story",
+   "created": "2026-09-29T16:25:09Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49780849",
+   "url": "https://news.ycombinator.com/item?id=49780849",
+   "type": "story",
+   "created": "2026-09-20T22:39:47Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49806864",
+   "url": "https://news.ycombinator.com/item?id=49806864",
+   "type": "story",
+   "created": "2026-09-22T19:30:09Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49757757",
+   "url": "https://news.ycombinator.com/item?id=49757757",
+   "type": "story",
+   "created": "2026-09-18T17:46:21Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49781694",
+   "url": "https://news.ycombinator.com/item?id=49781694",
+   "type": "story",
+   "created": "2026-09-21T00:42:20Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49821894",
+   "url": "https://news.ycombinator.com/item?id=49821894",
+   "type": "story",
+   "created": "2026-09-23T20:17:19Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49894301",
+   "url": "https://news.ycombinator.com/item?id=49894301",
+   "type": "story",
+   "created": "2026-09-29T14:48:54Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49716682",
+   "url": "https://news.ycombinator.com/item?id=49716682",
+   "type": "story",
+   "created": "2026-09-15T18:25:57Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49806080",
+   "url": "https://news.ycombinator.com/item?id=49806080",
+   "type": "story",
+   "created": "2026-09-22T18:37:32Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49748997",
+   "url": "https://news.ycombinator.com/item?id=49748997",
+   "type": "story",
+   "created": "2026-09-18T01:10:59Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50070393",
+   "url": "https://news.ycombinator.com/item?id=50070393",
+   "type": "story",
+   "created": "2026-10-13T12:08:53Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49868483",
+   "url": "https://news.ycombinator.com/item?id=49868483",
+   "type": "story",
+   "created": "2026-09-27T16:59:15Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49839510",
+   "url": "https://news.ycombinator.com/item?id=49839510",
+   "type": "story",
+   "created": "2026-09-25T02:24:21Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49916865",
+   "url": "https://news.ycombinator.com/item?id=49916865",
+   "type": "story",
+   "created": "2026-10-01T02:12:38Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49847306",
+   "url": "https://news.ycombinator.com/item?id=49847306",
+   "type": "story",
+   "created": "2026-09-25T17:16:20Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49788402",
+   "url": "https://news.ycombinator.com/item?id=49788402",
+   "type": "story",
+   "created": "2026-09-21T15:16:30Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49815066",
+   "url": "https://news.ycombinator.com/item?id=49815066",
+   "type": "story",
+   "created": "2026-09-23T12:25:21Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49791782",
+   "url": "https://news.ycombinator.com/item?id=49791782",
+   "type": "story",
+   "created": "2026-09-21T19:03:31Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49870654",
+   "url": "https://news.ycombinator.com/item?id=49870654",
+   "type": "story",
+   "created": "2026-09-27T20:46:03Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49754516",
+   "url": "https://news.ycombinator.com/item?id=49754516",
+   "type": "story",
+   "created": "2026-09-18T13:58:15Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49776887",
+   "url": "https://news.ycombinator.com/item?id=49776887",
+   "type": "story",
+   "created": "2026-09-20T15:34:45Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50083881",
+   "url": "https://news.ycombinator.com/item?id=50083881",
+   "type": "story",
+   "created": "2026-10-14T07:43:42Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50166746",
+   "url": "https://news.ycombinator.com/item?id=50166746",
+   "type": "story",
+   "created": "2026-10-20T14:10:45Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49773756",
+   "url": "https://news.ycombinator.com/item?id=49773756",
+   "type": "story",
+   "created": "2026-09-20T08:31:26Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49923223",
+   "url": "https://news.ycombinator.com/item?id=49923223",
+   "type": "story",
+   "created": "2026-10-01T15:44:42Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49758022",
+   "url": "https://news.ycombinator.com/item?id=49758022",
+   "type": "story",
+   "created": "2026-09-18T18:07:36Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50342630",
+   "url": "https://news.ycombinator.com/item?id=50342630",
+   "type": "story",
+   "created": "2026-11-02T19:48:47Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49894699",
+   "url": "https://news.ycombinator.com/item?id=49894699",
+   "type": "story",
+   "created": "2026-09-29T15:11:25Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49933643",
+   "url": "https://news.ycombinator.com/item?id=49933643",
+   "type": "story",
+   "created": "2026-10-02T14:01:16Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49783588",
+   "url": "https://news.ycombinator.com/item?id=49783588",
+   "type": "story",
+   "created": "2026-09-21T06:10:37Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49858032",
+   "url": "https://news.ycombinator.com/item?id=49858032",
+   "type": "story",
+   "created": "2026-09-26T16:24:27Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49881537",
+   "url": "https://news.ycombinator.com/item?id=49881537",
+   "type": "story",
+   "created": "2026-09-28T17:37:04Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49760264",
+   "url": "https://news.ycombinator.com/item?id=49760264",
+   "type": "story",
+   "created": "2026-09-18T21:06:30Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49896979",
+   "url": "https://news.ycombinator.com/item?id=49896979",
+   "type": "story",
+   "created": "2026-09-29T17:27:00Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49849950",
+   "url": "https://news.ycombinator.com/item?id=49849950",
+   "type": "story",
+   "created": "2026-09-25T21:06:25Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49777691",
+   "url": "https://news.ycombinator.com/item?id=49777691",
+   "type": "story",
+   "created": "2026-09-20T17:07:03Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49737236",
+   "url": "https://news.ycombinator.com/item?id=49737236",
+   "type": "story",
+   "created": "2026-09-17T06:49:26Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49976996",
+   "url": "https://news.ycombinator.com/item?id=49976996",
+   "type": "story",
+   "created": "2026-10-06T11:35:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49922799",
+   "url": "https://news.ycombinator.com/item?id=49922799",
+   "type": "story",
+   "created": "2026-10-01T15:15:33Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49800830",
+   "url": "https://news.ycombinator.com/item?id=49800830",
+   "type": "story",
+   "created": "2026-09-22T13:19:15Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49757009",
+   "url": "https://news.ycombinator.com/item?id=49757009",
+   "type": "story",
+   "created": "2026-09-18T16:51:35Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49754461",
+   "url": "https://news.ycombinator.com/item?id=49754461",
+   "type": "story",
+   "created": "2026-09-18T13:54:02Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50072702",
+   "url": "https://news.ycombinator.com/item?id=50072702",
+   "type": "story",
+   "created": "2026-10-13T14:54:11Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49871553",
+   "url": "https://news.ycombinator.com/item?id=49871553",
+   "type": "story",
+   "created": "2026-09-27T22:42:20Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49837132",
+   "url": "https://news.ycombinator.com/item?id=49837132",
+   "type": "story",
+   "created": "2026-09-24T21:46:21Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49766351",
+   "url": "https://news.ycombinator.com/item?id=49766351",
+   "type": "story",
+   "created": "2026-09-19T13:15:38Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50156970",
+   "url": "https://news.ycombinator.com/item?id=50156970",
+   "type": "story",
+   "created": "2026-10-19T19:34:39Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50088315",
+   "url": "https://news.ycombinator.com/item?id=50088315",
+   "type": "story",
+   "created": "2026-10-14T14:30:48Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50019952",
+   "url": "https://news.ycombinator.com/item?id=50019952",
+   "type": "story",
+   "created": "2026-10-09T13:07:00Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49982478",
+   "url": "https://news.ycombinator.com/item?id=49982478",
+   "type": "story",
+   "created": "2026-10-06T18:52:49Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49824733",
+   "url": "https://news.ycombinator.com/item?id=49824733",
+   "type": "story",
+   "created": "2026-09-24T00:46:41Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49804788",
+   "url": "https://news.ycombinator.com/item?id=49804788",
+   "type": "story",
+   "created": "2026-09-22T17:18:52Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49755430",
+   "url": "https://news.ycombinator.com/item?id=49755430",
+   "type": "story",
+   "created": "2026-09-18T15:04:53Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49778268",
+   "url": "https://news.ycombinator.com/item?id=49778268",
+   "type": "story",
+   "created": "2026-09-20T18:03:49Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49817009",
+   "url": "https://news.ycombinator.com/item?id=49817009",
+   "type": "story",
+   "created": "2026-09-23T14:46:40Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49748596",
+   "url": "https://news.ycombinator.com/item?id=49748596",
+   "type": "story",
+   "created": "2026-09-18T00:16:31Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49813610",
+   "url": "https://news.ycombinator.com/item?id=49813610",
+   "type": "story",
+   "created": "2026-09-23T09:40:21Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49767430",
+   "url": "https://news.ycombinator.com/item?id=49767430",
+   "type": "story",
+   "created": "2026-09-19T15:37:34Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50109686",
+   "url": "https://news.ycombinator.com/item?id=50109686",
+   "type": "story",
+   "created": "2026-10-15T20:21:06Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50063649",
+   "url": "https://news.ycombinator.com/item?id=50063649",
+   "type": "story",
+   "created": "2026-10-12T21:59:33Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50026662",
+   "url": "https://news.ycombinator.com/item?id=50026662",
+   "type": "story",
+   "created": "2026-10-09T21:17:28Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49975067",
+   "url": "https://news.ycombinator.com/item?id=49975067",
+   "type": "story",
+   "created": "2026-10-06T06:45:49Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49945642",
+   "url": "https://news.ycombinator.com/item?id=49945642",
+   "type": "story",
+   "created": "2026-10-03T16:30:23Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49886390",
+   "url": "https://news.ycombinator.com/item?id=49886390",
+   "type": "story",
+   "created": "2026-09-29T00:31:44Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49845146",
+   "url": "https://news.ycombinator.com/item?id=49845146",
+   "type": "story",
+   "created": "2026-09-25T14:26:01Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49830000",
+   "url": "https://news.ycombinator.com/item?id=49830000",
+   "type": "story",
+   "created": "2026-09-24T13:01:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49771155",
+   "url": "https://news.ycombinator.com/item?id=49771155",
+   "type": "story",
+   "created": "2026-09-19T23:52:12Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49764070",
+   "url": "https://news.ycombinator.com/item?id=49764070",
+   "type": "story",
+   "created": "2026-09-19T07:00:11Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49762547",
+   "url": "https://news.ycombinator.com/item?id=49762547",
+   "type": "story",
+   "created": "2026-09-19T01:52:40Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50082728",
+   "url": "https://news.ycombinator.com/item?id=50082728",
+   "type": "story",
+   "created": "2026-10-14T05:21:35Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50035460",
+   "url": "https://news.ycombinator.com/item?id=50035460",
+   "type": "story",
+   "created": "2026-10-10T18:02:40Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50007225",
+   "url": "https://news.ycombinator.com/item?id=50007225",
+   "type": "story",
+   "created": "2026-10-08T15:44:03Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49880146",
+   "url": "https://news.ycombinator.com/item?id=49880146",
+   "type": "story",
+   "created": "2026-09-28T16:00:35Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49866106",
+   "url": "https://news.ycombinator.com/item?id=49866106",
+   "type": "story",
+   "created": "2026-09-27T12:29:28Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49852920",
+   "url": "https://news.ycombinator.com/item?id=49852920",
+   "type": "story",
+   "created": "2026-09-26T03:26:26Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49820112",
+   "url": "https://news.ycombinator.com/item?id=49820112",
+   "type": "story",
+   "created": "2026-09-23T18:05:32Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49789538",
+   "url": "https://news.ycombinator.com/item?id=49789538",
+   "type": "story",
+   "created": "2026-09-21T16:34:27Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49788903",
+   "url": "https://news.ycombinator.com/item?id=49788903",
+   "type": "story",
+   "created": "2026-09-21T15:54:34Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49781612",
+   "url": "https://news.ycombinator.com/item?id=49781612",
+   "type": "story",
+   "created": "2026-09-21T00:26:51Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49771494",
+   "url": "https://news.ycombinator.com/item?id=49771494",
+   "type": "story",
+   "created": "2026-09-20T00:46:31Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49751140",
+   "url": "https://news.ycombinator.com/item?id=49751140",
+   "type": "story",
+   "created": "2026-09-18T07:19:19Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49830385",
+   "url": "https://news.ycombinator.com/item?id=49830385",
+   "type": "story",
+   "created": "2026-09-24T13:35:57Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50071000",
+   "url": "https://news.ycombinator.com/item?id=50071000",
+   "type": "story",
+   "created": "2026-10-13T13:00:30Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49955930",
+   "url": "https://news.ycombinator.com/item?id=49955930",
+   "type": "story",
+   "created": "2026-10-04T17:30:38Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49794590",
+   "url": "https://news.ycombinator.com/item?id=49794590",
+   "type": "story",
+   "created": "2026-09-21T23:01:51Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50101776",
+   "url": "https://news.ycombinator.com/item?id=50101776",
+   "type": "story",
+   "created": "2026-10-15T10:39:36Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49907865",
+   "url": "https://news.ycombinator.com/item?id=49907865",
+   "type": "story",
+   "created": "2026-09-30T12:23:19Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49879648",
+   "url": "https://news.ycombinator.com/item?id=49879648",
+   "type": "story",
+   "created": "2026-09-28T15:32:21Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49770295",
+   "url": "https://news.ycombinator.com/item?id=49770295",
+   "type": "story",
+   "created": "2026-09-19T21:31:03Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49804096",
+   "url": "https://news.ycombinator.com/item?id=49804096",
+   "type": "story",
+   "created": "2026-09-22T16:40:41Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49796792",
+   "url": "https://news.ycombinator.com/item?id=49796792",
+   "type": "story",
+   "created": "2026-09-22T04:27:19Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49795109",
+   "url": "https://news.ycombinator.com/item?id=49795109",
+   "type": "story",
+   "created": "2026-09-22T00:05:39Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49767987",
+   "url": "https://news.ycombinator.com/item?id=49767987",
+   "type": "story",
+   "created": "2026-09-19T16:39:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49754951",
+   "url": "https://news.ycombinator.com/item?id=49754951",
+   "type": "story",
+   "created": "2026-09-18T14:30:50Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49751902",
+   "url": "https://news.ycombinator.com/item?id=49751902",
+   "type": "story",
+   "created": "2026-09-18T09:17:41Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50372564",
+   "url": "https://news.ycombinator.com/item?id=50372564",
+   "type": "story",
+   "created": "2026-11-04T22:49:33Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50299835",
+   "url": "https://news.ycombinator.com/item?id=50299835",
+   "type": "story",
+   "created": "2026-10-30T04:21:09Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50226125",
+   "url": "https://news.ycombinator.com/item?id=50226125",
+   "type": "story",
+   "created": "2026-10-24T22:36:04Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50181149",
+   "url": "https://news.ycombinator.com/item?id=50181149",
+   "type": "story",
+   "created": "2026-10-21T14:01:57Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50158441",
+   "url": "https://news.ycombinator.com/item?id=50158441",
+   "type": "story",
+   "created": "2026-10-19T21:40:39Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50026883",
+   "url": "https://news.ycombinator.com/item?id=50026883",
+   "type": "story",
+   "created": "2026-10-09T21:38:17Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50010094",
+   "url": "https://news.ycombinator.com/item?id=50010094",
+   "type": "story",
+   "created": "2026-10-08T18:40:33Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49952885",
+   "url": "https://news.ycombinator.com/item?id=49952885",
+   "type": "story",
+   "created": "2026-10-04T11:18:50Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49934879",
+   "url": "https://news.ycombinator.com/item?id=49934879",
+   "type": "story",
+   "created": "2026-10-02T15:49:56Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49921249",
+   "url": "https://news.ycombinator.com/item?id=49921249",
+   "type": "story",
+   "created": "2026-10-01T13:14:59Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49920350",
+   "url": "https://news.ycombinator.com/item?id=49920350",
+   "type": "story",
+   "created": "2026-10-01T11:33:26Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49908997",
+   "url": "https://news.ycombinator.com/item?id=49908997",
+   "type": "story",
+   "created": "2026-09-30T13:53:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49881336",
+   "url": "https://news.ycombinator.com/item?id=49881336",
+   "type": "story",
+   "created": "2026-09-28T17:21:26Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49879637",
+   "url": "https://news.ycombinator.com/item?id=49879637",
+   "type": "story",
+   "created": "2026-09-28T15:31:46Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49866629",
+   "url": "https://news.ycombinator.com/item?id=49866629",
+   "type": "story",
+   "created": "2026-09-27T13:48:51Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49864950",
+   "url": "https://news.ycombinator.com/item?id=49864950",
+   "type": "story",
+   "created": "2026-09-27T09:28:57Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49851853",
+   "url": "https://news.ycombinator.com/item?id=49851853",
+   "type": "story",
+   "created": "2026-09-26T00:25:57Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49848470",
+   "url": "https://news.ycombinator.com/item?id=49848470",
+   "type": "story",
+   "created": "2026-09-25T18:54:01Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49844668",
+   "url": "https://news.ycombinator.com/item?id=49844668",
+   "type": "story",
+   "created": "2026-09-25T13:49:30Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49817923",
+   "url": "https://news.ycombinator.com/item?id=49817923",
+   "type": "story",
+   "created": "2026-09-23T15:49:44Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49815958",
+   "url": "https://news.ycombinator.com/item?id=49815958",
+   "type": "story",
+   "created": "2026-09-23T13:36:33Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49798734",
+   "url": "https://news.ycombinator.com/item?id=49798734",
+   "type": "story",
+   "created": "2026-09-22T09:53:35Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49790936",
+   "url": "https://news.ycombinator.com/item?id=49790936",
+   "type": "story",
+   "created": "2026-09-21T18:03:54Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49787999",
+   "url": "https://news.ycombinator.com/item?id=49787999",
+   "type": "story",
+   "created": "2026-09-21T14:48:07Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49787871",
+   "url": "https://news.ycombinator.com/item?id=49787871",
+   "type": "story",
+   "created": "2026-09-21T14:38:27Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49787870",
+   "url": "https://news.ycombinator.com/item?id=49787870",
+   "type": "story",
+   "created": "2026-09-21T14:38:12Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49787418",
+   "url": "https://news.ycombinator.com/item?id=49787418",
+   "type": "story",
+   "created": "2026-09-21T14:01:16Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49787265",
+   "url": "https://news.ycombinator.com/item?id=49787265",
+   "type": "story",
+   "created": "2026-09-21T13:49:14Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49778273",
+   "url": "https://news.ycombinator.com/item?id=49778273",
+   "type": "story",
+   "created": "2026-09-20T18:04:07Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49768899",
+   "url": "https://news.ycombinator.com/item?id=49768899",
+   "type": "story",
+   "created": "2026-09-19T18:18:39Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49762789",
+   "url": "https://news.ycombinator.com/item?id=49762789",
+   "type": "story",
+   "created": "2026-09-19T02:40:53Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49747584",
+   "url": "https://news.ycombinator.com/item?id=49747584",
+   "type": "story",
+   "created": "2026-09-17T22:32:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49747155",
+   "url": "https://news.ycombinator.com/item?id=49747155",
+   "type": "story",
+   "created": "2026-09-17T21:55:28Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49847565",
+   "url": "https://news.ycombinator.com/item?id=49847565",
+   "type": "story",
+   "created": "2026-09-25T17:33:16Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50242523",
+   "url": "https://news.ycombinator.com/item?id=50242523",
+   "type": "story",
+   "created": "2026-10-26T12:29:36Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50230161",
+   "url": "https://news.ycombinator.com/item?id=50230161",
+   "type": "story",
+   "created": "2026-10-25T10:39:10Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49793779",
+   "url": "https://news.ycombinator.com/item?id=49793779",
+   "type": "story",
+   "created": "2026-09-21T21:35:51Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49788260",
+   "url": "https://news.ycombinator.com/item?id=49788260",
+   "type": "story",
+   "created": "2026-09-21T15:06:23Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49946437",
+   "url": "https://news.ycombinator.com/item?id=49946437",
+   "type": "story",
+   "created": "2026-10-03T18:12:14Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49855980",
+   "url": "https://news.ycombinator.com/item?id=49855980",
+   "type": "story",
+   "created": "2026-09-26T12:44:18Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49807602",
+   "url": "https://news.ycombinator.com/item?id=49807602",
+   "type": "story",
+   "created": "2026-09-22T20:28:12Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49777476",
+   "url": "https://news.ycombinator.com/item?id=49777476",
+   "type": "story",
+   "created": "2026-09-20T16:42:51Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49772632",
+   "url": "https://news.ycombinator.com/item?id=49772632",
+   "type": "story",
+   "created": "2026-09-20T05:04:41Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50302722",
+   "url": "https://news.ycombinator.com/item?id=50302722",
+   "type": "story",
+   "created": "2026-10-30T11:54:57Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50267832",
+   "url": "https://news.ycombinator.com/item?id=50267832",
+   "type": "story",
+   "created": "2026-10-28T00:28:45Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49912849",
+   "url": "https://news.ycombinator.com/item?id=49912849",
+   "type": "story",
+   "created": "2026-09-30T18:55:17Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49888632",
+   "url": "https://news.ycombinator.com/item?id=49888632",
+   "type": "story",
+   "created": "2026-09-29T05:24:03Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49853574",
+   "url": "https://news.ycombinator.com/item?id=49853574",
+   "type": "story",
+   "created": "2026-09-26T05:46:54Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49813200",
+   "url": "https://news.ycombinator.com/item?id=49813200",
+   "type": "story",
+   "created": "2026-09-23T08:33:58Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49787381",
+   "url": "https://news.ycombinator.com/item?id=49787381",
+   "type": "story",
+   "created": "2026-09-21T13:58:03Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49777995",
+   "url": "https://news.ycombinator.com/item?id=49777995",
+   "type": "story",
+   "created": "2026-09-20T17:36:03Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49774338",
+   "url": "https://news.ycombinator.com/item?id=49774338",
+   "type": "story",
+   "created": "2026-09-20T10:10:02Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49745984",
+   "url": "https://news.ycombinator.com/item?id=49745984",
+   "type": "story",
+   "created": "2026-09-17T20:21:53Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49738273",
+   "url": "https://news.ycombinator.com/item?id=49738273",
+   "type": "story",
+   "created": "2026-09-17T09:20:45Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50382308",
+   "url": "https://news.ycombinator.com/item?id=50382308",
+   "type": "story",
+   "created": "2026-11-05T18:11:11Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50336359",
+   "url": "https://news.ycombinator.com/item?id=50336359",
+   "type": "story",
+   "created": "2026-11-02T13:09:46Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50249197",
+   "url": "https://news.ycombinator.com/item?id=50249197",
+   "type": "story",
+   "created": "2026-10-26T19:00:32Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50195723",
+   "url": "https://news.ycombinator.com/item?id=50195723",
+   "type": "story",
+   "created": "2026-10-22T14:19:10Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50063259",
+   "url": "https://news.ycombinator.com/item?id=50063259",
+   "type": "story",
+   "created": "2026-10-12T21:24:07Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50050695",
+   "url": "https://news.ycombinator.com/item?id=50050695",
+   "type": "story",
+   "created": "2026-10-12T02:43:10Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50035784",
+   "url": "https://news.ycombinator.com/item?id=50035784",
+   "type": "story",
+   "created": "2026-10-10T18:37:32Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50027766",
+   "url": "https://news.ycombinator.com/item?id=50027766",
+   "type": "story",
+   "created": "2026-10-09T23:14:48Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50026409",
+   "url": "https://news.ycombinator.com/item?id=50026409",
+   "type": "story",
+   "created": "2026-10-09T20:49:15Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49995056",
+   "url": "https://news.ycombinator.com/item?id=49995056",
+   "type": "story",
+   "created": "2026-10-07T16:28:03Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49983198",
+   "url": "https://news.ycombinator.com/item?id=49983198",
+   "type": "story",
+   "created": "2026-10-06T19:52:40Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49982760",
+   "url": "https://news.ycombinator.com/item?id=49982760",
+   "type": "story",
+   "created": "2026-10-06T19:16:17Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49961971",
+   "url": "https://news.ycombinator.com/item?id=49961971",
+   "type": "story",
+   "created": "2026-10-05T08:03:23Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49944224",
+   "url": "https://news.ycombinator.com/item?id=49944224",
+   "type": "story",
+   "created": "2026-10-03T13:46:18Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49930615",
+   "url": "https://news.ycombinator.com/item?id=49930615",
+   "type": "story",
+   "created": "2026-10-02T07:04:34Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49906337",
+   "url": "https://news.ycombinator.com/item?id=49906337",
+   "type": "story",
+   "created": "2026-09-30T09:15:33Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49904383",
+   "url": "https://news.ycombinator.com/item?id=49904383",
+   "type": "story",
+   "created": "2026-09-30T04:34:30Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49879676",
+   "url": "https://news.ycombinator.com/item?id=49879676",
+   "type": "story",
+   "created": "2026-09-28T15:33:52Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49878572",
+   "url": "https://news.ycombinator.com/item?id=49878572",
+   "type": "story",
+   "created": "2026-09-28T14:29:07Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49876472",
+   "url": "https://news.ycombinator.com/item?id=49876472",
+   "type": "story",
+   "created": "2026-09-28T11:37:25Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50389863",
+   "url": "https://news.ycombinator.com/item?id=50389863",
+   "type": "comment",
+   "created": "2026-11-06T08:58:22Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50389805",
+   "url": "https://news.ycombinator.com/item?id=50389805",
+   "type": "comment",
+   "created": "2026-11-06T08:51:27Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50388445",
+   "url": "https://news.ycombinator.com/item?id=50388445",
+   "type": "comment",
+   "created": "2026-11-06T05:06:49Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50387895",
+   "url": "https://news.ycombinator.com/item?id=50387895",
+   "type": "comment",
+   "created": "2026-11-06T03:44:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50384564",
+   "url": "https://news.ycombinator.com/item?id=50384564",
+   "type": "comment",
+   "created": "2026-11-05T21:16:32Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50382076",
+   "url": "https://news.ycombinator.com/item?id=50382076",
+   "type": "comment",
+   "created": "2026-11-05T17:50:59Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50381307",
+   "url": "https://news.ycombinator.com/item?id=50381307",
+   "type": "comment",
+   "created": "2026-11-05T16:43:46Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50380803",
+   "url": "https://news.ycombinator.com/item?id=50380803",
+   "type": "comment",
+   "created": "2026-11-05T16:01:10Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50380310",
+   "url": "https://news.ycombinator.com/item?id=50380310",
+   "type": "comment",
+   "created": "2026-11-05T15:28:21Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50379119",
+   "url": "https://news.ycombinator.com/item?id=50379119",
+   "type": "comment",
+   "created": "2026-11-05T13:57:59Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50377673",
+   "url": "https://news.ycombinator.com/item?id=50377673",
+   "type": "comment",
+   "created": "2026-11-05T10:54:18Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50377248",
+   "url": "https://news.ycombinator.com/item?id=50377248",
+   "type": "comment",
+   "created": "2026-11-05T09:51:34Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50373138",
+   "url": "https://news.ycombinator.com/item?id=50373138",
+   "type": "comment",
+   "created": "2026-11-05T00:00:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50373098",
+   "url": "https://news.ycombinator.com/item?id=50373098",
+   "type": "comment",
+   "created": "2026-11-04T23:54:50Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50364669",
+   "url": "https://news.ycombinator.com/item?id=50364669",
+   "type": "comment",
+   "created": "2026-11-04T12:29:34Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50363798",
+   "url": "https://news.ycombinator.com/item?id=50363798",
+   "type": "comment",
+   "created": "2026-11-04T10:54:47Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50362664",
+   "url": "https://news.ycombinator.com/item?id=50362664",
+   "type": "comment",
+   "created": "2026-11-04T08:10:54Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50358581",
+   "url": "https://news.ycombinator.com/item?id=50358581",
+   "type": "comment",
+   "created": "2026-11-03T21:40:29Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50353700",
+   "url": "https://news.ycombinator.com/item?id=50353700",
+   "type": "comment",
+   "created": "2026-11-03T16:03:34Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50353505",
+   "url": "https://news.ycombinator.com/item?id=50353505",
+   "type": "comment",
+   "created": "2026-11-03T15:51:39Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50350205",
+   "url": "https://news.ycombinator.com/item?id=50350205",
+   "type": "comment",
+   "created": "2026-11-03T10:27:17Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50349354",
+   "url": "https://news.ycombinator.com/item?id=50349354",
+   "type": "comment",
+   "created": "2026-11-03T08:10:16Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50347602",
+   "url": "https://news.ycombinator.com/item?id=50347602",
+   "type": "comment",
+   "created": "2026-11-03T03:18:49Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50342490",
+   "url": "https://news.ycombinator.com/item?id=50342490",
+   "type": "comment",
+   "created": "2026-11-02T19:39:59Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50341660",
+   "url": "https://news.ycombinator.com/item?id=50341660",
+   "type": "comment",
+   "created": "2026-11-02T18:50:17Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50341234",
+   "url": "https://news.ycombinator.com/item?id=50341234",
+   "type": "comment",
+   "created": "2026-11-02T18:25:11Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50340102",
+   "url": "https://news.ycombinator.com/item?id=50340102",
+   "type": "comment",
+   "created": "2026-11-02T17:17:10Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50339574",
+   "url": "https://news.ycombinator.com/item?id=50339574",
+   "type": "comment",
+   "created": "2026-11-02T16:45:31Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50339266",
+   "url": "https://news.ycombinator.com/item?id=50339266",
+   "type": "comment",
+   "created": "2026-11-02T16:27:48Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50337687",
+   "url": "https://news.ycombinator.com/item?id=50337687",
+   "type": "comment",
+   "created": "2026-11-02T14:58:06Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50332737",
+   "url": "https://news.ycombinator.com/item?id=50332737",
+   "type": "comment",
+   "created": "2026-11-02T03:13:26Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50332290",
+   "url": "https://news.ycombinator.com/item?id=50332290",
+   "type": "comment",
+   "created": "2026-11-02T02:14:45Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50327005",
+   "url": "https://news.ycombinator.com/item?id=50327005",
+   "type": "comment",
+   "created": "2026-11-01T16:17:28Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50324872",
+   "url": "https://news.ycombinator.com/item?id=50324872",
+   "type": "comment",
+   "created": "2026-11-01T12:11:20Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50319993",
+   "url": "https://news.ycombinator.com/item?id=50319993",
+   "type": "comment",
+   "created": "2026-10-31T20:42:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50316605",
+   "url": "https://news.ycombinator.com/item?id=50316605",
+   "type": "comment",
+   "created": "2026-10-31T14:38:12Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50313509",
+   "url": "https://news.ycombinator.com/item?id=50313509",
+   "type": "comment",
+   "created": "2026-10-31T05:44:01Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50313203",
+   "url": "https://news.ycombinator.com/item?id=50313203",
+   "type": "comment",
+   "created": "2026-10-31T04:25:52Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50302723",
+   "url": "https://news.ycombinator.com/item?id=50302723",
+   "type": "comment",
+   "created": "2026-10-30T11:54:57Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50300820",
+   "url": "https://news.ycombinator.com/item?id=50300820",
+   "type": "comment",
+   "created": "2026-10-30T07:35:31Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50298548",
+   "url": "https://news.ycombinator.com/item?id=50298548",
+   "type": "comment",
+   "created": "2026-10-30T00:54:53Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50297803",
+   "url": "https://news.ycombinator.com/item?id=50297803",
+   "type": "comment",
+   "created": "2026-10-29T23:37:54Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50295445",
+   "url": "https://news.ycombinator.com/item?id=50295445",
+   "type": "comment",
+   "created": "2026-10-29T20:32:09Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50292440",
+   "url": "https://news.ycombinator.com/item?id=50292440",
+   "type": "comment",
+   "created": "2026-10-29T17:09:10Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50285138",
+   "url": "https://news.ycombinator.com/item?id=50285138",
+   "type": "comment",
+   "created": "2026-10-29T06:17:16Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50284791",
+   "url": "https://news.ycombinator.com/item?id=50284791",
+   "type": "comment",
+   "created": "2026-10-29T05:10:03Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50282798",
+   "url": "https://news.ycombinator.com/item?id=50282798",
+   "type": "comment",
+   "created": "2026-10-29T00:20:17Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50280492",
+   "url": "https://news.ycombinator.com/item?id=50280492",
+   "type": "comment",
+   "created": "2026-10-28T20:33:07Z",
+   "about_product": null,
+   "sentiment": null
+  },
+  {
+   "id": "50265501",
+   "url": "https://news.ycombinator.com/item?id=50265501",
+   "type": "comment",
+   "created": "2026-10-27T20:42:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50256140",
+   "url": "https://news.ycombinator.com/item?id=50256140",
+   "type": "comment",
+   "created": "2026-10-27T08:38:16Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50250353",
+   "url": "https://news.ycombinator.com/item?id=50250353",
+   "type": "comment",
+   "created": "2026-10-26T20:21:44Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50246996",
+   "url": "https://news.ycombinator.com/item?id=50246996",
+   "type": "comment",
+   "created": "2026-10-26T16:55:51Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50244332",
+   "url": "https://news.ycombinator.com/item?id=50244332",
+   "type": "comment",
+   "created": "2026-10-26T14:28:13Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50243609",
+   "url": "https://news.ycombinator.com/item?id=50243609",
+   "type": "comment",
+   "created": "2026-10-26T13:45:53Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50241799",
+   "url": "https://news.ycombinator.com/item?id=50241799",
+   "type": "comment",
+   "created": "2026-10-26T10:55:13Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50241465",
+   "url": "https://news.ycombinator.com/item?id=50241465",
+   "type": "comment",
+   "created": "2026-10-26T10:04:34Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50240896",
+   "url": "https://news.ycombinator.com/item?id=50240896",
+   "type": "comment",
+   "created": "2026-10-26T08:42:57Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50239726",
+   "url": "https://news.ycombinator.com/item?id=50239726",
+   "type": "comment",
+   "created": "2026-10-26T06:07:43Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50239355",
+   "url": "https://news.ycombinator.com/item?id=50239355",
+   "type": "comment",
+   "created": "2026-10-26T05:02:21Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50239242",
+   "url": "https://news.ycombinator.com/item?id=50239242",
+   "type": "comment",
+   "created": "2026-10-26T04:45:57Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50239144",
+   "url": "https://news.ycombinator.com/item?id=50239144",
+   "type": "comment",
+   "created": "2026-10-26T04:31:47Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50238432",
+   "url": "https://news.ycombinator.com/item?id=50238432",
+   "type": "comment",
+   "created": "2026-10-26T02:38:31Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50238334",
+   "url": "https://news.ycombinator.com/item?id=50238334",
+   "type": "comment",
+   "created": "2026-10-26T02:19:22Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50237361",
+   "url": "https://news.ycombinator.com/item?id=50237361",
+   "type": "comment",
+   "created": "2026-10-26T00:12:00Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50237354",
+   "url": "https://news.ycombinator.com/item?id=50237354",
+   "type": "comment",
+   "created": "2026-10-26T00:11:45Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50236820",
+   "url": "https://news.ycombinator.com/item?id=50236820",
+   "type": "comment",
+   "created": "2026-10-25T22:48:02Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50236484",
+   "url": "https://news.ycombinator.com/item?id=50236484",
+   "type": "comment",
+   "created": "2026-10-25T22:07:08Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50236443",
+   "url": "https://news.ycombinator.com/item?id=50236443",
+   "type": "comment",
+   "created": "2026-10-25T22:00:20Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50236360",
+   "url": "https://news.ycombinator.com/item?id=50236360",
+   "type": "comment",
+   "created": "2026-10-25T21:45:59Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50236115",
+   "url": "https://news.ycombinator.com/item?id=50236115",
+   "type": "comment",
+   "created": "2026-10-25T21:13:15Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50236013",
+   "url": "https://news.ycombinator.com/item?id=50236013",
+   "type": "comment",
+   "created": "2026-10-25T21:00:05Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50235903",
+   "url": "https://news.ycombinator.com/item?id=50235903",
+   "type": "comment",
+   "created": "2026-10-25T20:46:26Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50235877",
+   "url": "https://news.ycombinator.com/item?id=50235877",
+   "type": "comment",
+   "created": "2026-10-25T20:43:02Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50235831",
+   "url": "https://news.ycombinator.com/item?id=50235831",
+   "type": "comment",
+   "created": "2026-10-25T20:38:24Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50235826",
+   "url": "https://news.ycombinator.com/item?id=50235826",
+   "type": "comment",
+   "created": "2026-10-25T20:37:44Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50235769",
+   "url": "https://news.ycombinator.com/item?id=50235769",
+   "type": "comment",
+   "created": "2026-10-25T20:31:17Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50235538",
+   "url": "https://news.ycombinator.com/item?id=50235538",
+   "type": "comment",
+   "created": "2026-10-25T20:05:11Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50235407",
+   "url": "https://news.ycombinator.com/item?id=50235407",
+   "type": "comment",
+   "created": "2026-10-25T19:49:56Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50234572",
+   "url": "https://news.ycombinator.com/item?id=50234572",
+   "type": "comment",
+   "created": "2026-10-25T18:32:41Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50234534",
+   "url": "https://news.ycombinator.com/item?id=50234534",
+   "type": "comment",
+   "created": "2026-10-25T18:28:24Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50234261",
+   "url": "https://news.ycombinator.com/item?id=50234261",
+   "type": "comment",
+   "created": "2026-10-25T18:06:06Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50234241",
+   "url": "https://news.ycombinator.com/item?id=50234241",
+   "type": "comment",
+   "created": "2026-10-25T18:04:40Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50234199",
+   "url": "https://news.ycombinator.com/item?id=50234199",
+   "type": "comment",
+   "created": "2026-10-25T18:01:31Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50234045",
+   "url": "https://news.ycombinator.com/item?id=50234045",
+   "type": "comment",
+   "created": "2026-10-25T17:44:39Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50233532",
+   "url": "https://news.ycombinator.com/item?id=50233532",
+   "type": "comment",
+   "created": "2026-10-25T16:50:36Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50231935",
+   "url": "https://news.ycombinator.com/item?id=50231935",
+   "type": "comment",
+   "created": "2026-10-25T14:25:54Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50230162",
+   "url": "https://news.ycombinator.com/item?id=50230162",
+   "type": "comment",
+   "created": "2026-10-25T10:39:10Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50226244",
+   "url": "https://news.ycombinator.com/item?id=50226244",
+   "type": "comment",
+   "created": "2026-10-24T22:53:57Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50217508",
+   "url": "https://news.ycombinator.com/item?id=50217508",
+   "type": "comment",
+   "created": "2026-10-24T01:17:31Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50213804",
+   "url": "https://news.ycombinator.com/item?id=50213804",
+   "type": "comment",
+   "created": "2026-10-23T19:00:37Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50213454",
+   "url": "https://news.ycombinator.com/item?id=50213454",
+   "type": "comment",
+   "created": "2026-10-23T18:34:49Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50212859",
+   "url": "https://news.ycombinator.com/item?id=50212859",
+   "type": "comment",
+   "created": "2026-10-23T17:53:49Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50212316",
+   "url": "https://news.ycombinator.com/item?id=50212316",
+   "type": "comment",
+   "created": "2026-10-23T17:14:50Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50211509",
+   "url": "https://news.ycombinator.com/item?id=50211509",
+   "type": "comment",
+   "created": "2026-10-23T16:24:00Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50211091",
+   "url": "https://news.ycombinator.com/item?id=50211091",
+   "type": "comment",
+   "created": "2026-10-23T15:56:42Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50210755",
+   "url": "https://news.ycombinator.com/item?id=50210755",
+   "type": "comment",
+   "created": "2026-10-23T15:34:28Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50208427",
+   "url": "https://news.ycombinator.com/item?id=50208427",
+   "type": "comment",
+   "created": "2026-10-23T13:10:04Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50208395",
+   "url": "https://news.ycombinator.com/item?id=50208395",
+   "type": "comment",
+   "created": "2026-10-23T13:06:28Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50207656",
+   "url": "https://news.ycombinator.com/item?id=50207656",
+   "type": "comment",
+   "created": "2026-10-23T12:05:49Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207628",
+   "url": "https://news.ycombinator.com/item?id=50207628",
+   "type": "comment",
+   "created": "2026-10-23T12:03:38Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207596",
+   "url": "https://news.ycombinator.com/item?id=50207596",
+   "type": "comment",
+   "created": "2026-10-23T12:01:09Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50207545",
+   "url": "https://news.ycombinator.com/item?id=50207545",
+   "type": "comment",
+   "created": "2026-10-23T11:55:36Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207516",
+   "url": "https://news.ycombinator.com/item?id=50207516",
+   "type": "comment",
+   "created": "2026-10-23T11:52:37Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207510",
+   "url": "https://news.ycombinator.com/item?id=50207510",
+   "type": "comment",
+   "created": "2026-10-23T11:51:48Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207471",
+   "url": "https://news.ycombinator.com/item?id=50207471",
+   "type": "comment",
+   "created": "2026-10-23T11:47:25Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207404",
+   "url": "https://news.ycombinator.com/item?id=50207404",
+   "type": "comment",
+   "created": "2026-10-23T11:39:49Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207397",
+   "url": "https://news.ycombinator.com/item?id=50207397",
+   "type": "comment",
+   "created": "2026-10-23T11:38:56Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207349",
+   "url": "https://news.ycombinator.com/item?id=50207349",
+   "type": "comment",
+   "created": "2026-10-23T11:33:58Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50207315",
+   "url": "https://news.ycombinator.com/item?id=50207315",
+   "type": "comment",
+   "created": "2026-10-23T11:28:30Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207292",
+   "url": "https://news.ycombinator.com/item?id=50207292",
+   "type": "comment",
+   "created": "2026-10-23T11:24:52Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50207279",
+   "url": "https://news.ycombinator.com/item?id=50207279",
+   "type": "comment",
+   "created": "2026-10-23T11:22:53Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207247",
+   "url": "https://news.ycombinator.com/item?id=50207247",
+   "type": "comment",
+   "created": "2026-10-23T11:17:45Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207229",
+   "url": "https://news.ycombinator.com/item?id=50207229",
+   "type": "comment",
+   "created": "2026-10-23T11:15:38Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207223",
+   "url": "https://news.ycombinator.com/item?id=50207223",
+   "type": "comment",
+   "created": "2026-10-23T11:15:05Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207183",
+   "url": "https://news.ycombinator.com/item?id=50207183",
+   "type": "comment",
+   "created": "2026-10-23T11:10:59Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207142",
+   "url": "https://news.ycombinator.com/item?id=50207142",
+   "type": "comment",
+   "created": "2026-10-23T11:07:41Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50207141",
+   "url": "https://news.ycombinator.com/item?id=50207141",
+   "type": "comment",
+   "created": "2026-10-23T11:07:41Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207103",
+   "url": "https://news.ycombinator.com/item?id=50207103",
+   "type": "comment",
+   "created": "2026-10-23T11:03:50Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50207028",
+   "url": "https://news.ycombinator.com/item?id=50207028",
+   "type": "comment",
+   "created": "2026-10-23T10:56:19Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50207008",
+   "url": "https://news.ycombinator.com/item?id=50207008",
+   "type": "comment",
+   "created": "2026-10-23T10:53:58Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50206970",
+   "url": "https://news.ycombinator.com/item?id=50206970",
+   "type": "comment",
+   "created": "2026-10-23T10:49:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50206955",
+   "url": "https://news.ycombinator.com/item?id=50206955",
+   "type": "comment",
+   "created": "2026-10-23T10:47:15Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50206865",
+   "url": "https://news.ycombinator.com/item?id=50206865",
+   "type": "comment",
+   "created": "2026-10-23T10:35:01Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50206836",
+   "url": "https://news.ycombinator.com/item?id=50206836",
+   "type": "comment",
+   "created": "2026-10-23T10:30:43Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50203258",
+   "url": "https://news.ycombinator.com/item?id=50203258",
+   "type": "comment",
+   "created": "2026-10-23T01:07:32Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50201851",
+   "url": "https://news.ycombinator.com/item?id=50201851",
+   "type": "comment",
+   "created": "2026-10-22T22:17:48Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50200639",
+   "url": "https://news.ycombinator.com/item?id=50200639",
+   "type": "comment",
+   "created": "2026-10-22T20:33:45Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50197127",
+   "url": "https://news.ycombinator.com/item?id=50197127",
+   "type": "comment",
+   "created": "2026-10-22T15:53:45Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50196120",
+   "url": "https://news.ycombinator.com/item?id=50196120",
+   "type": "comment",
+   "created": "2026-10-22T14:44:05Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50194998",
+   "url": "https://news.ycombinator.com/item?id=50194998",
+   "type": "comment",
+   "created": "2026-10-22T13:24:54Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50194690",
+   "url": "https://news.ycombinator.com/item?id=50194690",
+   "type": "comment",
+   "created": "2026-10-22T12:55:29Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50193794",
+   "url": "https://news.ycombinator.com/item?id=50193794",
+   "type": "comment",
+   "created": "2026-10-22T11:11:17Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50193310",
+   "url": "https://news.ycombinator.com/item?id=50193310",
+   "type": "comment",
+   "created": "2026-10-22T09:54:37Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50192129",
+   "url": "https://news.ycombinator.com/item?id=50192129",
+   "type": "comment",
+   "created": "2026-10-22T07:04:14Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50191994",
+   "url": "https://news.ycombinator.com/item?id=50191994",
+   "type": "comment",
+   "created": "2026-10-22T06:40:44Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50191764",
+   "url": "https://news.ycombinator.com/item?id=50191764",
+   "type": "comment",
+   "created": "2026-10-22T06:09:35Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50191163",
+   "url": "https://news.ycombinator.com/item?id=50191163",
+   "type": "comment",
+   "created": "2026-10-22T04:25:28Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50191143",
+   "url": "https://news.ycombinator.com/item?id=50191143",
+   "type": "comment",
+   "created": "2026-10-22T04:21:57Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50190897",
+   "url": "https://news.ycombinator.com/item?id=50190897",
+   "type": "comment",
+   "created": "2026-10-22T03:36:32Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50190873",
+   "url": "https://news.ycombinator.com/item?id=50190873",
+   "type": "comment",
+   "created": "2026-10-22T03:32:42Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50190705",
+   "url": "https://news.ycombinator.com/item?id=50190705",
+   "type": "comment",
+   "created": "2026-10-22T03:10:29Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50190417",
+   "url": "https://news.ycombinator.com/item?id=50190417",
+   "type": "comment",
+   "created": "2026-10-22T02:25:57Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50188768",
+   "url": "https://news.ycombinator.com/item?id=50188768",
+   "type": "comment",
+   "created": "2026-10-21T22:47:24Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50186642",
+   "url": "https://news.ycombinator.com/item?id=50186642",
+   "type": "comment",
+   "created": "2026-10-21T19:52:08Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50184409",
+   "url": "https://news.ycombinator.com/item?id=50184409",
+   "type": "comment",
+   "created": "2026-10-21T17:16:39Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50181186",
+   "url": "https://news.ycombinator.com/item?id=50181186",
+   "type": "comment",
+   "created": "2026-10-21T14:04:17Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50181157",
+   "url": "https://news.ycombinator.com/item?id=50181157",
+   "type": "comment",
+   "created": "2026-10-21T14:02:32Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50176199",
+   "url": "https://news.ycombinator.com/item?id=50176199",
+   "type": "comment",
+   "created": "2026-10-21T04:49:09Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50175194",
+   "url": "https://news.ycombinator.com/item?id=50175194",
+   "type": "comment",
+   "created": "2026-10-21T02:06:09Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50174736",
+   "url": "https://news.ycombinator.com/item?id=50174736",
+   "type": "comment",
+   "created": "2026-10-21T00:52:17Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50174416",
+   "url": "https://news.ycombinator.com/item?id=50174416",
+   "type": "comment",
+   "created": "2026-10-21T00:07:08Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50172626",
+   "url": "https://news.ycombinator.com/item?id=50172626",
+   "type": "comment",
+   "created": "2026-10-20T21:02:58Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171933",
+   "url": "https://news.ycombinator.com/item?id=50171933",
+   "type": "comment",
+   "created": "2026-10-20T20:07:22Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171500",
+   "url": "https://news.ycombinator.com/item?id=50171500",
+   "type": "comment",
+   "created": "2026-10-20T19:32:17Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171491",
+   "url": "https://news.ycombinator.com/item?id=50171491",
+   "type": "comment",
+   "created": "2026-10-20T19:31:39Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171461",
+   "url": "https://news.ycombinator.com/item?id=50171461",
+   "type": "comment",
+   "created": "2026-10-20T19:29:36Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171242",
+   "url": "https://news.ycombinator.com/item?id=50171242",
+   "type": "comment",
+   "created": "2026-10-20T19:12:47Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171221",
+   "url": "https://news.ycombinator.com/item?id=50171221",
+   "type": "comment",
+   "created": "2026-10-20T19:11:56Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50171023",
+   "url": "https://news.ycombinator.com/item?id=50171023",
+   "type": "comment",
+   "created": "2026-10-20T18:59:03Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50170944",
+   "url": "https://news.ycombinator.com/item?id=50170944",
+   "type": "comment",
+   "created": "2026-10-20T18:53:36Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50170903",
+   "url": "https://news.ycombinator.com/item?id=50170903",
+   "type": "comment",
+   "created": "2026-10-20T18:50:59Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50170889",
+   "url": "https://news.ycombinator.com/item?id=50170889",
+   "type": "comment",
+   "created": "2026-10-20T18:50:02Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50170874",
+   "url": "https://news.ycombinator.com/item?id=50170874",
+   "type": "comment",
+   "created": "2026-10-20T18:48:47Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50170849",
+   "url": "https://news.ycombinator.com/item?id=50170849",
+   "type": "comment",
+   "created": "2026-10-20T18:47:22Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50170825",
+   "url": "https://news.ycombinator.com/item?id=50170825",
+   "type": "comment",
+   "created": "2026-10-20T18:46:06Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50170542",
+   "url": "https://news.ycombinator.com/item?id=50170542",
+   "type": "comment",
+   "created": "2026-10-20T18:26:28Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50170427",
+   "url": "https://news.ycombinator.com/item?id=50170427",
+   "type": "comment",
+   "created": "2026-10-20T18:18:35Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50170341",
+   "url": "https://news.ycombinator.com/item?id=50170341",
+   "type": "comment",
+   "created": "2026-10-20T18:11:59Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50170050",
+   "url": "https://news.ycombinator.com/item?id=50170050",
+   "type": "comment",
+   "created": "2026-10-20T17:50:27Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50169992",
+   "url": "https://news.ycombinator.com/item?id=50169992",
+   "type": "comment",
+   "created": "2026-10-20T17:45:54Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50169754",
+   "url": "https://news.ycombinator.com/item?id=50169754",
+   "type": "comment",
+   "created": "2026-10-20T17:27:46Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50169724",
+   "url": "https://news.ycombinator.com/item?id=50169724",
+   "type": "comment",
+   "created": "2026-10-20T17:26:12Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50169086",
+   "url": "https://news.ycombinator.com/item?id=50169086",
+   "type": "comment",
+   "created": "2026-10-20T16:42:45Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50168463",
+   "url": "https://news.ycombinator.com/item?id=50168463",
+   "type": "comment",
+   "created": "2026-10-20T16:06:34Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50168427",
+   "url": "https://news.ycombinator.com/item?id=50168427",
+   "type": "comment",
+   "created": "2026-10-20T16:04:13Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50168305",
+   "url": "https://news.ycombinator.com/item?id=50168305",
+   "type": "comment",
+   "created": "2026-10-20T15:55:03Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50168211",
+   "url": "https://news.ycombinator.com/item?id=50168211",
+   "type": "comment",
+   "created": "2026-10-20T15:49:56Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50166184",
+   "url": "https://news.ycombinator.com/item?id=50166184",
+   "type": "comment",
+   "created": "2026-10-20T13:35:14Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50166141",
+   "url": "https://news.ycombinator.com/item?id=50166141",
+   "type": "comment",
+   "created": "2026-10-20T13:32:05Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50165391",
+   "url": "https://news.ycombinator.com/item?id=50165391",
+   "type": "comment",
+   "created": "2026-10-20T12:33:37Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50163643",
+   "url": "https://news.ycombinator.com/item?id=50163643",
+   "type": "comment",
+   "created": "2026-10-20T09:57:08Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50163395",
+   "url": "https://news.ycombinator.com/item?id=50163395",
+   "type": "comment",
+   "created": "2026-10-20T09:24:05Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50155688",
+   "url": "https://news.ycombinator.com/item?id=50155688",
+   "type": "comment",
+   "created": "2026-10-19T18:01:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50152793",
+   "url": "https://news.ycombinator.com/item?id=50152793",
+   "type": "comment",
+   "created": "2026-10-19T14:14:50Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50152494",
+   "url": "https://news.ycombinator.com/item?id=50152494",
+   "type": "comment",
+   "created": "2026-10-19T13:49:56Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50151914",
+   "url": "https://news.ycombinator.com/item?id=50151914",
+   "type": "comment",
+   "created": "2026-10-19T12:59:45Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50151095",
+   "url": "https://news.ycombinator.com/item?id=50151095",
+   "type": "comment",
+   "created": "2026-10-19T11:33:41Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50146020",
+   "url": "https://news.ycombinator.com/item?id=50146020",
+   "type": "comment",
+   "created": "2026-10-18T22:11:58Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50145730",
+   "url": "https://news.ycombinator.com/item?id=50145730",
+   "type": "comment",
+   "created": "2026-10-18T21:38:11Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50136035",
+   "url": "https://news.ycombinator.com/item?id=50136035",
+   "type": "comment",
+   "created": "2026-10-17T23:11:51Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50133796",
+   "url": "https://news.ycombinator.com/item?id=50133796",
+   "type": "comment",
+   "created": "2026-10-17T18:41:02Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50128687",
+   "url": "https://news.ycombinator.com/item?id=50128687",
+   "type": "comment",
+   "created": "2026-10-17T07:08:20Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50128628",
+   "url": "https://news.ycombinator.com/item?id=50128628",
+   "type": "comment",
+   "created": "2026-10-17T06:56:44Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50127617",
+   "url": "https://news.ycombinator.com/item?id=50127617",
+   "type": "comment",
+   "created": "2026-10-17T03:22:58Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50127278",
+   "url": "https://news.ycombinator.com/item?id=50127278",
+   "type": "comment",
+   "created": "2026-10-17T02:21:40Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50124847",
+   "url": "https://news.ycombinator.com/item?id=50124847",
+   "type": "comment",
+   "created": "2026-10-16T21:15:28Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50124038",
+   "url": "https://news.ycombinator.com/item?id=50124038",
+   "type": "comment",
+   "created": "2026-10-16T20:20:28Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50124019",
+   "url": "https://news.ycombinator.com/item?id=50124019",
+   "type": "comment",
+   "created": "2026-10-16T20:19:21Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50121006",
+   "url": "https://news.ycombinator.com/item?id=50121006",
+   "type": "comment",
+   "created": "2026-10-16T16:57:50Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50120552",
+   "url": "https://news.ycombinator.com/item?id=50120552",
+   "type": "comment",
+   "created": "2026-10-16T16:32:32Z",
+   "about_product": true,
+   "sentiment": "negative"
+  }
+ ],
+ "liquid-d1": [
+  {
+   "id": "50106907",
+   "url": "https://news.ycombinator.com/item?id=50106907",
+   "type": "story",
+   "created": "2026-10-15T17:15:43Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50118128",
+   "url": "https://news.ycombinator.com/item?id=50118128",
+   "type": "story",
+   "created": "2026-10-16T13:26:05Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50273126",
+   "url": "https://news.ycombinator.com/item?id=50273126",
+   "type": "comment",
+   "created": "2026-10-28T13:22:01Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50011678",
+   "url": "https://news.ycombinator.com/item?id=50011678",
+   "type": "story",
+   "created": "2026-10-08T20:25:54Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50025515",
+   "url": "https://news.ycombinator.com/item?id=50025515",
+   "type": "story",
+   "created": "2026-10-09T19:27:59Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49899623",
+   "url": "https://news.ycombinator.com/item?id=49899623",
+   "type": "story",
+   "created": "2026-09-29T20:09:48Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49904832",
+   "url": "https://news.ycombinator.com/item?id=49904832",
+   "type": "story",
+   "created": "2026-09-30T05:46:27Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49995724",
+   "url": "https://news.ycombinator.com/item?id=49995724",
+   "type": "story",
+   "created": "2026-10-07T17:11:04Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50148838",
+   "url": "https://news.ycombinator.com/item?id=50148838",
+   "type": "comment",
+   "created": "2026-10-19T05:53:09Z",
+   "about_product": true,
+   "sentiment": "negative"
+  }
+ ],
+ "decider": [
+  {
+   "id": "50057048",
+   "url": "https://news.ycombinator.com/item?id=50057048",
+   "type": "story",
+   "created": "2026-10-12T14:36:14Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49990197",
+   "url": "https://news.ycombinator.com/item?id=49990197",
+   "type": "story",
+   "created": "2026-10-07T09:13:46Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50139344",
+   "url": "https://news.ycombinator.com/item?id=50139344",
+   "type": "story",
+   "created": "2026-10-18T09:11:39Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50306823",
+   "url": "https://news.ycombinator.com/item?id=50306823",
+   "type": "comment",
+   "created": "2026-10-30T17:03:28Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50239324",
+   "url": "https://news.ycombinator.com/item?id=50239324",
+   "type": "comment",
+   "created": "2026-10-26T04:58:15Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50148838",
+   "url": "https://news.ycombinator.com/item?id=50148838",
+   "type": "comment",
+   "created": "2026-10-19T05:53:09Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50109366",
+   "url": "https://news.ycombinator.com/item?id=50109366",
+   "type": "comment",
+   "created": "2026-10-15T19:55:15Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50045584",
+   "url": "https://news.ycombinator.com/item?id=50045584",
+   "type": "comment",
+   "created": "2026-10-11T17:27:15Z",
+   "about_product": true,
+   "sentiment": "positive"
+  }
+ ],
+ "luna-decisions": [
+  {
+   "id": "50213804",
+   "url": "https://news.ycombinator.com/item?id=50213804",
+   "type": "comment",
+   "created": "2026-10-23T19:00:37Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "50176004",
+   "url": "https://news.ycombinator.com/item?id=50176004",
+   "type": "comment",
+   "created": "2026-10-21T04:12:56Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "50169086",
+   "url": "https://news.ycombinator.com/item?id=50169086",
+   "type": "comment",
+   "created": "2026-10-20T16:42:45Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50007993",
+   "url": "https://news.ycombinator.com/item?id=50007993",
+   "type": "story",
+   "created": "2026-10-08T16:34:13Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49996803",
+   "url": "https://news.ycombinator.com/item?id=49996803",
+   "type": "comment",
+   "created": "2026-10-07T18:24:08Z",
+   "about_product": false,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "50109366",
+   "url": "https://news.ycombinator.com/item?id=50109366",
+   "type": "comment",
+   "created": "2026-10-15T19:55:15Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49929439",
+   "url": "https://news.ycombinator.com/item?id=49929439",
+   "type": "comment",
+   "created": "2026-10-02T03:02:11Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49991245",
+   "url": "https://news.ycombinator.com/item?id=49991245",
+   "type": "comment",
+   "created": "2026-10-07T11:28:06Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49989581",
+   "url": "https://news.ycombinator.com/item?id=49989581",
+   "type": "comment",
+   "created": "2026-10-07T07:43:56Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49985035",
+   "url": "https://news.ycombinator.com/item?id=49985035",
+   "type": "comment",
+   "created": "2026-10-06T22:27:23Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  },
+  {
+   "id": "49931486",
+   "url": "https://news.ycombinator.com/item?id=49931486",
+   "type": "comment",
+   "created": "2026-10-02T09:17:51Z",
+   "about_product": true,
+   "sentiment": "negative"
+  },
+  {
+   "id": "49898296",
+   "url": "https://news.ycombinator.com/item?id=49898296",
+   "type": "comment",
+   "created": "2026-09-29T18:39:02Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49855101",
+   "url": "https://news.ycombinator.com/item?id=49855101",
+   "type": "comment",
+   "created": "2026-09-26T10:21:54Z",
+   "about_product": true,
+   "sentiment": "positive"
+  },
+  {
+   "id": "49834543",
+   "url": "https://news.ycombinator.com/item?id=49834543",
+   "type": "comment",
+   "created": "2026-09-24T18:04:39Z",
+   "about_product": true,
+   "sentiment": "neutral"
+  }
+ ],
+ "drex": [
+  {
+   "id": "49848470",
+   "url": "https://news.ycombinator.com/item?id=49848470",
+   "type": "story",
+   "created": "2026-09-25T18:54:01Z",
+   "about_product": true,
+   "sentiment": "positive"
+  }
+ ]
+}

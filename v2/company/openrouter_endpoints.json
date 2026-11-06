@@ -1,0 +1,436 @@
+{
+ "typesafe/jev-1.14": {
+  "id": "typesafe/jev-1.14",
+  "name": "TypeSafe: Jev 1.14",
+  "created": 1792021417,
+  "description": "Jev 1.14 is the latest version of Jev, TypeSafe's structured decision model and the first of its System One models. System One models make fast, structured decisions for software, returning...",
+  "architecture": {
+   "tokenizer": "Other",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "TypeSafe | typesafe/jev-1.14-20261014",
+    "model_id": "typesafe/jev-1.14",
+    "model_name": "TypeSafe: Jev 1.14",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.000000042",
+     "completion": "0",
+     "discount": 0
+    },
+    "provider_name": "TypeSafe",
+    "tag": "typesafe",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": 262144,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ },
+ "typesafe/jev-1.13": {
+  "id": "typesafe/jev-1.13",
+  "name": "TypeSafe: Jev 1.13",
+  "created": 1789689684,
+  "description": "Jev is a structured decision model from TypeSafe, and the first of its System One models. System One models make fast, structured decisions for software, returning a typed choice rather...",
+  "architecture": {
+   "tokenizer": "Other",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "TypeSafe | typesafe/jev-1.13-20260917",
+    "model_id": "typesafe/jev-1.13",
+    "model_name": "TypeSafe: Jev 1.13",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.000000042",
+     "completion": "0",
+     "discount": 0
+    },
+    "provider_name": "TypeSafe",
+    "tag": "typesafe",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": 262144,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ },
+ "perplexity/pplx-decider-v1.2": {
+  "id": "perplexity/pplx-decider-v1.2",
+  "name": "Perplexity: Decider V1.2",
+  "created": 1792183495,
+  "description": "Decider V1.2 is a new 27B checkpoint of Perplexity's decision model, succeeding [Decider V1.1 27B](/perplexity/pplx-decider-v1.1-27b) with the same API contract. Instead of generating text, it reads content passed as `state`...",
+  "architecture": {
+   "tokenizer": "Other",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "Makora | perplexity/pplx-decider-v1.2-20261016",
+    "model_id": "perplexity/pplx-decider-v1.2",
+    "model_name": "Perplexity: Decider V1.2",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.000000019",
+     "completion": "0",
+     "discount": 0
+    },
+    "provider_name": "Makora",
+    "tag": "makora/fp16",
+    "service_tier": null,
+    "quantization": "fp16",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 99.79166666666667,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   },
+   {
+    "name": "Perplexity | perplexity/pplx-decider-v1.2-20261016",
+    "model_id": "perplexity/pplx-decider-v1.2",
+    "model_name": "Perplexity: Decider V1.2",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000002",
+     "completion": "0",
+     "discount": 0
+    },
+    "provider_name": "Perplexity",
+    "tag": "perplexity",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ },
+ "liquid/d1-ultra": {
+  "id": "liquid/d1-ultra",
+  "name": "LiquidAI: d1-ultra",
+  "created": 1792108354,
+  "description": "d1-ultra is Liquid AI's largest decision model, served as a System One endpoint. Send a state of text and images along with typed questions, and it returns a choice, a...",
+  "architecture": {
+   "tokenizer": "Other",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "Liquid | liquid/d1-ultra-20261015",
+    "model_id": "liquid/d1-ultra",
+    "model_name": "LiquidAI: d1-ultra",
+    "context_length": 32768,
+    "pricing": {
+     "prompt": "0.000000042",
+     "completion": "0",
+     "input_cache_read": "0.000000042",
+     "discount": 0
+    },
+    "provider_name": "Liquid",
+    "tag": "liquid",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 29491,
+    "max_prompt_tokens": null,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 95.49612948627727,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ },
+ "liquid/d1.1": {
+  "id": "liquid/d1.1",
+  "name": "LiquidAI: d1.1",
+  "created": 1793131325,
+  "description": "d1.1 is Liquid AI's structured decision model, served as a System One endpoint and the successor to d1. Send a state along with typed questions, and it returns a choice,...",
+  "architecture": {
+   "tokenizer": "Other",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "Liquid | liquid/d1.1-20261027",
+    "model_id": "liquid/d1.1",
+    "model_name": "LiquidAI: d1.1",
+    "context_length": 65536,
+    "pricing": {
+     "prompt": "0.00000002",
+     "completion": "0",
+     "input_cache_read": "0.00000002",
+     "discount": 0
+    },
+    "provider_name": "Liquid",
+    "tag": "liquid",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 58982,
+    "max_prompt_tokens": null,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ },
+ "openai/gpt-6-luna-decisions": {
+  "id": "openai/gpt-6-luna-decisions",
+  "name": "OpenAI: GPT-6 Luna Decisions",
+  "created": 1791321558,
+  "description": "GPT-6 Luna Decisions is [GPT-6 Luna](/openai/gpt-6-luna) served through OpenAI's Decisions API. Instead of generating text, it reads the content passed as `state` (text, JSON, or images) and returns typed, probabilistic...",
+  "architecture": {
+   "tokenizer": "GPT",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "OpenAI | openai/gpt-6-luna-decisions-20261006",
+    "model_id": "openai/gpt-6-luna-decisions",
+    "model_name": "OpenAI: GPT-6 Luna Decisions",
+    "context_length": 1050000,
+    "pricing": {
+     "prompt": "0.0000001",
+     "completion": "0",
+     "web_search": "0.01",
+     "input_cache_read": "0",
+     "input_cache_write": "0",
+     "discount": 0
+    },
+    "provider_name": "OpenAI",
+    "tag": "openai",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 945000,
+    "max_prompt_tokens": null,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": false,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ },
+ "nace-ai/drex-max": {
+  "id": "nace-ai/drex-max",
+  "name": "Nace.AI: Drex Max",
+  "created": 1792607412,
+  "description": "Drex Max is the largest decision model from Nace.AI, the successor to [Drex v2.0](https://openrouter.ai/nace-ai/drex-v2.0). Given a state (text, JSON, or up to four images) and typed questions (yes/no, multiple choice,...",
+  "architecture": {
+   "tokenizer": "Other",
+   "instruct_type": null,
+   "modality": "text+image->decisions",
+   "input_modalities": [
+    "text",
+    "image"
+   ],
+   "output_modalities": [
+    "decisions"
+   ]
+  },
+  "endpoints": [
+   {
+    "name": "DeepInfra | nace-ai/drex-max-20261016",
+    "model_id": "nace-ai/drex-max",
+    "model_name": "Nace.AI: Drex Max",
+    "context_length": 262144,
+    "pricing": {
+     "prompt": "0.00000006",
+     "completion": "0",
+     "input_cache_read": "0.00000006",
+     "discount": 0.5
+    },
+    "provider_name": "DeepInfra",
+    "tag": "deepinfra/us",
+    "service_tier": null,
+    "quantization": "unknown",
+    "max_completion_tokens": 235929,
+    "max_prompt_tokens": null,
+    "supported_parameters": [],
+    "supports_tool_choice": {
+     "none": true,
+     "auto": true,
+     "required": true,
+     "function": true
+    },
+    "status": 0,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100,
+    "uptime_last_1d": 100,
+    "supports_implicit_caching": true,
+    "native_tools": {},
+    "supports_voice_cloning": false,
+    "supports_multiple_audio_references": false,
+    "supports_image_reference": false,
+    "supports_diarization": false,
+    "latency_last_30m": null,
+    "throughput_last_30m": null
+   }
+  ]
+ }
+}

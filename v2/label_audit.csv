@@ -1,0 +1,382 @@
+task,id,source,label,all_models_say
+T1,T1:microsoft/vscode#344263,https://github.com/microsoft/vscode/issues/344263,True,False
+T1,T1:microsoft/vscode#343939,https://github.com/microsoft/vscode/issues/343939,True,False
+T1,T1:microsoft/vscode#343901,https://github.com/microsoft/vscode/issues/343901,True,False
+T1,T1:microsoft/vscode#340622,https://github.com/microsoft/vscode/issues/340622,True,False
+T1,T1:microsoft/vscode#345619,https://github.com/microsoft/vscode/issues/345619,True,False
+T1,T1:microsoft/vscode#343008,https://github.com/microsoft/vscode/issues/343008,True,False
+T1,T1:microsoft/vscode#342558,https://github.com/microsoft/vscode/issues/342558,True,False
+T1,T1:microsoft/vscode#343890,https://github.com/microsoft/vscode/issues/343890,False,True
+T1,T1:microsoft/vscode#339377,https://github.com/microsoft/vscode/issues/339377,False,True
+T1,T1:microsoft/vscode#339734,https://github.com/microsoft/vscode/issues/339734,False,True
+T1,T1:microsoft/vscode#338478,https://github.com/microsoft/vscode/issues/338478,False,True
+T1,T1:microsoft/vscode#339717,https://github.com/microsoft/vscode/issues/339717,False,True
+T1,T1:microsoft/vscode#336721,https://github.com/microsoft/vscode/issues/336721,False,True
+T1,T1:microsoft/vscode#342637,https://github.com/microsoft/vscode/issues/342637,False,True
+T1,T1:microsoft/vscode#337749,https://github.com/microsoft/vscode/issues/337749,False,True
+T1,T1:microsoft/vscode#343050,https://github.com/microsoft/vscode/issues/343050,False,True
+T1,T1:microsoft/vscode#342448,https://github.com/microsoft/vscode/issues/342448,False,True
+T1,T1:microsoft/vscode#337413,https://github.com/microsoft/vscode/issues/337413,False,True
+T1,T1:microsoft/vscode#339710,https://github.com/microsoft/vscode/issues/339710,False,True
+T1,T1:microsoft/vscode#339111,https://github.com/microsoft/vscode/issues/339111,False,True
+T1,T1:microsoft/vscode#340681,https://github.com/microsoft/vscode/issues/340681,False,True
+T1,T1:kubernetes/kubernetes#142957,https://github.com/kubernetes/kubernetes/issues/142957,True,False
+T1,T1:kubernetes/kubernetes#142345,https://github.com/kubernetes/kubernetes/issues/142345,True,False
+T1,T1:kubernetes/kubernetes#143043,https://github.com/kubernetes/kubernetes/issues/143043,True,False
+T1,T1:kubernetes/kubernetes#143683,https://github.com/kubernetes/kubernetes/issues/143683,True,False
+T1,T1:kubernetes/kubernetes#142211,https://github.com/kubernetes/kubernetes/issues/142211,False,True
+T1,T1:kubernetes/kubernetes#142309,https://github.com/kubernetes/kubernetes/issues/142309,False,True
+T1,T1:kubernetes/kubernetes#143308,https://github.com/kubernetes/kubernetes/issues/143308,False,True
+T2,T2:microsoft/vscode#338030,https://github.com/microsoft/vscode/pull/338030,False,True
+T2,T2:microsoft/vscode#336583,https://github.com/microsoft/vscode/pull/336583,False,True
+T2,T2:microsoft/vscode#342954,https://github.com/microsoft/vscode/pull/342954,False,True
+T2,T2:microsoft/vscode#338086,https://github.com/microsoft/vscode/pull/338086,False,True
+T2,T2:microsoft/vscode#344032,https://github.com/microsoft/vscode/pull/344032,False,True
+T2,T2:microsoft/vscode#344785,https://github.com/microsoft/vscode/pull/344785,False,True
+T2,T2:microsoft/vscode#337065,https://github.com/microsoft/vscode/pull/337065,False,True
+T2,T2:microsoft/vscode#338462,https://github.com/microsoft/vscode/pull/338462,False,True
+T2,T2:microsoft/vscode#339057,https://github.com/microsoft/vscode/pull/339057,False,True
+T2,T2:microsoft/vscode#341515,https://github.com/microsoft/vscode/pull/341515,False,True
+T2,T2:microsoft/vscode#344045,https://github.com/microsoft/vscode/pull/344045,False,True
+T2,T2:microsoft/vscode#344634,https://github.com/microsoft/vscode/pull/344634,False,True
+T2,T2:microsoft/vscode#338002,https://github.com/microsoft/vscode/pull/338002,False,True
+T2,T2:microsoft/vscode#339489,https://github.com/microsoft/vscode/pull/339489,False,True
+T2,T2:microsoft/vscode#340833,https://github.com/microsoft/vscode/pull/340833,False,True
+T2,T2:microsoft/vscode#343773,https://github.com/microsoft/vscode/pull/343773,False,True
+T2,T2:microsoft/vscode#340478,https://github.com/microsoft/vscode/pull/340478,False,True
+T2,T2:microsoft/vscode#343013,https://github.com/microsoft/vscode/pull/343013,False,True
+T2,T2:microsoft/vscode#342183,https://github.com/microsoft/vscode/pull/342183,False,True
+T2,T2:microsoft/vscode#342181,https://github.com/microsoft/vscode/pull/342181,False,True
+T2,T2:microsoft/vscode#344516,https://github.com/microsoft/vscode/pull/344516,False,True
+T2,T2:microsoft/vscode#340190,https://github.com/microsoft/vscode/pull/340190,False,True
+T2,T2:microsoft/vscode#336295,https://github.com/microsoft/vscode/pull/336295,False,True
+T2,T2:microsoft/vscode#338090,https://github.com/microsoft/vscode/pull/338090,False,True
+T2,T2:microsoft/vscode#336467,https://github.com/microsoft/vscode/pull/336467,False,True
+T2,T2:microsoft/vscode#343677,https://github.com/microsoft/vscode/pull/343677,False,True
+T2,T2:microsoft/vscode#338048,https://github.com/microsoft/vscode/pull/338048,False,True
+T2,T2:microsoft/vscode#338411,https://github.com/microsoft/vscode/pull/338411,False,True
+T2,T2:microsoft/vscode#338093,https://github.com/microsoft/vscode/pull/338093,False,True
+T2,T2:microsoft/vscode#338671,https://github.com/microsoft/vscode/pull/338671,False,True
+T2,T2:microsoft/vscode#342815,https://github.com/microsoft/vscode/pull/342815,False,True
+T2,T2:microsoft/vscode#336392,https://github.com/microsoft/vscode/pull/336392,False,True
+T2,T2:microsoft/vscode#342184,https://github.com/microsoft/vscode/pull/342184,False,True
+T2,T2:microsoft/vscode#343355,https://github.com/microsoft/vscode/pull/343355,False,True
+T2,T2:microsoft/vscode#341280,https://github.com/microsoft/vscode/pull/341280,False,True
+T2,T2:microsoft/vscode#339100,https://github.com/microsoft/vscode/pull/339100,False,True
+T2,T2:microsoft/vscode#340029,https://github.com/microsoft/vscode/pull/340029,False,True
+T2,T2:microsoft/vscode#344033,https://github.com/microsoft/vscode/pull/344033,False,True
+T2,T2:microsoft/vscode#340834,https://github.com/microsoft/vscode/pull/340834,False,True
+T2,T2:microsoft/vscode#338092,https://github.com/microsoft/vscode/pull/338092,False,True
+T2,T2:microsoft/vscode#338345,https://github.com/microsoft/vscode/pull/338345,False,True
+T2,T2:microsoft/vscode#336276,https://github.com/microsoft/vscode/pull/336276,False,True
+T2,T2:microsoft/vscode#341279,https://github.com/microsoft/vscode/pull/341279,False,True
+T2,T2:microsoft/vscode#344702,https://github.com/microsoft/vscode/pull/344702,False,True
+T2,T2:microsoft/vscode#336838,https://github.com/microsoft/vscode/pull/336838,False,True
+T2,T2:microsoft/vscode#336584,https://github.com/microsoft/vscode/pull/336584,False,True
+T2,T2:microsoft/vscode#342760,https://github.com/microsoft/vscode/pull/342760,False,True
+T2,T2:microsoft/vscode#337588,https://github.com/microsoft/vscode/pull/337588,False,True
+T2,T2:microsoft/vscode#343278,https://github.com/microsoft/vscode/pull/343278,False,True
+T2,T2:microsoft/vscode#339540,https://github.com/microsoft/vscode/pull/339540,False,True
+T2,T2:microsoft/vscode#342194,https://github.com/microsoft/vscode/pull/342194,False,True
+T2,T2:microsoft/vscode#341225,https://github.com/microsoft/vscode/pull/341225,False,True
+T2,T2:microsoft/vscode#341485,https://github.com/microsoft/vscode/pull/341485,False,True
+T2,T2:microsoft/vscode#344647,https://github.com/microsoft/vscode/pull/344647,False,True
+T2,T2:microsoft/vscode#344662,https://github.com/microsoft/vscode/pull/344662,False,True
+T2,T2:microsoft/vscode#336585,https://github.com/microsoft/vscode/pull/336585,False,True
+T2,T2:microsoft/vscode#340835,https://github.com/microsoft/vscode/pull/340835,False,True
+T2,T2:microsoft/vscode#345021,https://github.com/microsoft/vscode/pull/345021,False,True
+T2,T2:microsoft/vscode#345079,https://github.com/microsoft/vscode/pull/345079,False,True
+T2,T2:microsoft/vscode#339922,https://github.com/microsoft/vscode/pull/339922,False,True
+T2,T2:microsoft/vscode#339831,https://github.com/microsoft/vscode/pull/339831,False,True
+T2,T2:microsoft/vscode#337082,https://github.com/microsoft/vscode/pull/337082,False,True
+T2,T2:microsoft/vscode#340831,https://github.com/microsoft/vscode/pull/340831,False,True
+T2,T2:microsoft/vscode#337062,https://github.com/microsoft/vscode/pull/337062,False,True
+T2,T2:microsoft/vscode#338994,https://github.com/microsoft/vscode/pull/338994,False,True
+T2,T2:microsoft/vscode#337793,https://github.com/microsoft/vscode/pull/337793,False,True
+T2,T2:microsoft/vscode#338519,https://github.com/microsoft/vscode/pull/338519,False,True
+T2,T2:microsoft/vscode#336463,https://github.com/microsoft/vscode/pull/336463,False,True
+T2,T2:vercel/next.js#100469,https://github.com/vercel/next.js/pull/100469,False,True
+T2,T2:vercel/next.js#99132,https://github.com/vercel/next.js/pull/99132,False,True
+T2,T2:vercel/next.js#99342,https://github.com/vercel/next.js/pull/99342,False,True
+T2,T2:vercel/next.js#99191,https://github.com/vercel/next.js/pull/99191,False,True
+T2,T2:vercel/next.js#99441,https://github.com/vercel/next.js/pull/99441,False,True
+T2,T2:vercel/next.js#98907,https://github.com/vercel/next.js/pull/98907,False,True
+T2,T2:vercel/next.js#99586,https://github.com/vercel/next.js/pull/99586,False,True
+T2,T2:vercel/next.js#99082,https://github.com/vercel/next.js/pull/99082,False,True
+T2,T2:vercel/next.js#100783,https://github.com/vercel/next.js/pull/100783,False,True
+T2,T2:vercel/next.js#99981,https://github.com/vercel/next.js/pull/99981,False,True
+T2,T2:vercel/next.js#99754,https://github.com/vercel/next.js/pull/99754,False,True
+T2,T2:vercel/next.js#99972,https://github.com/vercel/next.js/pull/99972,False,True
+T2,T2:vercel/next.js#100903,https://github.com/vercel/next.js/pull/100903,False,True
+T2,T2:vercel/next.js#100895,https://github.com/vercel/next.js/pull/100895,False,True
+T2,T2:vercel/next.js#99211,https://github.com/vercel/next.js/pull/99211,False,True
+T2,T2:vercel/next.js#98665,https://github.com/vercel/next.js/pull/98665,False,True
+T2,T2:vercel/next.js#100066,https://github.com/vercel/next.js/pull/100066,False,True
+T2,T2:vercel/next.js#99497,https://github.com/vercel/next.js/pull/99497,False,True
+T2,T2:vercel/next.js#99589,https://github.com/vercel/next.js/pull/99589,False,True
+T2,T2:vercel/next.js#99872,https://github.com/vercel/next.js/pull/99872,False,True
+T2,T2:vercel/next.js#100913,https://github.com/vercel/next.js/pull/100913,False,True
+T2,T2:vercel/next.js#99242,https://github.com/vercel/next.js/pull/99242,False,True
+T2,T2:vercel/next.js#99516,https://github.com/vercel/next.js/pull/99516,False,True
+T2,T2:vercel/next.js#99553,https://github.com/vercel/next.js/pull/99553,False,True
+T2,T2:vercel/next.js#99168,https://github.com/vercel/next.js/pull/99168,False,True
+T2,T2:vercel/next.js#99548,https://github.com/vercel/next.js/pull/99548,False,True
+T2,T2:vercel/next.js#98762,https://github.com/vercel/next.js/pull/98762,False,True
+T2,T2:vercel/next.js#99537,https://github.com/vercel/next.js/pull/99537,False,True
+T2,T2:vercel/next.js#100032,https://github.com/vercel/next.js/pull/100032,False,True
+T2,T2:vercel/next.js#98683,https://github.com/vercel/next.js/pull/98683,False,True
+T2,T2:vercel/next.js#99003,https://github.com/vercel/next.js/pull/99003,False,True
+T2,T2:vercel/next.js#100605,https://github.com/vercel/next.js/pull/100605,False,True
+T2,T2:vercel/next.js#99832,https://github.com/vercel/next.js/pull/99832,False,True
+T2,T2:vercel/next.js#98846,https://github.com/vercel/next.js/pull/98846,False,True
+T2,T2:vercel/next.js#100841,https://github.com/vercel/next.js/pull/100841,False,True
+T2,T2:vercel/next.js#100772,https://github.com/vercel/next.js/pull/100772,False,True
+T2,T2:vercel/next.js#100782,https://github.com/vercel/next.js/pull/100782,False,True
+T2,T2:vercel/next.js#100640,https://github.com/vercel/next.js/pull/100640,False,True
+T2,T2:vercel/next.js#99772,https://github.com/vercel/next.js/pull/99772,False,True
+T2,T2:microsoft/TypeScript#64472,https://github.com/microsoft/TypeScript/pull/64472,False,True
+T2,T2:microsoft/TypeScript#64363,https://github.com/microsoft/TypeScript/pull/64363,False,True
+T2,T2:microsoft/TypeScript#64513,https://github.com/microsoft/TypeScript/pull/64513,False,True
+T2,T2:microsoft/TypeScript#64289,https://github.com/microsoft/TypeScript/pull/64289,False,True
+T2,T2:microsoft/TypeScript#64688,https://github.com/microsoft/TypeScript/pull/64688,False,True
+T2,T2:microsoft/TypeScript#64294,https://github.com/microsoft/TypeScript/pull/64294,False,True
+T2,T2:microsoft/TypeScript#64409,https://github.com/microsoft/TypeScript/pull/64409,False,True
+T2,T2:microsoft/TypeScript#64466,https://github.com/microsoft/TypeScript/pull/64466,False,True
+T2,T2:microsoft/TypeScript#65028,https://github.com/microsoft/TypeScript/pull/65028,False,True
+T2,T2:microsoft/TypeScript#65033,https://github.com/microsoft/TypeScript/pull/65033,False,True
+T2,T2:microsoft/TypeScript#64269,https://github.com/microsoft/TypeScript/pull/64269,False,True
+T2,T2:microsoft/TypeScript#64587,https://github.com/microsoft/TypeScript/pull/64587,False,True
+T2,T2:microsoft/TypeScript#64916,https://github.com/microsoft/TypeScript/pull/64916,False,True
+T2,T2:microsoft/TypeScript#64380,https://github.com/microsoft/TypeScript/pull/64380,False,True
+T3,T3:bz2087821,https://bugzilla.mozilla.org/show_bug.cgi?id=2087821,Address Bar,Search
+T3,T3:bz2079194,https://bugzilla.mozilla.org/show_bug.cgi?id=2079194,Address Bar,Search
+T3,T3:bz2081438,https://bugzilla.mozilla.org/show_bug.cgi?id=2081438,Bookmarks & History,Toolbars and Customization
+T3,T3:bz2077637,https://bugzilla.mozilla.org/show_bug.cgi?id=2077637,File Handling,Downloads Panel
+T3,T3:bz2084853,https://bugzilla.mozilla.org/show_bug.cgi?id=2084853,File Handling,Downloads Panel
+T3,T3:bz2076912,https://bugzilla.mozilla.org/show_bug.cgi?id=2076912,File Handling,PDF Viewer
+T3,T3:bz2080359,https://bugzilla.mozilla.org/show_bug.cgi?id=2080359,Firefox Accounts,Sync
+T3,T3:bz2080358,https://bugzilla.mozilla.org/show_bug.cgi?id=2080358,Firefox Accounts,Sync
+T3,T3:bz2083790,https://bugzilla.mozilla.org/show_bug.cgi?id=2083790,IP Protection,Messaging System
+T3,T3:bz2082658,https://bugzilla.mozilla.org/show_bug.cgi?id=2082658,IP Protection,Messaging System
+T3,T3:bz2074289,https://bugzilla.mozilla.org/show_bug.cgi?id=2074289,IP Protection,Messaging System
+T3,T3:bz2078283,https://bugzilla.mozilla.org/show_bug.cgi?id=2078283,Installer,Messaging System
+T3,T3:bz2078284,https://bugzilla.mozilla.org/show_bug.cgi?id=2078284,Installer,Messaging System
+T3,T3:bz2078659,https://bugzilla.mozilla.org/show_bug.cgi?id=2078659,Installer,Messaging System
+T3,T3:bz2073885,https://bugzilla.mozilla.org/show_bug.cgi?id=2073885,Keyboard Navigation,Menus
+T3,T3:bz2083997,https://bugzilla.mozilla.org/show_bug.cgi?id=2083997,Keyboard Navigation,Menus
+T3,T3:bz2072986,https://bugzilla.mozilla.org/show_bug.cgi?id=2072986,Menus,Sync
+T3,T3:bz2079625,https://bugzilla.mozilla.org/show_bug.cgi?id=2079625,Menus,PDF Viewer
+T3,T3:bz2076260,https://bugzilla.mozilla.org/show_bug.cgi?id=2076260,Messaging System,Nimbus Desktop Client
+T3,T3:bz2086317,https://bugzilla.mozilla.org/show_bug.cgi?id=2086317,Messaging System,Nimbus Desktop Client
+T3,T3:bz2084830,https://bugzilla.mozilla.org/show_bug.cgi?id=2084830,Messaging System,Shell Integration
+T3,T3:bz2083975,https://bugzilla.mozilla.org/show_bug.cgi?id=2083975,Messaging System,Enterprise Policies
+T3,T3:bz2081342,https://bugzilla.mozilla.org/show_bug.cgi?id=2081342,New Tab Page,Widgets
+T3,T3:bz2075683,https://bugzilla.mozilla.org/show_bug.cgi?id=2075683,Nimbus Desktop Client,Migration
+T3,T3:bz2082998,https://bugzilla.mozilla.org/show_bug.cgi?id=2082998,PDF Viewer,File Handling
+T3,T3:bz2082421,https://bugzilla.mozilla.org/show_bug.cgi?id=2082421,Private Browsing,Menus
+T3,T3:bz2077109,https://bugzilla.mozilla.org/show_bug.cgi?id=2077109,Profile Backup,Private Browsing
+T3,T3:bz2072650,https://bugzilla.mozilla.org/show_bug.cgi?id=2072650,Protections UI,Nimbus Desktop Client
+T3,T3:bz2077952,https://bugzilla.mozilla.org/show_bug.cgi?id=2077952,Settings UI,Search
+T3,T3:bz2076898,https://bugzilla.mozilla.org/show_bug.cgi?id=2076898,Sharing,Menus
+T3,T3:bz2073280,https://bugzilla.mozilla.org/show_bug.cgi?id=2073280,Shell Integration,Tabbed Browser
+T3,T3:bz2086884,https://bugzilla.mozilla.org/show_bug.cgi?id=2086884,Shell Integration,Search
+T3,T3:bz2089637,https://bugzilla.mozilla.org/show_bug.cgi?id=2089637,Shell Integration,Settings UI
+T3,T3:bz2076085,https://bugzilla.mozilla.org/show_bug.cgi?id=2076085,Shell Integration,Web Apps
+T3,T3:bz2075342,https://bugzilla.mozilla.org/show_bug.cgi?id=2075342,Sidebar,Containers
+T3,T3:bz2075732,https://bugzilla.mozilla.org/show_bug.cgi?id=2075732,Sync,about:logins
+T3,T3:bz2073252,https://bugzilla.mozilla.org/show_bug.cgi?id=2073252,Sync,Messaging System
+T3,T3:bz2086209,https://bugzilla.mozilla.org/show_bug.cgi?id=2086209,Tabbed Browser,Tabbed Browser: Tab Groups
+T3,T3:bz2084678,https://bugzilla.mozilla.org/show_bug.cgi?id=2084678,Tabbed Browser,Tabbed Browser: Tab Groups
+T3,T3:bz2077160,https://bugzilla.mozilla.org/show_bug.cgi?id=2077160,Tabbed Browser,Tabbed Browser: Tab Groups
+T3,T3:bz2079150,https://bugzilla.mozilla.org/show_bug.cgi?id=2079150,Tabbed Browser,Session Restore
+T3,T3:bz2074350,https://bugzilla.mozilla.org/show_bug.cgi?id=2074350,Theme,IP Protection
+T3,T3:bz2086366,https://bugzilla.mozilla.org/show_bug.cgi?id=2086366,Theme,Address Bar
+T3,T3:bz2078632,https://bugzilla.mozilla.org/show_bug.cgi?id=2078632,Theme,Menus
+T3,T3:bz2085080,https://bugzilla.mozilla.org/show_bug.cgi?id=2085080,Toolbars and Customization,Keyboard Navigation
+T3,T3:bz2079639,https://bugzilla.mozilla.org/show_bug.cgi?id=2079639,Toolbars and Customization,Theme
+T3,T3:bz2073893,https://bugzilla.mozilla.org/show_bug.cgi?id=2073893,Toolbars and Customization,Menus
+T3,T3:bz2074891,https://bugzilla.mozilla.org/show_bug.cgi?id=2074891,Toolbars and Customization,Nimbus Desktop Client
+T3,T3:bz2077521,https://bugzilla.mozilla.org/show_bug.cgi?id=2077521,Web Apps,Shell Integration
+T3,T3:bz2087094,https://bugzilla.mozilla.org/show_bug.cgi?id=2087094,Widgets,New Tab Page
+T4,T4:bz2073040,https://bugzilla.mozilla.org/show_bug.cgi?id=2073040,S2,S3
+T4,T4:bz2073610,https://bugzilla.mozilla.org/show_bug.cgi?id=2073610,S2,S3
+T4,T4:bz2075574,https://bugzilla.mozilla.org/show_bug.cgi?id=2075574,S2,S3
+T4,T4:bz2076380,https://bugzilla.mozilla.org/show_bug.cgi?id=2076380,S2,S3
+T4,T4:bz2076850,https://bugzilla.mozilla.org/show_bug.cgi?id=2076850,S2,S3
+T4,T4:bz2077261,https://bugzilla.mozilla.org/show_bug.cgi?id=2077261,S2,S3
+T4,T4:bz2078320,https://bugzilla.mozilla.org/show_bug.cgi?id=2078320,S2,S3
+T4,T4:bz2080358,https://bugzilla.mozilla.org/show_bug.cgi?id=2080358,S2,S3
+T4,T4:bz2081748,https://bugzilla.mozilla.org/show_bug.cgi?id=2081748,S2,S3
+T4,T4:bz2081861,https://bugzilla.mozilla.org/show_bug.cgi?id=2081861,S2,S3
+T4,T4:bz2082868,https://bugzilla.mozilla.org/show_bug.cgi?id=2082868,S2,S3
+T4,T4:bz2085236,https://bugzilla.mozilla.org/show_bug.cgi?id=2085236,S2,S3
+T4,T4:bz2086094,https://bugzilla.mozilla.org/show_bug.cgi?id=2086094,S2,S3
+T4,T4:bz2087278,https://bugzilla.mozilla.org/show_bug.cgi?id=2087278,S2,S3
+T4,T4:bz2080225,https://bugzilla.mozilla.org/show_bug.cgi?id=2080225,S3,S4
+T4,T4:bz2084244,https://bugzilla.mozilla.org/show_bug.cgi?id=2084244,S3,S4
+T4,T4:bz2077237,https://bugzilla.mozilla.org/show_bug.cgi?id=2077237,S3,S4
+T4,T4:bz2078363,https://bugzilla.mozilla.org/show_bug.cgi?id=2078363,S3,S4
+T4,T4:bz2076643,https://bugzilla.mozilla.org/show_bug.cgi?id=2076643,S3,S4
+T4,T4:bz2086090,https://bugzilla.mozilla.org/show_bug.cgi?id=2086090,S3,S4
+T4,T4:bz2076788,https://bugzilla.mozilla.org/show_bug.cgi?id=2076788,S3,S4
+T4,T4:bz2076782,https://bugzilla.mozilla.org/show_bug.cgi?id=2076782,S3,S4
+T4,T4:bz2084922,https://bugzilla.mozilla.org/show_bug.cgi?id=2084922,S3,S4
+T4,T4:bz2072108,https://bugzilla.mozilla.org/show_bug.cgi?id=2072108,S3,S4
+T4,T4:bz2081930,https://bugzilla.mozilla.org/show_bug.cgi?id=2081930,S3,S4
+T4,T4:bz2074933,https://bugzilla.mozilla.org/show_bug.cgi?id=2074933,S3,S4
+T4,T4:bz2072714,https://bugzilla.mozilla.org/show_bug.cgi?id=2072714,S3,S4
+T4,T4:bz2074635,https://bugzilla.mozilla.org/show_bug.cgi?id=2074635,S3,S1
+T4,T4:bz2076762,https://bugzilla.mozilla.org/show_bug.cgi?id=2076762,S3,S4
+T4,T4:bz2075731,https://bugzilla.mozilla.org/show_bug.cgi?id=2075731,S3,S4
+T4,T4:bz2089207,https://bugzilla.mozilla.org/show_bug.cgi?id=2089207,S4,S3
+T4,T4:bz2073189,https://bugzilla.mozilla.org/show_bug.cgi?id=2073189,S4,S3
+T4,T4:bz2079262,https://bugzilla.mozilla.org/show_bug.cgi?id=2079262,S4,S3
+T4,T4:bz2078822,https://bugzilla.mozilla.org/show_bug.cgi?id=2078822,S4,S3
+T4,T4:bz2086978,https://bugzilla.mozilla.org/show_bug.cgi?id=2086978,S4,S3
+T4,T4:bz2084545,https://bugzilla.mozilla.org/show_bug.cgi?id=2084545,S4,S3
+T4,T4:bz2088115,https://bugzilla.mozilla.org/show_bug.cgi?id=2088115,S4,S3
+T4,T4:bz2088515,https://bugzilla.mozilla.org/show_bug.cgi?id=2088515,S4,S3
+T4,T4:bz2074380,https://bugzilla.mozilla.org/show_bug.cgi?id=2074380,S4,S3
+T4,T4:bz2072902,https://bugzilla.mozilla.org/show_bug.cgi?id=2072902,S4,S3
+T4,T4:bz2088358,https://bugzilla.mozilla.org/show_bug.cgi?id=2088358,S4,S3
+T4,T4:bz2076547,https://bugzilla.mozilla.org/show_bug.cgi?id=2076547,S4,S3
+T4,T4:bz2084918,https://bugzilla.mozilla.org/show_bug.cgi?id=2084918,S4,S3
+T4,T4:bz2081785,https://bugzilla.mozilla.org/show_bug.cgi?id=2081785,S4,S3
+T4,T4:bz2089572,https://bugzilla.mozilla.org/show_bug.cgi?id=2089572,S4,S3
+T4,T4:bz2074486,https://bugzilla.mozilla.org/show_bug.cgi?id=2074486,S4,S3
+T4,T4:bz2083187,https://bugzilla.mozilla.org/show_bug.cgi?id=2083187,S4,S3
+T4,T4:bz2087567,https://bugzilla.mozilla.org/show_bug.cgi?id=2087567,S4,S3
+T4,T4:bz2087119,https://bugzilla.mozilla.org/show_bug.cgi?id=2087119,S4,S3
+T4,T4:bz2083654,https://bugzilla.mozilla.org/show_bug.cgi?id=2083654,S4,S3
+T4,T4:bz2081215,https://bugzilla.mozilla.org/show_bug.cgi?id=2081215,S4,S3
+T4,T4:bz2085818,https://bugzilla.mozilla.org/show_bug.cgi?id=2085818,S4,S3
+T4,T4:bz2075193,https://bugzilla.mozilla.org/show_bug.cgi?id=2075193,S4,S3
+T5,T5:GHSA-pfhg-q3qv-9q6r,https://github.com/advisories/GHSA-pfhg-q3qv-9q6r,low,medium
+T5,T5:GHSA-7hvx-28gp-mf6j,https://github.com/advisories/GHSA-7hvx-28gp-mf6j,low,medium
+T5,T5:GHSA-4fjg-2h4q-fwg3,https://github.com/advisories/GHSA-4fjg-2h4q-fwg3,low,medium
+T5,T5:GHSA-89m4-43j5-vhhx,https://github.com/advisories/GHSA-89m4-43j5-vhhx,low,medium
+T5,T5:GHSA-4vjg-vx72-qq4g,https://github.com/advisories/GHSA-4vjg-vx72-qq4g,low,medium
+T5,T5:GHSA-2gqq-gqf2-x968,https://github.com/advisories/GHSA-2gqq-gqf2-x968,low,medium
+T5,T5:GHSA-9ccq-2jfg-qw33,https://github.com/advisories/GHSA-9ccq-2jfg-qw33,low,medium
+T5,T5:GHSA-74w3-63xv-x9mv,https://github.com/advisories/GHSA-74w3-63xv-x9mv,low,medium
+T5,T5:GHSA-3cc2-h3v6-rqpq,https://github.com/advisories/GHSA-3cc2-h3v6-rqpq,low,high
+T5,T5:GHSA-cg6r-mpgc-h9mm,https://github.com/advisories/GHSA-cg6r-mpgc-h9mm,low,medium
+T5,T5:GHSA-p98j-92pf-mc4p,https://github.com/advisories/GHSA-p98j-92pf-mc4p,low,high
+T5,T5:GHSA-gfhx-hw2g-v5hg,https://github.com/advisories/GHSA-gfhx-hw2g-v5hg,low,high
+T5,T5:GHSA-xmj3-9gf7-h52w,https://github.com/advisories/GHSA-xmj3-9gf7-h52w,low,medium
+T5,T5:GHSA-pvhg-7v4p-f5q9,https://github.com/advisories/GHSA-pvhg-7v4p-f5q9,low,medium
+T5,T5:GHSA-pw9p-v7r6-gx4p,https://github.com/advisories/GHSA-pw9p-v7r6-gx4p,low,medium
+T5,T5:GHSA-cxf4-7mrp-vvpr,https://github.com/advisories/GHSA-cxf4-7mrp-vvpr,low,medium
+T5,T5:GHSA-4x9p-g9wm-8q7f,https://github.com/advisories/GHSA-4x9p-g9wm-8q7f,low,medium
+T5,T5:GHSA-xpf3-p7gm-7756,https://github.com/advisories/GHSA-xpf3-p7gm-7756,low,medium
+T5,T5:GHSA-6623-4q32-82v8,https://github.com/advisories/GHSA-6623-4q32-82v8,low,high
+T5,T5:GHSA-4642-5mcj-2rqw,https://github.com/advisories/GHSA-4642-5mcj-2rqw,low,medium
+T5,T5:GHSA-39w2-rjm5-chcv,https://github.com/advisories/GHSA-39w2-rjm5-chcv,low,medium
+T5,T5:GHSA-jh5r-qr3c-85q8,https://github.com/advisories/GHSA-jh5r-qr3c-85q8,low,medium
+T5,T5:GHSA-44jh-23m7-hpcf,https://github.com/advisories/GHSA-44jh-23m7-hpcf,low,medium
+T5,T5:GHSA-mm27-mwq9-fr5g,https://github.com/advisories/GHSA-mm27-mwq9-fr5g,low,medium
+T5,T5:GHSA-3mqq-hv9c-85hc,https://github.com/advisories/GHSA-3mqq-hv9c-85hc,low,medium
+T5,T5:GHSA-vgf9-9mxx-hq54,https://github.com/advisories/GHSA-vgf9-9mxx-hq54,low,medium
+T5,T5:GHSA-qmx5-4p3x-wvqf,https://github.com/advisories/GHSA-qmx5-4p3x-wvqf,low,medium
+T5,T5:GHSA-wxmm-q36w-r9xj,https://github.com/advisories/GHSA-wxmm-q36w-r9xj,low,medium
+T5,T5:GHSA-7cxh-94cf-mfp6,https://github.com/advisories/GHSA-7cxh-94cf-mfp6,low,medium
+T5,T5:GHSA-vwwx-px9w-crrc,https://github.com/advisories/GHSA-vwwx-px9w-crrc,low,high
+T5,T5:GHSA-6gw6-rv2g-25mg,https://github.com/advisories/GHSA-6gw6-rv2g-25mg,low,medium
+T5,T5:GHSA-9wfm-jcj8-jfv9,https://github.com/advisories/GHSA-9wfm-jcj8-jfv9,low,medium
+T5,T5:GHSA-c6gr-qvv4-5v3f,https://github.com/advisories/GHSA-c6gr-qvv4-5v3f,low,medium
+T5,T5:GHSA-mpr7-6m5w-76rw,https://github.com/advisories/GHSA-mpr7-6m5w-76rw,low,medium
+T5,T5:GHSA-343h-94h5-c4wr,https://github.com/advisories/GHSA-343h-94h5-c4wr,low,medium
+T5,T5:GHSA-3gh4-cghq-f8v4,https://github.com/advisories/GHSA-3gh4-cghq-f8v4,low,medium
+T5,T5:GHSA-m3qr-fvp4-78xj,https://github.com/advisories/GHSA-m3qr-fvp4-78xj,low,high
+T5,T5:GHSA-vp88-798v-h67f,https://github.com/advisories/GHSA-vp88-798v-h67f,low,medium
+T5,T5:GHSA-cvp8-vvgf-69q4,https://github.com/advisories/GHSA-cvp8-vvgf-69q4,medium,high
+T5,T5:GHSA-fprf-r6rv-xg99,https://github.com/advisories/GHSA-fprf-r6rv-xg99,medium,high
+T5,T5:GHSA-qfxx-c367-67f8,https://github.com/advisories/GHSA-qfxx-c367-67f8,medium,high
+T5,T5:GHSA-x4rv-c3wx-4cr8,https://github.com/advisories/GHSA-x4rv-c3wx-4cr8,medium,high
+T5,T5:GHSA-542m-9234-8gvf,https://github.com/advisories/GHSA-542m-9234-8gvf,medium,high
+T5,T5:GHSA-rwrf-2pqf-9j8j,https://github.com/advisories/GHSA-rwrf-2pqf-9j8j,medium,high
+T5,T5:GHSA-vq6g-g6c7-5f2j,https://github.com/advisories/GHSA-vq6g-g6c7-5f2j,medium,high
+T5,T5:GHSA-3rm2-h79c-8qw6,https://github.com/advisories/GHSA-3rm2-h79c-8qw6,medium,high
+T5,T5:GHSA-pc5q-qfxp-ggqv,https://github.com/advisories/GHSA-pc5q-qfxp-ggqv,medium,high
+T5,T5:GHSA-j7qq-vr8c-xvw3,https://github.com/advisories/GHSA-j7qq-vr8c-xvw3,medium,high
+T5,T5:GHSA-j8r4-32c5-33rc,https://github.com/advisories/GHSA-j8r4-32c5-33rc,medium,high
+T5,T5:GHSA-54p9-h82j-f925,https://github.com/advisories/GHSA-54p9-h82j-f925,medium,high
+T5,T5:GHSA-jrq7-xrjx-pcfw,https://github.com/advisories/GHSA-jrq7-xrjx-pcfw,medium,high
+T5,T5:GHSA-7wpf-ch8f-5f4x,https://github.com/advisories/GHSA-7wpf-ch8f-5f4x,medium,high
+T5,T5:GHSA-8gr3-5j6f-25gp,https://github.com/advisories/GHSA-8gr3-5j6f-25gp,medium,high
+T5,T5:GHSA-j8px-rmrx-76h9,https://github.com/advisories/GHSA-j8px-rmrx-76h9,medium,high
+T5,T5:GHSA-f4hc-ppw9-4hhw,https://github.com/advisories/GHSA-f4hc-ppw9-4hhw,medium,high
+T5,T5:GHSA-6gq8-jgmh-3ffp,https://github.com/advisories/GHSA-6gq8-jgmh-3ffp,medium,high
+T5,T5:GHSA-3cv6-jpf6-8222,https://github.com/advisories/GHSA-3cv6-jpf6-8222,medium,high
+T5,T5:GHSA-h7wj-5v37-59r2,https://github.com/advisories/GHSA-h7wj-5v37-59r2,medium,high
+T5,T5:GHSA-ch3g-4xvr-674q,https://github.com/advisories/GHSA-ch3g-4xvr-674q,medium,high
+T5,T5:GHSA-2wrx-84qj-4pcg,https://github.com/advisories/GHSA-2wrx-84qj-4pcg,medium,high
+T5,T5:GHSA-p96f-p2p2-2g3h,https://github.com/advisories/GHSA-p96f-p2p2-2g3h,medium,high
+T5,T5:GHSA-j656-3hf2-fvjc,https://github.com/advisories/GHSA-j656-3hf2-fvjc,medium,high
+T5,T5:GHSA-93cm-2v4m-c56c,https://github.com/advisories/GHSA-93cm-2v4m-c56c,medium,high
+T5,T5:GHSA-h2r5-x5m7-3935,https://github.com/advisories/GHSA-h2r5-x5m7-3935,medium,high
+T5,T5:GHSA-r4j5-9xpp-3985,https://github.com/advisories/GHSA-r4j5-9xpp-3985,medium,high
+T5,T5:GHSA-fjwv-jf2v-j499,https://github.com/advisories/GHSA-fjwv-jf2v-j499,medium,high
+T5,T5:GHSA-g9cg-prrw-2r8q,https://github.com/advisories/GHSA-g9cg-prrw-2r8q,high,medium
+T5,T5:GHSA-f2hq-32vh-53cc,https://github.com/advisories/GHSA-f2hq-32vh-53cc,high,medium
+T5,T5:GHSA-mrfp-p49p-3hf2,https://github.com/advisories/GHSA-mrfp-p49p-3hf2,high,medium
+T5,T5:GHSA-22hg-r758-rrw9,https://github.com/advisories/GHSA-22hg-r758-rrw9,high,medium
+T5,T5:GHSA-g4qv-2jxx-769h,https://github.com/advisories/GHSA-g4qv-2jxx-769h,high,medium
+T5,T5:GHSA-r7x5-4969-99p7,https://github.com/advisories/GHSA-r7x5-4969-99p7,high,medium
+T5,T5:GHSA-5x5g-h9x8-2fh9,https://github.com/advisories/GHSA-5x5g-h9x8-2fh9,high,medium
+T5,T5:GHSA-mghh-pgcx-3jjj,https://github.com/advisories/GHSA-mghh-pgcx-3jjj,high,medium
+T5,T5:GHSA-fp3h-c4fm-7vvf,https://github.com/advisories/GHSA-fp3h-c4fm-7vvf,high,medium
+T5,T5:GHSA-34fc-gh42-pj53,https://github.com/advisories/GHSA-34fc-gh42-pj53,critical,high
+T5,T5:GHSA-w5f4-fx9m-m4q7,https://github.com/advisories/GHSA-w5f4-fx9m-m4q7,critical,high
+T5,T5:GHSA-x5qg-8pq6-39h6,https://github.com/advisories/GHSA-x5qg-8pq6-39h6,critical,high
+T5,T5:GHSA-8g5g-8vmr-9782,https://github.com/advisories/GHSA-8g5g-8vmr-9782,critical,high
+T5,T5:GHSA-w889-685w-c8fh,https://github.com/advisories/GHSA-w889-685w-c8fh,critical,high
+T5,T5:GHSA-p393-cf76-4jmr,https://github.com/advisories/GHSA-p393-cf76-4jmr,critical,high
+T5,T5:GHSA-g2v8-7jhw-pp8p,https://github.com/advisories/GHSA-g2v8-7jhw-pp8p,critical,high
+T5,T5:GHSA-8hr7-r645-pc6w,https://github.com/advisories/GHSA-8hr7-r645-pc6w,critical,high
+T5,T5:GHSA-fm8p-53ww-hf6w,https://github.com/advisories/GHSA-fm8p-53ww-hf6w,critical,high
+T5,T5:GHSA-rj9j-8772-4h6c,https://github.com/advisories/GHSA-rj9j-8772-4h6c,critical,high
+T5,T5:GHSA-85c8-ppgw-ccpr,https://github.com/advisories/GHSA-85c8-ppgw-ccpr,critical,high
+T5,T5:GHSA-f2ph-cmg5-wxc8,https://github.com/advisories/GHSA-f2ph-cmg5-wxc8,critical,high
+T5,T5:GHSA-5843-9mh5-hhgw,https://github.com/advisories/GHSA-5843-9mh5-hhgw,critical,high
+T5,T5:GHSA-332p-7hrc-92wf,https://github.com/advisories/GHSA-332p-7hrc-92wf,critical,high
+T5,T5:GHSA-mgrx-3hqw-485h,https://github.com/advisories/GHSA-mgrx-3hqw-485h,critical,high
+T5,T5:GHSA-p6vx-979v-rg4c,https://github.com/advisories/GHSA-p6vx-979v-rg4c,critical,high
+T5,T5:GHSA-98xx-8mx4-x7cm,https://github.com/advisories/GHSA-98xx-8mx4-x7cm,critical,high
+T5,T5:GHSA-6q48-6c7w-9gw2,https://github.com/advisories/GHSA-6q48-6c7w-9gw2,critical,high
+T5,T5:GHSA-6fvh-fgmg-3x7v,https://github.com/advisories/GHSA-6fvh-fgmg-3x7v,critical,high
+T5,T5:GHSA-2h44-8472-frjj,https://github.com/advisories/GHSA-2h44-8472-frjj,critical,high
+T5,T5:GHSA-9gvv-qjj3-2p6g,https://github.com/advisories/GHSA-9gvv-qjj3-2p6g,critical,high
+T5,T5:GHSA-72qq-p3r5-f7wq,https://github.com/advisories/GHSA-72qq-p3r5-f7wq,critical,high
+T5,T5:GHSA-8686-vhfx-7r3j,https://github.com/advisories/GHSA-8686-vhfx-7r3j,critical,high
+T5,T5:GHSA-rvm3-566m-v7fv,https://github.com/advisories/GHSA-rvm3-566m-v7fv,critical,high
+T5,T5:GHSA-fcqc-726x-5wfc,https://github.com/advisories/GHSA-fcqc-726x-5wfc,critical,high
+T5,T5:GHSA-vfmf-q6x9-cw96,https://github.com/advisories/GHSA-vfmf-q6x9-cw96,critical,high
+T5,T5:GHSA-h4mw-j7qp-8mwm,https://github.com/advisories/GHSA-h4mw-j7qp-8mwm,critical,high
+T5,T5:GHSA-7587-9684-52r6,https://github.com/advisories/GHSA-7587-9684-52r6,critical,high
+T5,T5:GHSA-f8wv-xp27-6gq7,https://github.com/advisories/GHSA-f8wv-xp27-6gq7,critical,high
+T5,T5:GHSA-wqg3-r97q-73xm,https://github.com/advisories/GHSA-wqg3-r97q-73xm,critical,high
+T5,T5:GHSA-h85j-hv3c-qfgq,https://github.com/advisories/GHSA-h85j-hv3c-qfgq,critical,high
+T6,T6:CVE-2026-109119,https://nvd.nist.gov/vuln/detail/CVE-2026-109119,CWE-862: Missing Authorization,CWE-269: Improper Privilege Management
+T6,T6:CVE-2026-101785,https://nvd.nist.gov/vuln/detail/CVE-2026-101785,CWE-284: Improper Access Control,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-102789,https://nvd.nist.gov/vuln/detail/CVE-2026-102789,CWE-284: Improper Access Control,CWE-862: Missing Authorization
+T6,T6:CVE-2026-20561,https://nvd.nist.gov/vuln/detail/CVE-2026-20561,CWE-125: Out-of-bounds Read,CWE-787: Out-of-bounds Write
+T6,T6:CVE-2026-52820,https://nvd.nist.gov/vuln/detail/CVE-2026-52820,CWE-639: Authorization Bypass Through User-Controlled Key,CWE-863: Incorrect Authorization
+T6,T6:CVE-2026-76278,https://nvd.nist.gov/vuln/detail/CVE-2026-76278,CWE-639: Authorization Bypass Through User-Controlled Key,CWE-862: Missing Authorization
+T6,T6:CVE-2026-118753,https://nvd.nist.gov/vuln/detail/CVE-2026-118753,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
+T6,T6:CVE-2026-110875,https://nvd.nist.gov/vuln/detail/CVE-2026-110875,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
+T6,T6:CVE-2026-95508,https://nvd.nist.gov/vuln/detail/CVE-2026-95508,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
+T6,T6:CVE-2026-109680,https://nvd.nist.gov/vuln/detail/CVE-2026-109680,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
+T6,T6:CVE-2026-63273,https://nvd.nist.gov/vuln/detail/CVE-2026-63273,CWE-787: Out-of-bounds Write,CWE-122: Heap-based Buffer Overflow
+T6,T6:CVE-2026-91105,https://nvd.nist.gov/vuln/detail/CVE-2026-91105,CWE-122: Heap-based Buffer Overflow,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-19915,https://nvd.nist.gov/vuln/detail/CVE-2026-19915,CWE-269: Improper Privilege Management,CWE-284: Improper Access Control
+T6,T6:CVE-2026-105634,https://nvd.nist.gov/vuln/detail/CVE-2026-105634,CWE-269: Improper Privilege Management,CWE-863: Incorrect Authorization
+T6,T6:CVE-2026-87681,https://nvd.nist.gov/vuln/detail/CVE-2026-87681,CWE-269: Improper Privilege Management,CWE-863: Incorrect Authorization
+T6,T6:CVE-2026-18513,https://nvd.nist.gov/vuln/detail/CVE-2026-18513,CWE-269: Improper Privilege Management,CWE-284: Improper Access Control
+T6,T6:CVE-2026-91102,https://nvd.nist.gov/vuln/detail/CVE-2026-91102,CWE-78: Improper Neutralization of Special Elements used in an OS Command,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-33625,https://nvd.nist.gov/vuln/detail/CVE-2026-33625,CWE-400: Uncontrolled Resource Consumption,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-115817,https://nvd.nist.gov/vuln/detail/CVE-2026-115817,CWE-770: Allocation of Resources Without Limits or Throttling,CWE-400: Uncontrolled Resource Consumption
+T6,T6:CVE-2026-86561,https://nvd.nist.gov/vuln/detail/CVE-2026-86561,CWE-770: Allocation of Resources Without Limits or Throttling,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-94613,https://nvd.nist.gov/vuln/detail/CVE-2026-94613,CWE-770: Allocation of Resources Without Limits or Throttling,CWE-20: Improper Input Validation
+T6,T6:CVE-2026-97848,https://nvd.nist.gov/vuln/detail/CVE-2026-97848,CWE-20: Improper Input Validation,CWE-863: Incorrect Authorization
+T6,T6:CVE-2026-12268,https://nvd.nist.gov/vuln/detail/CVE-2026-12268,CWE-20: Improper Input Validation,CWE-78: Improper Neutralization of Special Elements used in an OS Command

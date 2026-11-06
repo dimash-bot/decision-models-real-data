@@ -1,0 +1,282 @@
+[
+ {
+  "id": "LiquidAI/d1-2B",
+  "params": 1918181888,
+  "base": "LiquidAI/LFM3-VL-2B",
+  "license": "other",
+  "created": "2026-10-24",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-Omni-2B",
+  "params": 2166928384,
+  "base": "LiquidAI/LFM3-Omni-2B",
+  "license": "other",
+  "created": "2026-10-24",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B",
+  "params": 3123483888,
+  "base": "LiquidAI/LFM2.5-VL-3B",
+  "license": "other",
+  "created": "2026-10-05",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-2B-GGUF",
+  "params": null,
+  "base": "LiquidAI/d1-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-Omni-2B-GGUF",
+  "params": null,
+  "base": "LiquidAI/d1-Omni-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-omni-600M",
+  "params": 587161089,
+  "base": "LiquidAI/LFM2.5-Encoder-350M",
+  "license": "other",
+  "created": "2026-10-05",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-Omni-2B-MLX-8bit",
+  "params": 2166928384,
+  "base": "LiquidAI/d1-Omni-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-omni-600M-GGUF",
+  "params": null,
+  "base": "LiquidAI/d1-omni-600M",
+  "license": "other",
+  "created": "2026-10-06",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-w8a8",
+  "params": 3125339376,
+  "base": "LiquidAI/d1-3B",
+  "license": "other",
+  "created": "2026-10-07",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-Omni-2B-MLX-fp16",
+  "params": 2166928384,
+  "base": "LiquidAI/d1-Omni-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-Omni-2B-ONNX",
+  "params": null,
+  "base": "LiquidAI/d1-Omni-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-GGUF",
+  "params": null,
+  "base": "LiquidAI/d1-3B",
+  "license": "other",
+  "created": "2026-10-06",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-MLX-fp16",
+  "params": 3123483888,
+  "base": "LiquidAI/d1-3B",
+  "license": "other",
+  "created": "2026-10-12",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-2B-ONNX",
+  "params": null,
+  "base": "LiquidAI/d1-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-2B-MLX-fp16",
+  "params": 1918181888,
+  "base": "LiquidAI/d1-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-2B-MLX-8bit",
+  "params": 1918181888,
+  "base": "LiquidAI/d1-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-2B-MLX-4bit",
+  "params": 1918181888,
+  "base": "LiquidAI/d1-2B",
+  "license": "other",
+  "created": "2026-10-27",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-omni-600M-MLX-fp16",
+  "params": 587161089,
+  "base": "LiquidAI/d1-omni-600M",
+  "license": "other",
+  "created": "2026-10-12",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-omni-600M-MLX-8bit",
+  "params": 587161089,
+  "base": "LiquidAI/d1-omni-600M",
+  "license": "other",
+  "created": "2026-10-12",
+  "gated": false
+ },
+ {
+  "id": "LiquidAI/d1-3B-MLX-8bit",
+  "params": 3123483888,
+  "base": "LiquidAI/d1-3B",
+  "license": "other",
+  "created": "2026-10-12",
+  "gated": false
+ },
+ {
+  "id": "perplexity-ai/pplx-decider-v1.2",
+  "params": 26085330160,
+  "base": "Qwen/Qwen3.8-27B",
+  "license": "apache-2.0",
+  "created": "2026-10-15",
+  "gated": false
+ },
+ {
+  "id": "perplexity-ai/pplx-decider-v1.1-27b",
+  "params": 26085330160,
+  "base": "Qwen/Qwen3.8-27B",
+  "license": "apache-2.0",
+  "created": "2026-10-05",
+  "gated": false
+ },
+ {
+  "id": "perplexity-ai/pplx-decider-flash-v1.2",
+  "params": 4539265536,
+  "base": "Qwen/Qwen3.5-4B",
+  "license": "apache-2.0",
+  "created": "2026-10-15",
+  "gated": false
+ },
+ {
+  "id": "perplexity-ai/pplx-decider-v1-27b",
+  "params": 26085330160,
+  "base": "Qwen/Qwen3.8-27B",
+  "license": "apache-2.0",
+  "created": "2026-10-01",
+  "gated": false
+ },
+ {
+  "id": "perplexity-ai/pplx-decider-flash-gguf-v1.2",
+  "params": null,
+  "base": "perplexity-ai/pplx-decider-flash-v1.2",
+  "license": "apache-2.0",
+  "created": "2026-10-18",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-max-v1",
+  "params": 26085330160,
+  "base": null,
+  "license": "other",
+  "created": "2026-10-13",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-max-v1-Q8_0",
+  "params": null,
+  "base": "nace-ai/drex-max-v1",
+  "license": "other",
+  "created": "2026-10-14",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-v2.0",
+  "params": 35107181936,
+  "base": "Qwen/Qwen3.6-35B-A3B",
+  "license": "other",
+  "created": "2026-10-06",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-v1.5",
+  "params": 8953803264,
+  "base": "XiaomiMiMo/MiMo-V2.6-Distill-Qwen-9B",
+  "license": "other",
+  "created": "2026-09-28",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-dlm",
+  "params": 8190735360,
+  "base": "nvidia/Efficient-DLM-8B",
+  "license": "cc-by-nc-4.0",
+  "created": "2026-10-01",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-dlm-Q8_0",
+  "params": null,
+  "base": "nace-ai/drex-dlm",
+  "license": "cc-by-nc-4.0",
+  "created": "2026-10-06",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-v1.5-Q8_0",
+  "params": null,
+  "base": "nace-ai/drex-v1.5",
+  "license": "other",
+  "created": "2026-10-09",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-v2.0-Q8_0",
+  "params": null,
+  "base": "nace-ai/drex-v2.0",
+  "license": "other",
+  "created": "2026-10-13",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-v2.0-Q4_K_M",
+  "params": null,
+  "base": "nace-ai/drex-v2.0",
+  "license": "other",
+  "created": "2026-10-23",
+  "gated": false
+ },
+ {
+  "id": "nace-ai/drex-max-v1-affine-q4",
+  "params": 25624600064,
+  "base": "nace-ai/drex-max-v1",
+  "license": "other",
+  "created": "2026-10-30",
+  "gated": false
+ }
+]

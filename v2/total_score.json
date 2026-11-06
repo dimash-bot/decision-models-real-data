@@ -1,0 +1,240 @@
+{
+ "weights": {
+  "quality": 0.45,
+  "efficiency": 0.2,
+  "trust": 0.2,
+  "reviews": 0.1,
+  "bonus": 0.05
+ },
+ "pillars": {
+  "liquid/d1-ultra": {
+   "quality": 49.200108037963986,
+   "efficiency": 55.59350588987522,
+   "trust": 43.13584191786184,
+   "reviews": 40.224572945722414,
+   "bonus": 76.64350117405291
+  },
+  "liquid/d1.1": {
+   "quality": 44.745995439104874,
+   "efficiency": 66.02556623975502,
+   "trust": 38.16666666666666,
+   "reviews": 39.86423682946539,
+   "bonus": 82.01372682123295
+  },
+  "nace-ai/drex-max": {
+   "quality": 46.61468925703736,
+   "efficiency": 48.44696653502561,
+   "trust": 79.83333333333334,
+   "reviews": 40.01680626726396,
+   "bonus": 85.71117097065074
+  },
+  "openai/gpt-6-luna-decisions": {
+   "quality": 41.009225464408196,
+   "efficiency": 41.42390909665103,
+   "trust": 39.90563812219864,
+   "reviews": 43.747664540572416,
+   "bonus": 0.0
+  },
+  "perplexity/pplx-decider-v1.2": {
+   "quality": 47.82562666977784,
+   "efficiency": 62.130671000913765,
+   "trust": 99.33333333333333,
+   "reviews": 53.901070819776116,
+   "bonus": 0.0
+  },
+  "typesafe/jev-1.13": {
+   "quality": 44.77534374594563,
+   "efficiency": 49.738504257607175,
+   "trust": 62.333333333333336,
+   "reviews": 68.07087592329603,
+   "bonus": 0.0
+  },
+  "typesafe/jev-1.14": {
+   "quality": 44.76879620022186,
+   "efficiency": 50.04441250497214,
+   "trust": 64.16666666666667,
+   "reviews": 63.132512978757376,
+   "bonus": 0.0
+  }
+ },
+ "total": {
+  "liquid/d1-ultra": 49.740550531906095,
+  "liquid/d1.1": 49.061254552889714,
+  "nace-ai/drex-max": 54.91990931459753,
+  "openai/gpt-6-luna-decisions": 39.09482735681087,
+  "perplexity/pplx-decider-v1.2": 59.20443995022706,
+  "typesafe/jev-1.13": 49.370359796193235,
+  "typesafe/jev-1.14": 49.30142542230334
+ },
+ "total_ci": {
+  "liquid/d1-ultra": [
+   48.96806147363112,
+   50.48622898878685
+  ],
+  "liquid/d1.1": [
+   48.37450147033641,
+   49.73064790232608
+  ],
+  "nace-ai/drex-max": [
+   54.20241406476435,
+   55.5859345323346
+  ],
+  "openai/gpt-6-luna-decisions": [
+   38.43286704417317,
+   39.76992662453497
+  ],
+  "perplexity/pplx-decider-v1.2": [
+   58.51008110483327,
+   59.91909939170934
+  ],
+  "typesafe/jev-1.13": [
+   48.637599196952166,
+   50.093389397212164
+  ],
+  "typesafe/jev-1.14": [
+   48.54009457593349,
+   50.03847677552177
+  ]
+ },
+ "p_first_quality_uncertainty": {
+  "liquid/d1-ultra": 0.0,
+  "liquid/d1.1": 0.0,
+  "nace-ai/drex-max": 0.0,
+  "openai/gpt-6-luna-decisions": 0.0,
+  "perplexity/pplx-decider-v1.2": 1.0,
+  "typesafe/jev-1.13": 0.0,
+  "typesafe/jev-1.14": 0.0
+ },
+ "random_weight_wins": {
+  "liquid/d1-ultra": 0.0057,
+  "liquid/d1.1": 0.1469,
+  "nace-ai/drex-max": 0.4672,
+  "openai/gpt-6-luna-decisions": 0.0,
+  "perplexity/pplx-decider-v1.2": 0.3255,
+  "typesafe/jev-1.13": 0.0547,
+  "typesafe/jev-1.14": 0.0
+ },
+ "scenarios": {
+  "Main weights (45/20/20/10/5)": [
+   "perplexity/pplx-decider-v1.2",
+   "nace-ai/drex-max",
+   "liquid/d1-ultra",
+   "typesafe/jev-1.13",
+   "typesafe/jev-1.14",
+   "liquid/d1.1",
+   "openai/gpt-6-luna-decisions"
+  ],
+  "Quality only": [
+   "liquid/d1-ultra",
+   "perplexity/pplx-decider-v1.2",
+   "nace-ai/drex-max",
+   "typesafe/jev-1.13",
+   "typesafe/jev-1.14",
+   "liquid/d1.1",
+   "openai/gpt-6-luna-decisions"
+  ],
+  "Equal weights (20% each)": [
+   "nace-ai/drex-max",
+   "liquid/d1.1",
+   "liquid/d1-ultra",
+   "perplexity/pplx-decider-v1.2",
+   "typesafe/jev-1.13",
+   "typesafe/jev-1.14",
+   "openai/gpt-6-luna-decisions"
+  ],
+  "No signup bonus (rescaled)": [
+   "perplexity/pplx-decider-v1.2",
+   "nace-ai/drex-max",
+   "typesafe/jev-1.13",
+   "typesafe/jev-1.14",
+   "liquid/d1-ultra",
+   "liquid/d1.1",
+   "openai/gpt-6-luna-decisions"
+  ],
+  "Drex Max at list price (no 50% promo)": [
+   "perplexity/pplx-decider-v1.2",
+   "nace-ai/drex-max",
+   "liquid/d1-ultra",
+   "typesafe/jev-1.13",
+   "typesafe/jev-1.14",
+   "liquid/d1.1",
+   "openai/gpt-6-luna-decisions"
+  ]
+ },
+ "verdict": "No model is best overall. perplexity/pplx-decider-v1.2 is #1 under the main weights but wins only 33% of random weightings, so the winner depends on what you value.",
+ "inputs": {
+  "discussion": {
+   "jev": {
+    "n": 247,
+    "pos": 71,
+    "neg": 37,
+    "score": 56.88259109311741,
+    "insufficient": false
+   },
+   "liquid-d1": {
+    "n": 8,
+    "pos": 1,
+    "neg": 1,
+    "score": 50.0,
+    "insufficient": true
+   },
+   "decider": {
+    "n": 8,
+    "pos": 2,
+    "neg": 1,
+    "score": 50.0,
+    "insufficient": true
+   },
+   "luna-decisions": {
+    "n": 13,
+    "pos": 3,
+    "neg": 4,
+    "score": 46.15384615384615,
+    "insufficient": false
+   },
+   "drex": {
+    "n": 1,
+    "pos": 1,
+    "neg": 0,
+    "score": 50.0,
+    "insufficient": true
+   }
+  },
+  "free_decisions": {
+   "liquid/d1-ultra": 39682,
+   "liquid/d1.1": 83333,
+   "nace-ai/drex-max": 138888,
+   "openai/gpt-6-luna-decisions": 0,
+   "perplexity/pplx-decider-v1.2": 0,
+   "typesafe/jev-1.13": 0,
+   "typesafe/jev-1.14": 0
+  },
+  "answered_ok_rate": {
+   "liquid/d1-ultra": 0.9998820476527482,
+   "liquid/d1.1": 1.0,
+   "nace-ai/drex-max": 1.0,
+   "openai/gpt-6-luna-decisions": 0.9995281906109932,
+   "perplexity/pplx-decider-v1.2": 1.0,
+   "typesafe/jev-1.13": 1.0,
+   "typesafe/jev-1.14": 1.0
+  },
+  "calibration": {
+   "liquid/d1-ultra": 36.873552259429175,
+   "liquid/d1.1": 28.674068142470503,
+   "nace-ai/drex-max": 31.698634379263662,
+   "openai/gpt-6-luna-decisions": 16.566529120903,
+   "perplexity/pplx-decider-v1.2": 34.676943716656645,
+   "typesafe/jev-1.13": 27.64555368015007,
+   "typesafe/jev-1.14": 28.13551084848216
+  },
+  "skill": {
+   "liquid/d1-ultra": 52.28174698259769,
+   "liquid/d1.1": 48.76397726326346,
+   "nace-ai/drex-max": 50.343702976480785,
+   "openai/gpt-6-luna-decisions": 47.11989955028449,
+   "perplexity/pplx-decider-v1.2": 51.112797408058135,
+   "typesafe/jev-1.13": 49.05779126239451,
+   "typesafe/jev-1.14": 48.92711753815678
+  }
+ }
+}

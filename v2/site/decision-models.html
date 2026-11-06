@@ -1,0 +1,253 @@
+<title>Decision Models on Real Data</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single lab-notebook column; data tables and plots break wider, scrolling inside their own boxes on phones. */
+:root {
+  --bg: #f6f7f8; --surface: #ffffff; --fg: #15191d; --muted: #5b6670; --line: #d9dee3;
+  --accent: #0f6f6a; --accent-soft: #d7ecea; --warn: #9a4b12; --warn-soft: #f6e6d8; --tie: #0f6f6a;
+  --display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111417; --surface: #181c20; --fg: #e6eaee; --muted: #9aa5af; --line: #2c333a;
+  --accent: #4fc1b8; --accent-soft: #163a38; --warn: #f0a46a; --warn-soft: #3a2616; --tie: #4fc1b8; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111417; --surface: #181c20; --fg: #e6eaee; --muted: #9aa5af; --line: #2c333a;
+  --accent: #4fc1b8; --accent-soft: #163a38; --warn: #f0a46a; --warn-soft: #3a2616; --tie: #4fc1b8; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
+main { max-width: 920px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px; }
+.prose { max-width: 66ch; }
+h1, h2, h3 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 1.6rem; font-weight: 600; }
+h3 { font-size: 1.15rem; font-weight: 600; }
+p { margin: 0; }
+section { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+.eyebrow { font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 1.15rem; color: var(--fg); max-width: 60ch; }
+.disclosure { border: 1px solid var(--warn); background: var(--warn-soft); padding: 14px 16px; border-radius: 6px; max-width: 66ch; }
+.disclosure strong { color: var(--warn); }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 24px; font-family: var(--mono); font-size: 0.8rem; color: var(--muted); }
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 0.92rem; }
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; vertical-align: top; }
+th { font-family: var(--mono); font-weight: 500; font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); background: var(--bg); }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 0.86rem; }
+td.wrap { white-space: normal; min-width: 200px; }
+.model { font-weight: 600; }
+.vendor { color: var(--muted); font-weight: 400; }
+.pill { display: inline-block; font-family: var(--mono); font-size: 0.7rem; padding: 2px 8px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); letter-spacing: 0.03em; }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.callout { border-left: 3px solid var(--accent); padding: 4px 0 4px 16px; max-width: 66ch; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.card .big { font-family: var(--display); font-size: 1.35rem; font-weight: 600; }
+.small { font-size: 0.85rem; color: var(--muted); }
+svg text { font-family: var(--mono); font-size: 11px; fill: var(--muted); }
+svg .lbl { fill: var(--fg); font-family: var(--body); font-size: 13px; }
+ul { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+code { font-family: var(--mono); font-size: 0.85em; }
+</style>
+
+<main>
+  <header style="display:flex;flex-direction:column;gap:16px">
+    <span class="eyebrow">OpenRouter decision models · real data · Nov 6, 2026</span>
+    <h1>Seven decision models, 2,826 real tech decisions</h1>
+    <p class="lede">TypeSafe Jev, Liquid d1, Perplexity Decider, GPT-6 Luna Decisions and Nace Drex Max, tested on GitHub issues and PRs, Firefox bugs, security advisories and CVEs that were all filed after the models were released.</p>
+    <p class="disclosure"><strong>Disclosure.</strong> The author works at Nace.AI, which makes Drex Max. The method, prompts and scoring formula were written down and checksummed before any model was run; every model got identical inputs through OpenRouter; pricing and openness use only OpenRouter and Hugging Face data. All data, raw outputs and code are published.</p>
+    <div class="meta"><span>63,546 API calls</span><span>3 phrasings per question</span><span>paired bootstrap, Holm-corrected</span><span>total cost ≈ $3</span></div>
+  </header>
+
+  <section>
+    <span class="eyebrow">Answer</span>
+    <h2>No single best model. Three are tied on accuracy; one is clearly last.</h2>
+    <div class="grid2">
+      <div class="card"><span class="pill">Tied top group</span><span class="big">d1-ultra · Decider V1.2 · Drex Max</span><span class="small">Gaps between them are within noise (Holm-adjusted p ≥ 0.05).</span></div>
+      <div class="card"><span class="pill">Best all-round value</span><span class="big">Perplexity Decider V1.2</span><span class="small">Tied most accurate, second cheapest, Apache-2.0 weights, no prompt training or retention.</span></div>
+      <div class="card"><span class="pill warn">Last on every summary</span><span class="big">GPT-6 Luna Decisions</span><span class="small">Least accurate, most expensive, most overconfident, keeps prompts.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Accuracy</span>
+    <h2>Balanced accuracy over six tasks</h2>
+    <p class="prose small">Mean over tasks of balanced accuracy, averaged across three phrasings of each question. Bars show 95% bootstrap intervals; the shaded models are the statistically tied top group.</p>
+    <div class="scroll" style="padding:12px 8px"><svg id="ci" role="img" aria-label="Balanced accuracy with 95% intervals for seven models"></svg></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Model</th><th class="num">Accuracy</th><th class="num">Chance of #1</th><th class="num">Cost / 1k</th><th class="num">p50 / p95</th><th class="num">Same answer on repeat</th></tr></thead>
+        <tbody id="acc"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">By task</span>
+    <h2>Who leads where</h2>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Task</th><th>Source</th><th class="num">n</th><th>Leader</th><th class="num">Best</th><th class="num">Simple baseline</th><th>Tied with leader</th></tr></thead>
+        <tbody id="tasks"></tbody>
+      </table>
+    </div>
+    <p class="callout prose"><strong>A one-line rule beats every model on PR merges.</strong> Predicting "merged" whenever the author already belongs to the repo scores 73.1%, against 63.6% for the best model. The models don't see that field, but it shows how much of the decision isn't in the text.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">Total score</span>
+    <h2>Quality, efficiency, trust, reviews and signup bonus</h2>
+    <p class="prose small">Weights fixed in advance: quality 45%, efficiency 20%, trust 20%, reviews 10%, signup bonus 5%. Each pillar is scored 0–100 with absolute rules. Segment length is the pillar's weighted contribution.</p>
+    <div class="scroll" style="padding:12px 8px"><svg id="stack" role="img" aria-label="Total score stacked by pillar for seven models"></svg></div>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Model</th><th class="num">Total</th><th class="num">Quality</th><th class="num">Efficiency</th><th class="num">Trust</th><th class="num">Reviews</th><th class="num">Bonus</th><th class="num">Wins, random weights</th><th class="num">…without bonus</th></tr></thead>
+        <tbody id="tot"></tbody>
+      </table>
+    </div>
+    <div class="callout prose" style="display:flex;flex-direction:column;gap:8px">
+      <p><strong>Read this before quoting the total.</strong> Decider is #1 under the pre-set weights but wins only 33% of 10,000 random weightings, so by the pre-registered rule no model is best overall.</p>
+      <p>Drex Max's 47% share of random-weight wins comes entirely from its $5 signup bonus. Without the bonus pillar, Decider wins 87%, Jev 1.13 12% and Drex Max 0%. Signup bonuses don't apply through OpenRouter, and Drex Max's $0.06 price is a 50%-off promotion with no end date; at list price it would be the most expensive model tested.</p>
+    </div>
+  </section>
+
+  <section>
+    <span class="eyebrow">Pricing and openness</span>
+    <h2>What you pay and what happens to your data</h2>
+    <p class="prose small">Sources: OpenRouter endpoint and model-page records, Hugging Face metadata and licence files. No company's own marketing.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Model</th><th class="num">$ / 1M input</th><th>Discount</th><th>Weights</th><th>Licence</th><th>Trains on prompts</th><th>Keeps prompts</th><th>Zero retention</th></tr></thead>
+        <tbody id="open"></tbody>
+      </table>
+    </div>
+    <p class="prose small">Observation, not a conclusion: Hugging Face lists the same parameter count (26,085,330,160) for <code>nace-ai/drex-max-v1</code> and Perplexity's Decider models, which name <code>Qwen/Qwen3.8-27B</code> as their base. Drex Max's card names no base model.</p>
+  </section>
+
+  <section>
+    <span class="eyebrow">Method</span>
+    <h2>How it was tested</h2>
+    <ul class="prose">
+      <li>Only items created after Sep 15, 2026, after every model's release, so none can be in training data.</li>
+      <li>Inputs are what a triager sees at filing time. Labels, template markers, CVSS scores, CWE numbers and the PR author's role were removed.</li>
+      <li>Option descriptions come from the sources: Bugzilla's component texts, Mozilla's severity scale, GitHub's advisory scale, MITRE's CWE definitions.</li>
+      <li>Classes balanced; balanced accuracy is the primary metric; Brier score and calibration error are reported for probability quality.</li>
+      <li>Every comparison uses a paired bootstrap (2,000 resamples) with Holm correction across all 21 model pairs.</li>
+    </ul>
+  </section>
+
+  <section>
+    <span class="eyebrow">Limits</span>
+    <h2>What this doesn't show</h2>
+    <ul class="prose">
+      <li>English, software-engineering text only; no images.</li>
+      <li>Labels are human decisions and contain mistakes: on 381 items all seven models agree with each other but not with the label. They're listed for audit.</li>
+      <li>Many CVE descriptions name their weakness ("cross-site scripting"), which makes parts of the CWE task easy.</li>
+      <li>Only Jev and Luna had 10 or more relevant Hacker News mentions; the others got a neutral reviews score.</li>
+      <li>Prices, uptime and usage are a snapshot from Nov 6, 2026.</li>
+    </ul>
+  </section>
+</main>
+
+<script>
+const M = [
+  {id:"d1-ultra", name:"Liquid d1-ultra", v:"Liquid", acc:66.1, lo:64.6, hi:67.6, p1:81, cost:.0335, p50:682, p95:5139, rep:95.7, tie:true,
+   T:{q:49.2,e:55.6,t:43.1,r:40.2,b:76.6,total:49.7,w:1,wn:0}},
+  {id:"pplx", name:"Perplexity Decider V1.2", v:"Perplexity", acc:65.6, lo:64.2, hi:67.0, p1:18, cost:.0182, p50:784, p95:1318, rep:99.3, tie:true,
+   T:{q:47.8,e:62.1,t:99.3,r:53.9,b:0,total:59.2,w:33,wn:87}},
+  {id:"drex", name:"Nace Drex Max", v:"Nace.AI", acc:64.9, lo:63.5, hi:66.3, p1:1, cost:.0549, p50:731, p95:1198, rep:97.3, tie:true,
+   T:{q:46.6,e:48.4,t:79.8,r:40.0,b:85.7,total:54.9,w:47,wn:0}},
+  {id:"jev13", name:"TypeSafe Jev 1.13", v:"TypeSafe", acc:64.2, lo:62.7, hi:65.7, p1:0, cost:.0515, p50:699, p95:885, rep:97.3,
+   T:{q:44.8,e:49.7,t:62.3,r:68.1,b:0,total:49.4,w:5,wn:12}},
+  {id:"jev14", name:"TypeSafe Jev 1.14", v:"TypeSafe", acc:64.2, lo:62.6, hi:65.7, p1:0, cost:.0515, p50:678, p95:756, rep:99.2,
+   T:{q:44.8,e:50.0,t:64.2,r:63.1,b:0,total:49.3,w:0,wn:0}},
+  {id:"d11", name:"Liquid d1.1", v:"Liquid", acc:63.7, lo:62.3, hi:65.1, p1:0, cost:.0160, p50:632, p95:746, rep:90.7,
+   T:{q:44.7,e:66.0,t:38.2,r:39.9,b:82.0,total:49.1,w:15,wn:1}},
+  {id:"luna", name:"GPT-6 Luna Decisions", v:"OpenAI", acc:62.8, lo:61.5, hi:64.2, p1:0, cost:.0915, p50:758, p95:1078, rep:100,
+   T:{q:41.0,e:41.4,t:39.9,r:43.7,b:0,total:39.1,w:0,wn:0}},
+];
+const TASKS = [
+  ["Bug report or feature request?","VS Code + Kubernetes issues",547,"Drex Max",92.4,"69.9% (keyword rule)","all 7"],
+  ["Will this PR be merged?","VS Code, Next.js, TypeScript PRs",472,"Liquid d1-ultra",63.6,"73.1% (author rule)","Decider, Drex Max"],
+  ["Which Firefox component?","Bugzilla, 39 components",534,"Perplexity Decider",77.6,"20.6% (name-in-title rule)","Drex Max, d1-ultra, Luna"],
+  ["Firefox bug severity","Bugzilla, S4–S1",292,"Jev 1.14",47.1,"33.3% (majority)","all 7"],
+  ["Advisory severity","GitHub advisories",480,"Liquid d1-ultra",45.1,"25.0% (majority)","all but Luna"],
+  ["CVE weakness type","NVD feed, 20 CWEs",500,"Perplexity Decider",76.0,"5.0% (majority)","all 7"],
+];
+const OPEN = [
+  ["Perplexity Decider V1.2","0.019–0.020","none","Yes","Apache-2.0","No","No","Yes"],
+  ["Liquid d1.1","0.020","none","No (smaller relatives open)","—","Conflicting","Conflicting","Yes"],
+  ["Liquid d1-ultra","0.042","none","No (smaller relatives open)","—","Conflicting","Conflicting","Yes"],
+  ["TypeSafe Jev 1.13 / 1.14","0.042","none","No","—","No","No","Yes"],
+  ["Nace Drex Max","0.060","50% off (list 0.12)","drex-max-v1 on HF","Open RAIL-M (licence needed above $1M revenue or funding)","No","No","Yes"],
+  ["GPT-6 Luna Decisions","0.100","none","No","—","No","Yes","No"],
+];
+const esc = s => String(s).replace(/[&<>]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+
+document.getElementById("acc").innerHTML = M.map(m => `<tr>
+  <td><span class="model">${esc(m.name)}</span> ${m.tie ? '<span class="pill">tied #1</span>' : ""}</td>
+  <td class="num">${m.acc.toFixed(1)}% <span class="vendor">(${m.lo.toFixed(1)}–${m.hi.toFixed(1)})</span></td>
+  <td class="num">${m.p1}%</td><td class="num">$${m.cost.toFixed(3)}</td>
+  <td class="num">${m.p50} / ${m.p95 >= 2000 ? '<span class="pill warn">' + (m.p95/1000).toFixed(1) + ' s</span>' : m.p95 + " ms"}</td>
+  <td class="num">${m.rep.toFixed(1)}%</td></tr>`).join("");
+
+document.getElementById("tasks").innerHTML = TASKS.map(t => `<tr><td class="model">${esc(t[0])}</td><td>${esc(t[1])}</td>
+  <td class="num">${t[2]}</td><td>${esc(t[3])}</td><td class="num">${t[4].toFixed(1)}%</td><td class="num">${esc(t[5])}</td><td>${esc(t[6])}</td></tr>`).join("");
+
+const byTot = [...M].sort((a, b) => b.T.total - a.T.total);
+document.getElementById("tot").innerHTML = byTot.map(m => `<tr><td class="model">${esc(m.name)}</td>
+  <td class="num"><strong>${m.T.total.toFixed(1)}</strong></td><td class="num">${m.T.q.toFixed(1)}</td><td class="num">${m.T.e.toFixed(1)}</td>
+  <td class="num">${m.T.t.toFixed(1)}</td><td class="num">${m.T.r.toFixed(1)}</td><td class="num">${m.T.b.toFixed(1)}</td>
+  <td class="num">${m.T.w}%</td><td class="num">${m.T.wn}%</td></tr>`).join("");
+
+document.getElementById("open").innerHTML = OPEN.map(r => `<tr><td class="model">${esc(r[0])}</td><td class="num">${esc(r[1])}</td>
+  ${r.slice(2).map((c, i) => `<td class="${i === 2 ? "wrap" : ""}">${["Conflicting","Yes"].includes(c) && (i===3||i===4) ? '<span class="pill warn">' + c + "</span>" : esc(c)}</td>`).join("")}</tr>`).join("");
+
+function drawCI() {
+  const svg = document.getElementById("ci"), W = 760, rowH = 34, top = 10, left = 200, right = 30, H = top + M.length * rowH + 34;
+  const lo = 60, hi = 70, x = v => left + (v - lo) / (hi - lo) * (W - left - right);
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  const acc = css("--accent"), mut = css("--muted"), line = css("--line"), soft = css("--accent-soft");
+  let s = "";
+  const ties = M.filter(m => m.tie).length;
+  s += `<rect x="${left - 6}" y="${top}" width="${W - left - right + 12}" height="${ties * rowH}" fill="${soft}" rx="4"/>`;
+  for (let v = lo; v <= hi; v += 2) s += `<line x1="${x(v)}" x2="${x(v)}" y1="${top}" y2="${top + M.length * rowH}" stroke="${line}"/><text x="${x(v)}" y="${top + M.length * rowH + 18}" text-anchor="middle">${v}%</text>`;
+  M.forEach((m, i) => {
+    const y = top + i * rowH + rowH / 2, c = m.tie ? acc : mut;
+    s += `<text class="lbl" x="${left - 14}" y="${y + 4}" text-anchor="end">${esc(m.name)}</text>`;
+    s += `<line x1="${x(m.lo)}" x2="${x(m.hi)}" y1="${y}" y2="${y}" stroke="${c}" stroke-width="2"/>`;
+    s += `<line x1="${x(m.lo)}" x2="${x(m.lo)}" y1="${y - 6}" y2="${y + 6}" stroke="${c}" stroke-width="2"/><line x1="${x(m.hi)}" x2="${x(m.hi)}" y1="${y - 6}" y2="${y + 6}" stroke="${c}" stroke-width="2"/>`;
+    s += `<circle cx="${x(m.acc)}" cy="${y}" r="5.5" fill="${c}"/>`;
+  });
+  svg.innerHTML = s;
+}
+function drawStack() {
+  const svg = document.getElementById("stack"), W = 760, rowH = 30, top = 28, left = 200, right = 50, H = top + byTot.length * rowH + 30;
+  const max = 70, x = v => (W - left - right) * v / max;
+  const keys = [["q", .45, "Quality"], ["e", .20, "Efficiency"], ["t", .20, "Trust"], ["r", .10, "Reviews"], ["b", .05, "Bonus"]];
+  const dark = matchMedia("(prefers-color-scheme: dark)").matches && document.documentElement.dataset.theme !== "light" || document.documentElement.dataset.theme === "dark";
+  const cols = dark ? ["#4fc1b8", "#8fb3e8", "#c7a6e8", "#e8c46a", "#e88f8f"] : ["#0f6f6a", "#3e6fb5", "#7a4fae", "#a8790f", "#b0413e"];
+  svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
+  let s = "", lx = left;
+  keys.forEach((k, i) => { s += `<rect x="${lx}" y="4" width="10" height="10" fill="${cols[i]}"/><text x="${lx + 14}" y="13">${k[2]} ${Math.round(k[1] * 100)}%</text>`; lx += 108; });
+  for (let v = 0; v <= max; v += 10) s += `<line x1="${left + x(v)}" x2="${left + x(v)}" y1="${top}" y2="${top + byTot.length * rowH}" stroke="${css("--line")}"/><text x="${left + x(v)}" y="${top + byTot.length * rowH + 18}" text-anchor="middle">${v}</text>`;
+  byTot.forEach((m, i) => {
+    const y = top + i * rowH + 6; let cx = left;
+    s += `<text class="lbl" x="${left - 14}" y="${y + 13}" text-anchor="end">${esc(m.name)}</text>`;
+    keys.forEach((k, j) => { const w = x(m.T[k[0]] * k[1]); s += `<rect x="${cx}" y="${y}" width="${w}" height="18" fill="${cols[j]}"/>`; cx += w; });
+    s += `<text x="${cx + 6}" y="${y + 13}" style="fill:${css("--fg")}">${m.T.total.toFixed(1)}</text>`;
+  });
+  svg.innerHTML = s;
+}
+function draw() { drawCI(); drawStack(); }
+draw();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", draw);
+new MutationObserver(draw).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>

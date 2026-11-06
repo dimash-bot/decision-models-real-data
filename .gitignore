@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.log
+v2/score_err.txt
+v2/data/_github_cache.json
+v2/company/hn_mentions_raw.json
+v2/company/hn_mentions_labelled.json
+.DS_Store

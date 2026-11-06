@@ -1,0 +1,11 @@
+Frozen: 2026-11-06T15:44:47Z (before any v2 data collection or model calls)
+47101133864e1507a0e90a5e747ee2a59f92f50923434dfd0096b118a08f8ad8  METHODOLOGY.md
+31df524841d66240fc17329677ff46c0e57c8d2829fe6bc8ae9484c9d663ce92  tasks_v2.py
+SCORING.md frozen: 2026-11-06T15:53:54Z (before any v2 model calls) 204ecf2b3630c4047c83983b3bdcd57b4b62ee0356b027e059943f363fa6dc27  SCORING.md
+Amendment 1 frozen: 2026-11-06T16:39:57Z (before any v2 model calls)
+0b534a9e7a272a35444864b3d74aa8529bf75a068c4ed07249aa1db9a29970f8  METHODOLOGY.md
+fab0e2d1f98f84cfc96ecd710e35aa333ce06f9a20b3c3f31caafac382d562c5  tasks_v2.py
+b567d2350ab3d717a0e5820547fb6631413efafabad152fc56646f6aac18b089  data/dataset.jsonl
+98a100929130e20d4849844b940ca61872ca5c3818fa52976e1b89e562ff31b7  data/components.json
+18af2d55243f74bf046069c97ce359e629e1949367f4549337068a0f763d29b1  data/cwes.json
+382c8a19b8d78d68d779addb7ced0cd67117c3706e838e1daf4d74e3b967dd0f  data/raw/nvdcve-2.0-2026.json.gz

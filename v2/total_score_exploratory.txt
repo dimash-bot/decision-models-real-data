@@ -1,0 +1,3 @@
+no bonus {'pplx-decider-v1.2': '87%', 'jev-1.13': '12%', 'd1.1': '1%', 'd1-ultra': '0%'}
+quality+efficiency+trust only {'pplx-decider-v1.2': '96%', 'd1.1': '3%', 'd1-ultra': '0%'}
+quality+efficiency only {'d1.1': '56%', 'pplx-decider-v1.2': '27%', 'd1-ultra': '17%'}
