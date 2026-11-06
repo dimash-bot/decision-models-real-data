@@ -21,15 +21,15 @@ function para(parts, o = {}) {
 }
 const rich = (s, o = {}) => s.split(/(\*\*[^*]+\*\*)/).filter(Boolean).map(t => t.startsWith("**") ? run(t.slice(2, -2), { ...o, bold: true }) : run(t, o));
 const p = (s, o) => para(rich(s, o), o);
-const h1 = t => new Paragraph({ heading: HeadingLevel.HEADING_1, children: [new TextRun({ text: t })] });
-const h2 = t => new Paragraph({ heading: HeadingLevel.HEADING_2, children: [new TextRun({ text: t })] });
+const h1 = (t, newPage) => new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: !!newPage, children: [new TextRun({ text: t })] });
+const h2 = (t, newPage) => new Paragraph({ heading: HeadingLevel.HEADING_2, pageBreakBefore: !!newPage, children: [new TextRun({ text: t })] });
 const bullet = s => new Paragraph({ numbering: { reference: "bul", level: 0 }, children: rich(s), spacing: { after: 80, line: 290 } });
 const caption = s => para([run(s, { size: 18, italics: true, color: MUTED })], { after: 240 });
 function image(file, alt) {
   const buf = fs.readFileSync(path.join(IMG, file));
   const w = buf.readUInt32BE(16), h = buf.readUInt32BE(20); // PNG IHDR
   const width = 600;
-  return new Paragraph({ alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60 },
+  return new Paragraph({ alignment: AlignmentType.CENTER, keepNext: true, keepLines: true, spacing: { before: 120, after: 60 },
     children: [new ImageRun({ type: "png", data: buf, transformation: { width, height: Math.round(width * h / w) }, altText: { title: alt, description: alt, name: file } })] });
 }
 const border = { style: BorderStyle.SINGLE, size: 4, color: LINE };
@@ -113,7 +113,6 @@ const doc = new Document({
       bullet("**Real statistics.** 95% bootstrap intervals and pairwise tests with Holm correction across all 21 model pairs. A model is only called \"best\" if it beats #2 after that correction."),
       bullet("**Fixed in advance.** The method and scoring were checksummed before the first API call. 63,546 calls in total, about $3."),
 
-      new Paragraph({ children: [new PageBreak()] }),
       h1("Results"),
       h2("1. Accuracy: three models tied at the top"),
       image("1_accuracy.png", "Overall balanced accuracy with 95% intervals"),
@@ -129,7 +128,6 @@ const doc = new Document({
       bullet("**Severity (Firefox and advisories):** everyone is in the 38-47% range and mostly tied. Triagers' own severity changed later on only 2.7% of bugs, so the labels are stable; this is just a hard call."),
       bullet("**CVE weakness type:** Decider (76.0%), Luna and Jev 1.13 are top. Many descriptions name the weakness (\"cross-site scripting\"), which makes parts of this easy."),
 
-      new Paragraph({ children: [new PageBreak()] }),
       h2("3. Value: accuracy per dollar"),
       image("3_value.png", "Accuracy versus cost per thousand decisions"),
       caption("Filled dots: what OpenRouter actually billed in this run (log scale). Dashed circles: Drex Max on Nace's own API ($0.03 per 1M, green) and on OpenRouter at list price without the promotion (red)."),
@@ -153,7 +151,6 @@ const doc = new Document({
       ], [2500, 1450, 1450, 1900, 1726], { right: [1, 2, 3, 4] }),
       gap(),
 
-      new Paragraph({ children: [new PageBreak()] }),
       h1("Total score: accuracy plus everything else"),
       p("Accuracy isn't the only thing that matters when you pick a provider, so I also scored five \"pillars\" from 0 to 100 and combined them with weights fixed before the run:"),
       bullet("**Quality (45%):** accuracy above chance, plus how good the probabilities are."),
