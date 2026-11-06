@@ -7,16 +7,22 @@
 :root {
   --bg: #f6f7f8; --surface: #ffffff; --fg: #15191d; --muted: #5b6670; --line: #d9dee3;
   --accent: #0f6f6a; --accent-soft: #d7ecea; --warn: #9a4b12; --warn-soft: #f6e6d8; --tie: #0f6f6a;
+  --s1: #0f6f6a; --s2: #3e6fb5; --s3: #7a4fae; --s4: #a8790f; --s5: #b0413e;
   --display: "IBM Plex Sans Condensed", "Arial Narrow", system-ui, sans-serif;
   --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #111417; --surface: #181c20; --fg: #e6eaee; --muted: #9aa5af; --line: #2c333a;
-  --accent: #4fc1b8; --accent-soft: #163a38; --warn: #f0a46a; --warn-soft: #3a2616; --tie: #4fc1b8; color-scheme: dark } }
+  --accent: #4fc1b8; --accent-soft: #163a38; --warn: #f0a46a; --warn-soft: #3a2616; --tie: #4fc1b8;
+  --s1: #4fc1b8; --s2: #8fb3e8; --s3: #c7a6e8; --s4: #e8c46a; --s5: #e88f8f; color-scheme: dark } }
 :root[data-theme="dark"] {
   --bg: #111417; --surface: #181c20; --fg: #e6eaee; --muted: #9aa5af; --line: #2c333a;
-  --accent: #4fc1b8; --accent-soft: #163a38; --warn: #f0a46a; --warn-soft: #3a2616; --tie: #4fc1b8; color-scheme: dark }
+  --accent: #4fc1b8; --accent-soft: #163a38; --warn: #f0a46a; --warn-soft: #3a2616; --tie: #4fc1b8;
+  --s1: #4fc1b8; --s2: #8fb3e8; --s3: #c7a6e8; --s4: #e8c46a; --s5: #e88f8f; color-scheme: dark }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-family: var(--mono); font-size: 0.78rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 11px; height: 11px; border-radius: 2px; display: inline-block; }
 body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.6;
   padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 40px 64px; }
 main { max-width: 920px; margin: 0 auto; display: flex; flex-direction: column; gap: 48px; }
@@ -103,7 +109,8 @@ code { font-family: var(--mono); font-size: 0.85em; }
   <section>
     <span class="eyebrow">Total score</span>
     <h2>Quality, efficiency, trust, reviews and signup bonus</h2>
-    <p class="prose small">Weights fixed in advance: quality 45%, efficiency 20%, trust 20%, reviews 10%, signup bonus 5%. Each pillar is scored 0–100 with absolute rules. Segment length is the pillar's weighted contribution.</p>
+    <p class="prose small">Each bar is a model's total score out of 100. Each coloured segment is the points one pillar adds: its 0–100 score times its weight. Example: Drex Max's red segment is its signup bonus adding 4.3 points; Decider has none because Perplexity offers no bonus.</p>
+    <div class="legend" aria-hidden="true"><span><i style="background:var(--s1)"></i>Quality · 45%</span><span><i style="background:var(--s2)"></i>Efficiency · 20%</span><span><i style="background:var(--s3)"></i>Trust · 20%</span><span><i style="background:var(--s4)"></i>Reviews · 10%</span><span><i style="background:var(--s5)"></i>Signup bonus · 5%</span></div>
     <div class="scroll" style="padding:12px 8px"><svg id="stack" role="img" aria-label="Total score stacked by pillar for seven models"></svg></div>
     <div class="scroll">
       <table>
@@ -229,19 +236,17 @@ function drawCI() {
   svg.innerHTML = s;
 }
 function drawStack() {
-  const svg = document.getElementById("stack"), W = 760, rowH = 30, top = 28, left = 200, right = 50, H = top + byTot.length * rowH + 30;
+  const svg = document.getElementById("stack"), W = 760, rowH = 30, top = 6, left = 200, right = 50, H = top + byTot.length * rowH + 30;
   const max = 70, x = v => (W - left - right) * v / max;
-  const keys = [["q", .45, "Quality"], ["e", .20, "Efficiency"], ["t", .20, "Trust"], ["r", .10, "Reviews"], ["b", .05, "Bonus"]];
-  const dark = matchMedia("(prefers-color-scheme: dark)").matches && document.documentElement.dataset.theme !== "light" || document.documentElement.dataset.theme === "dark";
-  const cols = dark ? ["#4fc1b8", "#8fb3e8", "#c7a6e8", "#e8c46a", "#e88f8f"] : ["#0f6f6a", "#3e6fb5", "#7a4fae", "#a8790f", "#b0413e"];
+  const keys = [["q", .45, "Quality"], ["e", .20, "Efficiency"], ["t", .20, "Trust"], ["r", .10, "Reviews"], ["b", .05, "Signup bonus"]];
+  const cols = ["--s1", "--s2", "--s3", "--s4", "--s5"].map(css);
   svg.setAttribute("viewBox", `0 0 ${W} ${H}`); svg.setAttribute("width", W); svg.setAttribute("height", H);
-  let s = "", lx = left;
-  keys.forEach((k, i) => { s += `<rect x="${lx}" y="4" width="10" height="10" fill="${cols[i]}"/><text x="${lx + 14}" y="13">${k[2]} ${Math.round(k[1] * 100)}%</text>`; lx += 108; });
+  let s = "";
   for (let v = 0; v <= max; v += 10) s += `<line x1="${left + x(v)}" x2="${left + x(v)}" y1="${top}" y2="${top + byTot.length * rowH}" stroke="${css("--line")}"/><text x="${left + x(v)}" y="${top + byTot.length * rowH + 18}" text-anchor="middle">${v}</text>`;
   byTot.forEach((m, i) => {
     const y = top + i * rowH + 6; let cx = left;
     s += `<text class="lbl" x="${left - 14}" y="${y + 13}" text-anchor="end">${esc(m.name)}</text>`;
-    keys.forEach((k, j) => { const w = x(m.T[k[0]] * k[1]); s += `<rect x="${cx}" y="${y}" width="${w}" height="18" fill="${cols[j]}"/>`; cx += w; });
+    keys.forEach((k, j) => { const pts = m.T[k[0]] * k[1], w = x(pts); s += `<rect x="${cx}" y="${y}" width="${w}" height="18" fill="${cols[j]}"><title>${k[2]}: ${pts.toFixed(1)} points (score ${m.T[k[0]].toFixed(1)} × ${Math.round(k[1] * 100)}%)</title></rect>`; cx += w; });
     s += `<text x="${cx + 6}" y="${y + 13}" style="fill:${css("--fg")}">${m.T.total.toFixed(1)}</text>`;
   });
   svg.innerHTML = s;
